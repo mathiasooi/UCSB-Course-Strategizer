@@ -1,8 +1,7 @@
 from flask import Flask, request, session, redirect, url_for, render_template, jsonify
 from flask_bootstrap import Bootstrap5
 from datetime import datetime
-from collections import defaultdict, OrderedDict
-from forms import FiltersForm
+from collections import defaultdict
 from transcriptPdfParser import Parser
 import csv, humanize, os
 from jsonHelper import JsonHelper
@@ -18,6 +17,9 @@ Bootstrap5(app)
 app.jinja_env.filters['naturaltime'] = humanize.naturaltime
 app.jinja_env.filters['naturaldate'] = humanize.naturaldate
 
+if not os.path.exists('temp'):
+    os.mkdir('temp')
+
 @app.before_request
 def toggle_dark_mode():
     session.permanent = True
@@ -28,44 +30,50 @@ def toggle_dark_mode():
 @app.route('/', methods=['GET', 'POST'])
 def index():
     # files = request.files
-    return render_template('index.html')
+    return render_template('courseUploadForm.html')
+
+passtimes_per_quarter = {
+    'WINTER 2024': {
+        'pass2': datetime(year=2023, month=11, day=14),
+        'pass3': datetime(year=2023, month=11, day=28)
+    }
+}
+
+def get_enrollments(acronym: str, quarter='WINTER 2024') -> (dict, list):
+    data: dict[str, list[dict]] = defaultdict(list)
+    classes = []
+    valid_class_ids = set()
+    with open('csvs/class.csv') as file:
+        for d in csv.DictReader(file):
+            if d['acronym'].lower() == acronym.lower() and d['quarter'] == quarter:
+                valid_class_ids.add(d['id'])
+                classes.append(d)
+    with open('csvs/class_enrollment_1.csv') as file:
+        for d in csv.DictReader(file):
+            if d['class_id'] in valid_class_ids:
+                d['enrolled'] = int(d['enrolled'])
+                d['capacity'] = int(d['capacity'])
+                d['timestamp'] = datetime.strptime(d['timestamp'], '%Y-%m-%d %H:%M:%S.%f')
+                data[d['class_id']].append(d)
+    return data, classes
 
 @app.route('/enrollment', methods=['GET', 'POST'])
 def enrollment():
-    filters_form = FiltersForm()
-    valid_class_ids = []
     data: dict[str, list[dict]] = defaultdict(list)
     classes = []
-    if filters_form.validate_on_submit():
-        with open('csvs/class.csv') as file:
-            for d in csv.DictReader(file):
-                if d['acronym'].lower() == filters_form.acronym.data.lower() and d['quarter'] == 'WINTER 2024':
-                    valid_class_ids.append(d['id'])
-                    classes.append(d)
-        with open('csvs/class_enrollment_1.csv') as file:
-            for d in csv.DictReader(file):
-                if d['class_id'] in valid_class_ids:
-                    d['enrolled'] = int(d['enrolled'])
-                    d['capacity'] = int(d['capacity'])
-                    d['timestamp'] = datetime.strptime(d['timestamp'], '%Y-%m-%d %H:%M:%S.%f')
-                    data[d['class_id']].append(d)
+    query = request.args.get('query')
+    if query:
+        data, classes = get_enrollments(query)
     for trends in data.values():
         trends.sort(key=lambda d: d['timestamp'])
-    passtimes_per_quarter = {
-        'WINTER 2024': {
-            'pass2': datetime(year=2023, month=11, day=14),
-            'pass3': datetime(year=2023, month=11, day=28)
-        }
-    }
-    return render_template('enrollment.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, filters_form=filters_form)
+    return render_template('enrollment.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, query=query)
 
-@app.route('/schedule')
-def schedule():
-    return render_template('schedule.html')
-
-@app.route('/courseUploadForm')
-def courseUploadForm():
-    return render_template('courseUploadForm.html')
+@app.route('/enrollment/<acronym>')
+def enrollment_each(acronym: str):
+    data, classes = get_enrollments(acronym)
+    for trends in data.values():
+        trends.sort(key=lambda d: d['timestamp'])
+    return render_template('enrollment_each.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, acronym=acronym)
 
 @app.route('/handleFileUpload', methods=['POST'])
 def handleFileUpload():
@@ -75,8 +83,10 @@ def handleFileUpload():
     jsonOut = Parser().parse(path)
     return jsonOut
 
-@app.route('/result', methods=['POST'])
+@app.route('/result', methods=['GET', 'POST'])
 def showResults():
+    if not request.form:
+        return redirect(url_for('index'))
     classes = [request.form[i] for i in request.form]
     major = classes[0]
     del classes[0]
@@ -138,4 +148,4 @@ def showResults():
     
 
 if __name__ == '__main__':
-    app.run(debug=True, host='169.231.155.193')
+    app.run(debug=True, port=8000)

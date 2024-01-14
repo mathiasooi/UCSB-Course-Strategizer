@@ -17,23 +17,52 @@
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/css/autoComplete.01.min.css">
 
 
 <script>
-$(document).ready(function () {
-
 	function addClassElement(data) {
+		if ($("ul#classesDisplay")[0].children.length > 0 && $("ul#classesDisplay")[0].children[0].nodeName === 'P')
+			$("ul#classesDisplay")[0].children[0].remove();
 		count = $(".userClass").length + 1;
 
 		var li = document.createElement('li');
 		var a = document.createElement('a');
 		li.classList.add("userClass");
-		li.innerHTML = "<a class=\"removeButton\">❌</a><input type=\"hidden\" name=\"class" + count + "\" value=\"" + data + "\">" + data;
+		li.classList.add("my-2");
+		li.classList.add("d-flex");
+		li.classList.add("justify-content-between");
+		li.innerHTML = "<input type=\"hidden\" name=\"class" + count + "\" value=\"" + data + "\">" + data + `<a class="removeButton">-</a>`;
 		$("ul#classesDisplay")[0].appendChild(li);
-		$('.removeButton').click(function() {
+		$('.removeButton').click(function () {
 			this.parentNode.remove();
 		});
 	}
+
+	function parseTranscript(file){
+		var formData = new FormData();
+		console.log(file);
+		formData.append('file', file);
+
+		$.ajax({
+			type: "POST",
+			processData: false,
+			contentType: false,
+			cache: false,
+			url: "handleFileUpload",
+			data: formData
+		}).done(function (data) {
+			$("#majorInput").val(data['major'])
+			data['courses'].forEach(c => {
+				if (!c['passed']) {
+					return;
+				}
+				addClassElement(c['name']);
+			});
+		});
+	}
+
+$(document).ready(function () {
 
 	var xh = new XMLHttpRequest();
 	xh.open("GET", "static/all_classes", false);
@@ -57,30 +86,6 @@ $(document).ready(function () {
 				}
 			}
 		}
-	});
-
-	$("#fileUpload").submit(function (event) {
-		event.preventDefault();
-		var formData = new FormData();
-		var file = $("#formFile")[0].files[0];
-		formData.append('file', file);
-
-		$.ajax({
-			type: "POST",
-			processData: false,
-			contentType: false,
-			cache: false,
-			url: "handleFileUpload",
-			data: formData
-		}).done(function (data) {
-			$("#majorInput").val(data['major'])
-			data['courses'].forEach(c => {
-				if (!c['passed']) {
-					return;
-				}
-				addClassElement(c['name']);
-			});
-		});
 	});
 
 	$("#addClass").click(function() {
@@ -118,32 +123,51 @@ $(document).ready(function () {
 });
 </script>
 
-<form id="fileUpload">
-    <label for="formFile" class="form-label">Default file input example</label>
-    <input class="form-control" type="file" id="formFile" name="file">
-    <input class="form-control" type="submit" id="submitForm">
-</form>
+<div class="row row-cols-1 row-cols-lg-2 g-lg-5">
+	<div class="col">
+		<h3 class="navy fw-bold">Passtimes Recommender</h3>
+		<p class="text-secondary">Upload transcript, get best courses to choose for each pass time</p>
 
-<br>
+		<form id="fileUpload" class="mt-3">
+			<link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+			<input type="file" class="mt-5 filepond" name="file" id="formFile" required>
 
-<form method="POST" action="/result">
-	<label for="majorInput">Major</label>
-	<div class="input-group mb-3">
-		<input class="form-control" type="text" id="majorInput" name="major">
+			<!-- Load FilePond library -->
+			<script src="https://unpkg.com/filepond/dist/filepond.js"></script>
+
+			<!-- Turn all file input elements into ponds -->
+			<script>
+				FilePond.parse(document.body);
+				var pond = document.querySelector('.filepond--root');
+				pond.addEventListener('FilePond:addfile', (e) => {
+					parseTranscript(e.detail.file.file);
+				});
+			</script>
+
+		</form>
+
 	</div>
+	<div class="col">
+		<form method="POST" action="/result">
+			<input class="form-control-lg fw-bold p-0 border-0 bg-transparent " type="text" id="majorInput" name="major">
+			<div class="input-group mt-3">
+				<input id="autoComplete" type="text" class="form-control bg-body-tertiary rounded-2" autocomplete="off" autocapitalize="off" autocorrect="off">
+				<div class="input-group-append">
+					<button type="button" class="btn btn-warning ms-2" id="addClass">+ Add to transcript</button>
+				</div>
+			</div>
 
-	<div class="input-group mb-3">
-		<input id="autoComplete" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-		<div class="input-group-append">
-			<button type="button" class="input-group-text" id="addClass">Add Class</span>
-		</div>
+			<ul id="classesDisplay" class="mt-3 bg-body-tertiary rounded-4 p-3">
+				<p class="text-secondary p-4 text-center opacity-50">Classes on your transript will appear here</p>
+			</ul>
+
+			<button type="submit" class="mt-3 px-3 btn rounded-pill bg-navy">Recommend Passtimes <i
+					class="bi bi-arrow-right"></i>
+			</button>
+		</form>
+
 	</div>
+</div>
 
-	<ul id="classesDisplay"></ul>
-
-	<br>
-
-	<input class="form-control" type="submit" id="submitClasses" value="Submit Classes">
-</form>
 
 {% endblock %}
