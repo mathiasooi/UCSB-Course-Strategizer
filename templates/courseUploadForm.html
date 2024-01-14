@@ -145,22 +145,25 @@ $(document).ready(function () {
 	</div>
 	<div class="col">
 		<form method="POST" action="/result">
-			<label for="majorInput">Your Major</label>
-			<div class="input-group mb-3">
-				<input class="form-control" type="text" id="majorInput" name="major" required>
+			<div class="d-flex text-nowrap align-items-center">
+				<label for="majorInput">Your Major</label>
+				<div class="input-group ms-3">
+					<input class="form-control" type="text" id="majorInput" name="major" required>
+				</div>
 			</div>
-			<div class="input-group mb-3">
+			<div class="input-group mt-3">
 				<input id="autoComplete" type="text" class="form-control bg-body-tertiary">
 				<div class="input-group-append">
 					<button type="button" class="btn btn-warning" id="addClass">Add to your transcript</button>
 				</div>
 			</div>
-			<button type="submit" class="px-3 btn rounded-pill bg-navy">Recommend Classes <i
+
+			<ul id="classesDisplay"></ul>
+
+			<button type="submit" class="mt-3 px-3 btn rounded-pill bg-navy">Recommend Classes <i
 					class="bi bi-arrow-right"></i>
 			</button>
 		</form>
-
-		<ul id="classesDisplay"></ul>
 
 	</div>
 </div>
