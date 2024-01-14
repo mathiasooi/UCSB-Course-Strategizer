@@ -87,29 +87,34 @@ def showResults():
     c = ClassPrioritizer(daganalyzer, daganalyzer.get_availible_courses(), "WINTER 2024")
 
     ranked = c.get_sorted_courses(daganalyzer.get_availible_courses())
-    ps = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
-    s = [(str(c.get_subtree_major_ct(course, set())), str(c.quarters_til_next_offered(course, 0))) for course in ranked]
+    # ps = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
+    # s = [(str(c.need_by_major_courses_for_course(course)), str(c.quarters_til_next_offered(course, 0))) for course in ranked]
+    # classes = [[ranked[i], ps[i], s[i][0], s[i][1]] for i in range(len(ranked))]
 
-    classes = [[ranked[i], ps[i], s[i][0], s[i][1]] for i in range(len(ranked))]
 
-    prosCons = OrderedDict()
+
+    prosCons = []
     j = JsonHelper()
     requirements = j.getCoursesFromRequirement(major)
-    for clas, passtime, unlocks, nextOffering in classes:
+    for clas in ranked:
+        passtime = passtimes.first_full_pass(clas, "WINTER 2024")
+        unlocks = c.get_subtree_major_ct(clas)
+        nextOffering = c.quarters_til_next_offered(clas, 0)
+
         pros = []
         neutral = []
         cons = []
         if nextOffering <= 1:
             neutral.append("This course will be offered next quarter")
         else:
-            pros.append("This course will not be offered for " + nextOffering + " more quarters")
+            pros.append("This course will not be offered for " + str(nextOffering) + " more quarters")
         
         if unlocks == 0:
             cons.append("This course is not a prerequisite for any other course")
         elif unlocks == 1:
             neutral.append("This course is a prerequisite for one other course")
         else:
-            pros.append("This course is a prerequisite for " + unlocks + " other course")
+            pros.append("This course is a prerequisite for " + str(unlocks) + " other course")
         
         if clas in requirements:
             pros.append("This is a core class for your major")
@@ -126,7 +131,10 @@ def showResults():
             neutral.append("This class usually has spots open by the end of pass 3")
 
 
-    return render_template('results.html', classes=classes)
+        prosCons.append((clas, {"pros": pros, "neutral": neutral, "cons": cons}))
+
+
+    return render_template('results.html', prosCons = prosCons)
     
 
 if __name__ == '__main__':

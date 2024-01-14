@@ -20,15 +20,15 @@
 </script>
 
 <div class="accordion accordion-flush" id="accordionFlushExample">
-	{% for class, pass, s, j in classes %}
+	{% for class, pc in prosCons %}
 		<div class="accordion-item">
 			<h2 class="accordion-header">
 				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{loop.index}}" aria-expanded="false" aria-controls="flush-collapseOne">
-					{{ class + "," + pass }}
+					{{ class + "," + pc["neutral"][0] }}
 				</button>
 			</h2>
 			<div id="flush-collapse{{loop.index}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-				<div class="accordion-body">{{ s + "," + j }}</div>
+				<div class="accordion-body">{{ class + "," + pc["neutral"][0] }}</div>
 			</div>
 		</div>
 	{% endfor %}
