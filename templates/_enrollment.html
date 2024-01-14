@@ -1,14 +1,12 @@
-{% macro enrollment_trends_cell(trends, c, passtimes_per_quarter, displays_header=True) %}
+{% macro enrollment_trends_cell(trends, c, passtimes_per_quarter) %}
 <div class="card border-0 rounded-4 shadow-sm">
     <div class="card-body">
-        {% if displays_header %}
-        <div class="justify-content-between mb-2">
+        <div class="d-flex justify-content-between">
             <small class="card-title text-secondary">
                 {{ c.quarter | title }} . {{ c.raw_instructor_names | title }}
             </small>
             <div>{{ location(c.location) }}</div>
         </div>
-        {% endif %}
         {{ enrollment_chart(trends, session.is_dark, passtimes_per_quarter.get(c.quarter, {})) }}
     </div>
 </div>

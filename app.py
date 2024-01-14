@@ -73,7 +73,7 @@ def enrollment_each(acronym: str):
     data, classes = get_enrollments(acronym)
     for trends in data.values():
         trends.sort(key=lambda d: d['timestamp'])
-    return render_template('enrollment_each.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes)
+    return render_template('enrollment_each.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, acronym=acronym)
 
 
 @app.route('/schedule')

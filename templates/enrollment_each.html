@@ -2,8 +2,8 @@
 {% from "_enrollment.html" import enrollment_trends_cell %}
 
 {% block content %}
-<h3 class="navy fw-bold">Passtimes Recommender</h3>
-<p class="text-secondary">Upload transcript, get best courses to choose for each pass time</p>
+<h3 class="navy fw-bold">Enrollment Trends for {{acronym}}</h3>
+<p class="text-secondary">Data source: UCSB Office of Registrar</p>
 
 {% for t in all_trends.values() %}
     <div class="mt-3">
