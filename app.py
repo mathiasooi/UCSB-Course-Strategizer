@@ -2,7 +2,6 @@ from flask import Flask, request, session, redirect, url_for, render_template, j
 from flask_bootstrap import Bootstrap5
 from datetime import datetime
 from collections import defaultdict
-from forms import FiltersForm
 from transcriptPdfParser import Parser
 import csv, humanize, os
 
@@ -59,14 +58,14 @@ def get_enrollments(acronym: str, quarter='WINTER 2024') -> (dict, list):
 
 @app.route('/enrollment', methods=['GET', 'POST'])
 def enrollment():
-    filters_form = FiltersForm()
     data: dict[str, list[dict]] = defaultdict(list)
     classes = []
-    if filters_form.validate_on_submit():
-        data, classes = get_enrollments(filters_form.acronym.data)
+    query = request.args.get('query')
+    if query:
+        data, classes = get_enrollments(query)
     for trends in data.values():
         trends.sort(key=lambda d: d['timestamp'])
-    return render_template('enrollment.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, filters_form=filters_form)
+    return render_template('enrollment.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, query=query)
 
 @app.route('/enrollment/<acronym>')
 def enrollment_each(acronym: str):
