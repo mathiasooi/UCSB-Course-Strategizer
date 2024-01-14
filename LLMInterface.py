@@ -59,13 +59,13 @@ class LLMInterface():
         }
 
 
-        data["prompt"] = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+        data["prompt"] = f"""Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
 
 ### Instruction:
-Respond to the input in 100 words or less
+A college student deciding between different courses to take the coming quarter is unsure of whether to take it. Respond to the student succinctly and professionally summarizing why they might want to enroll.
 
 ### Input:
-I'm a """ + major + """ major and want to take a course with name """ + course_name + ", and with description \"" + course_desc + '"' + """. I was given the following information about this course: """ + info + """ I also know that this course is the prerequisite for """ + str(len(unlocks)) + """ other course in my major
+I am a college student majoring in {major} looking at a course course titled "{course_name}" The detailed course description is "{course_desc} It sounds useful, but how exactly will it really progress my career and help me graduate?
 
 ### Response:
 """
