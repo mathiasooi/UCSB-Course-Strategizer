@@ -7,9 +7,9 @@ from functools import cmp_to_key
 
 QUARTER_NAMES = ["WINTER", "SPRING", "SUMMER", "FALL"]
 class ClassPrioritizer:
-    edges = {}
 
     def __init__(self, dag_analyzer: DAGAnalyzer, available_courses, quarter: str):
+        self.edges = {}
         for quarter_ind in range(4):
             if QUARTER_NAMES[quarter_ind] in quarter:
                 self.quarter_ind = quarter_ind
@@ -40,9 +40,9 @@ class ClassPrioritizer:
             if a == 'CONC':
                 return
             if to in self.edges:
-                ClassPrioritizer.edges[to].append(a)
+                self.edges[to].append(a)
             else:
-                ClassPrioritizer.edges[to] = [a]
+                self.edges[to] = [a]
             return
         for l in a:
             self.add_edge(l, to)
