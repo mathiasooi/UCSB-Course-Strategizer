@@ -1,0 +1,27 @@
+{
+    "requirements":
+        [
+            {"names": ["MATH 2A", "MATH 2B", "MATH 3A", "MATH 3B"], "must_take": 2},
+            {"names": ["MATH 4A"], "must_take": 1},
+            {"names": ["MATH 4B"], "must_take": 1},
+            {"names": ["MATH 6A"], "must_take": 1},
+            {"names": ["MATH 6B"], "must_take": 1},
+            {"names": ["ECON 1"], "must_take": 1},
+            {"names": ["ECON 2"], "must_take": 1},
+            {"names": ["MATH 8", "PSTAT 8"], "must_take": 1},
+            {"names": ["CMPSC 8", "CMPSC 9", "CMPSC 16", "ENGR 3"], "must_take": 1},
+            {"names": ["ECON 10A"], "must_take": 1},
+            {"names": ["PSTAT 10"], "must_take": 1},
+            {"names": ["MATH 104A"], "must_take": 1},
+            {"names": ["MATH 104B"], "must_take": 1},
+            {"names": ["MATH 104C"], "must_take": 1},
+            {"names": ["MATH 117"], "must_take": 1},
+            {"names": ["PSTAT 120A"], "must_take": 1},
+            {"names": ["PSTAT 120B"], "must_take": 1},
+            {"names": ["PSTAT 126"], "must_take": 1},
+            {"names": ["PSTAT 160A"], "must_take": 1},
+            {"names": ["PSTAT 160B"], "must_take": 1},
+            {"names": ["PSTAT 170"], "must_take": 1}
+        ],
+    "UD_units": 12
+}

@@ -1,0 +1,40 @@
+{
+    "requirements":
+        [
+            {"names": ["CMPSC 16"], "must_take": 1},
+            {"names": ["CMPSC 24"], "must_take": 1},
+            {"names": ["CMPSC 32"], "must_take": 1},
+            {"names": ["CMPSC 40"], "must_take": 1},
+            {"names": ["MATH 2A", "MATH 2B", "MATH 3A", "MATH 3B"], "must_take": 2},
+            {"names": ["MATH 4A"], "must_take": 1},
+            {"names": ["MATH 4B"], "must_take": 1},
+            {"names": ["MATH 6A"], "must_take": 1},
+
+            {"names": ["ECE 1A"], "must_take": 1},
+            {"names": ["ECE 1B"], "must_take": 1},
+            {"names": ["ECE 5"], "must_take": 1},
+            {"names": ["ECE 10A"], "must_take": 1},
+            {"names": ["ECE 10AL"], "must_take": 1},
+            {"names": ["ECE 10B"], "must_take": 1},
+            {"names": ["ECE 10BL"], "must_take": 1},
+            {"names": ["ECE 10C"], "must_take": 1},
+            {"names": ["ECE 10CL"], "must_take": 1},
+            {"names": ["ECE 15A"], "must_take": 1},
+
+            {"names": ["PHYS 7A"], "must_take": 1},
+            {"names": ["PHYS 7B"], "must_take": 1},
+            {"names": ["PHYS 7C"], "must_take": 1},
+            {"names": ["PHYS 7D"], "must_take": 1},
+            {"names": ["PHYS 7L"], "must_take": 1},
+
+
+            {"names": ["PSTAT 120A", "ECE 139"], "must_take": 1},
+            {"names": ["CMPSC 130A"], "must_take": 1},
+
+            {"names": ["ECE 152A"], "must_take": 1},
+            {"names": ["ECE 154A"], "must_take": 1},
+            {"names": ["ENGR 101"], "must_take": 1},
+            {"names": ["CMPSC 189A", "CMPSC 189B", "ECE 189A", "ECE 189B", "ECE 189C"], "must_take": 3}           
+        ],
+    "UD_units": 36
+}
