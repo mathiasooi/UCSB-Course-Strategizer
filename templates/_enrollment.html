@@ -1,0 +1,106 @@
+{% macro enrollment_trends_cell(trends, c, passtimes_per_quarter, displays_header=True) %}
+<div class="card border-0 rounded-4 shadow-sm">
+    <div class="card-body">
+        {% if displays_header %}
+        <div class="row justify-content-between mb-2">
+            <div class="col-12 col-lg-6">
+                <small class="card-title text-secondary">
+                    {{ c.quarter | title }} . {{ c.raw_instructor_names | title }}
+                </small>
+            </div>
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0 d-flex justify-content-between justify-content-lg-end">
+                <div>{{ location(c.location) }}</div>
+                <div class="ms-3">{{ weekdays(c.days) }}</div>
+            </div>
+        </div>
+        {% endif %}
+        {{ enrollment_chart(trends, session.is_dark, passtimes_per_quarter.get(c.quarter, {})) }}
+    </div>
+</div>
+{% endmacro %}
+
+{% macro weekdays(days) %}
+{% for d in days %}
+<span class="badge bg-body-tertiary text-body fw-semibold font-sm">
+    {{ d }}
+</span>
+{% endfor %}
+{% endmacro %}
+
+{% macro location(text) %}
+<small>
+    <i class="bi bi-geo-alt-fill"></i> {{ text }}
+</small>
+{% endmacro %}
+
+
+{% macro enrollment_chart(trends, is_dark, passtimes) %}
+    {% set id = range(1_000_000) | random %}
+    {% set labels = [] %}
+    {% set enrolled = [] %}
+    {% set capacities = [] %}
+
+    {% for t in trends %}
+        {{ labels.append(t.timestamp | naturaldate) or '' }}
+        {{ enrolled.append(t.enrolled) or '' }}
+        {{ capacities.append(t.capacity) or '' }}
+    {% endfor %}
+
+    <canvas id="enrollment-chart-{{ id }}" style="min-height:100px;max-height:200px"></canvas>
+    <script>
+        var ctx = document.getElementById("enrollment-chart-{{ id }}").getContext("2d");
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: {{ labels | tojson }},
+                datasets: [
+                    {
+                        label: 'Enrolled',
+                        data: {{ enrolled | tojson }},
+                        fill: false,
+                        borderColor: {{('#0072c9' if is_dark else '#003660') | tojson}},
+                        tension: 0.1
+                    },
+                    {
+                        label: 'Capacity',
+                        data: {{ capacities | tojson }},
+                        fill: false,
+                        borderColor: '#FEBC11',
+                        tension: 0.1
+                    }
+                ]
+            },
+            options: {
+                plugins: {
+                    legend: {display:  true },
+                    annotation: {
+                        annotations: {
+                            {% for pass_name, date in passtimes.items() %}
+                                '{{ pass_name }}': {
+                                    type: 'line',
+                                    xMin: '{{ date | naturaldate }}',
+                                    xMax: '{{ date | naturaldate }}',
+                                    borderDash: [5, 15],
+                                    borderColor: 'black',
+                                    borderWidth: 2,
+                                    label: {
+                                        content: '{{ pass_name }}',
+                                        display: true,
+                                    }
+                                },
+                            {% endfor %}
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: {display: false}
+                    },
+                    y: {
+                        grid: {display: false}
+                    }
+                }
+            }
+        });
+    </script>
+{% endmacro %}

@@ -1,12 +1,8 @@
 {% extends 'base.html' %}
-{% from 'bootstrap5/form.html' import render_form %}
 {% from "_enrollment.html" import enrollment_trends_cell %}
-
 
 {% block content %}
 <h1>ENROLLLL BITCH</h1>
-
-{{ render_form(filters_form, form_type='inline') }}
 
 {% for t in all_trends.values() %}
     <div class="mt-3">

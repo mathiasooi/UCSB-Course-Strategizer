@@ -32,34 +32,49 @@ def index():
     # files = request.files
     return render_template('courseUploadForm.html')
 
+passtimes_per_quarter = {
+    'WINTER 2024': {
+        'pass2': datetime(year=2023, month=11, day=14),
+        'pass3': datetime(year=2023, month=11, day=28)
+    }
+}
+
+def get_enrollments(acronym: str, quarter='WINTER 2024') -> (dict, list):
+    data: dict[str, list[dict]] = defaultdict(list)
+    classes = []
+    valid_class_ids = set()
+    with open('csvs/class.csv') as file:
+        for d in csv.DictReader(file):
+            if d['acronym'].lower() == acronym.lower() and d['quarter'] == quarter:
+                valid_class_ids.add(d['id'])
+                classes.append(d)
+    with open('csvs/class_enrollment_1.csv') as file:
+        for d in csv.DictReader(file):
+            if d['class_id'] in valid_class_ids:
+                d['enrolled'] = int(d['enrolled'])
+                d['capacity'] = int(d['capacity'])
+                d['timestamp'] = datetime.strptime(d['timestamp'], '%Y-%m-%d %H:%M:%S.%f')
+                data[d['class_id']].append(d)
+    return data, classes
+
 @app.route('/enrollment', methods=['GET', 'POST'])
 def enrollment():
     filters_form = FiltersForm()
-    valid_class_ids = []
     data: dict[str, list[dict]] = defaultdict(list)
     classes = []
     if filters_form.validate_on_submit():
-        with open('csvs/class.csv') as file:
-            for d in csv.DictReader(file):
-                if d['acronym'].lower() == filters_form.acronym.data.lower() and d['quarter'] == 'WINTER 2024':
-                    valid_class_ids.append(d['id'])
-                    classes.append(d)
-        with open('csvs/class_enrollment_1.csv') as file:
-            for d in csv.DictReader(file):
-                if d['class_id'] in valid_class_ids:
-                    d['enrolled'] = int(d['enrolled'])
-                    d['capacity'] = int(d['capacity'])
-                    d['timestamp'] = datetime.strptime(d['timestamp'], '%Y-%m-%d %H:%M:%S.%f')
-                    data[d['class_id']].append(d)
+        data, classes = get_enrollments(filters_form.acronym.data)
     for trends in data.values():
         trends.sort(key=lambda d: d['timestamp'])
-    passtimes_per_quarter = {
-        'WINTER 2024': {
-            'pass2': datetime(year=2023, month=11, day=14),
-            'pass3': datetime(year=2023, month=11, day=28)
-        }
-    }
     return render_template('enrollment.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, filters_form=filters_form)
+
+@app.route('/enrollment/<acronym>')
+def enrollment_each(acronym: str):
+    data, classes = get_enrollments(acronym)
+    for trends in data.values():
+        trends.sort(key=lambda d: d['timestamp'])
+    return render_template('enrollment_each.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes)
+
 
 @app.route('/schedule')
 def schedule():
@@ -87,12 +102,23 @@ def showResults():
     c = ClassPrioritizer(daganalyzer, daganalyzer.get_availible_courses(), "WINTER 2024")
 
     ranked = c.get_sorted_courses(daganalyzer.get_availible_courses())
-    ps = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
-    s = [c.score(course, True) for course in ranked]
+    passtimes = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
+    scores = [c.score(course, True) for course in ranked]
 
-    classes = [(ranked[i], ps[i], s[i]) for i in range(len(ranked))]
-
-    return render_template('results.html', classes=classes)
+    classes_per_passtime = defaultdict(list)
+    for class_name, passtime, score in zip(ranked, passtimes, scores):
+        classes_per_passtime[passtime].append(
+            dict(
+                class_name=class_name,
+                passtime=passtime,
+                score=score
+            )
+        )
+    return render_template('results.html', classes_per_passtime=classes_per_passtime, passtime_per_quarter={
+        'pass1': datetime(year=2023, month=11, day=7),
+        'pass2': datetime(year=2023, month=11, day=13),
+        'pass3': datetime(year=2023, month=11, day=27)
+    })
     
 
 if __name__ == '__main__':
