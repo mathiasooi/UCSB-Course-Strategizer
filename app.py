@@ -17,6 +17,9 @@ Bootstrap5(app)
 app.jinja_env.filters['naturaltime'] = humanize.naturaltime
 app.jinja_env.filters['naturaldate'] = humanize.naturaldate
 
+if not os.path.exists('temp'):
+    os.mkdir('temp')
+
 @app.before_request
 def toggle_dark_mode():
     session.permanent = True
@@ -27,7 +30,7 @@ def toggle_dark_mode():
 @app.route('/', methods=['GET', 'POST'])
 def index():
     # files = request.files
-    return render_template('index.html')
+    return render_template('courseUploadForm.html')
 
 @app.route('/enrollment', methods=['GET', 'POST'])
 def enrollment():
@@ -62,10 +65,6 @@ def enrollment():
 def schedule():
     return render_template('schedule.html')
 
-@app.route('/courseUploadForm')
-def courseUploadForm():
-    return render_template('courseUploadForm.html')
-
 @app.route('/handleFileUpload', methods=['POST'])
 def handleFileUpload():
     f = request.files['file']
@@ -74,8 +73,10 @@ def handleFileUpload():
     jsonOut = Parser().parse(path)
     return jsonOut
 
-@app.route('/result', methods=['POST'])
+@app.route('/result', methods=['GET', 'POST'])
 def showResults():
+    if not request.form:
+        return redirect(url_for('index'))
     classes = [request.form[i] for i in request.form]
     major = classes[0]
     del classes[0]
@@ -89,15 +90,10 @@ def showResults():
     ps = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
     s = [c.score(course, True) for course in ranked]
 
-    for i in range(len(ranked)):
-        print(ranked[i], ps[i], s[i])
-
     classes = [(ranked[i], ps[i], s[i]) for i in range(len(ranked))]
-
-
 
     return render_template('results.html', classes=classes)
     
 
 if __name__ == '__main__':
-    app.run(debug=True, host='169.231.155.193')
+    app.run(debug=True, port=8000)
