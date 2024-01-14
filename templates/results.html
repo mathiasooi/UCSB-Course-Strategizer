@@ -69,7 +69,7 @@ function getLLMResponse(major, course, info) {
 					</div>
 					<div class="d-flex justify-content-between align-items-top">
             <div>
-              <i class="bi bi-robot" style="font-size:40px;position:absolute" data-bs-toggle="popover" data-bs-trigger="hover focus" data-course="{{c.class_name}}"></i>
+              <i class="bi bi-robot" style="font-size:40px;position:absolute;cursor:wait" data-bs-toggle="popover" data-bs-trigger="hover focus" data-course="{{c.class_name}}"></i>
             </div>
           <a href="{{url_for('enrollment_each', acronym=c.class_name)}}" class="d-flex mt-3 btn text-primary p-0">See enrollment trends <i class="ms-1 bi bi-arrow-right"></i></a>
           </div>
@@ -93,6 +93,7 @@ $(document).ready(function() {
 				return queried[acro]
 			}
 			queried[acro] = getLLMResponse("{{major}}",acro,info);
+      popoverTriggerEl.style["cursor"] = null
 			return queried[acro]
 		//   return $(popoverTriggerEl).attr("data-course");
 		}
