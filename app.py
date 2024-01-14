@@ -20,12 +20,17 @@ app.jinja_env.filters['naturaldate'] = humanize.naturaldate
 if not os.path.exists('temp'):
     os.mkdir('temp')
 
+
 @app.before_request
 def toggle_dark_mode():
     session.permanent = True
     if is_dark := request.args.get('is_dark'):
         session['is_dark'] = is_dark == 'True'
         return redirect(request.referrer or url_for('index'))
+
+@app.route('/llmtest')
+def llmtest():
+    return render_template('llmtest.html')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
