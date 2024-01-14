@@ -42,12 +42,12 @@ function getLLMResponse(major, course, info) {
 
 </script>
 
-<h3 class="navy fw-bold">Your Passtimes Strategy</h3>
-<p class="text-secondary">Based on your transcript and how fast a class fills up</p>
+<h3 class="navy fw-bold">Your Course Registration Plan</h3>
+<p class="text-secondary">Based on your completed courses and historic enrollment trends</p>
 
 {% for passtime, classes in classes_per_passtime|dictsort %}
 	<div class="mt-4 d-flex justify-content-between">
-		<h5 class="navy fw-bold">{{passtime|title}}</h5>
+		<h5 class="navy fw-bold">Take These {{passtime|title}}</h5>
 		{%if passtime_per_quarter.get(passtime) %}
 		<p class="text-secondary">Begins {{passtime_per_quarter.get(passtime, '') | naturaldate}}, 2023</p>
 		{%endif%}

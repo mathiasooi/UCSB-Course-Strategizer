@@ -34,7 +34,7 @@ class PassTimes:
         # Returns the first date when course is full
         # "open" if there are still spots after pass 3 ended
         if PassTimes.course_acronym_to_id[course][quarter] not in self.first_full_data:
-            return "Take Anytime"
+            return "whenever"
         first_full = self.first_full_data[PassTimes.course_acronym_to_id[course][quarter]]
         if first_full <= self.pass2:
             return "Pass 1"
