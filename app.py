@@ -132,7 +132,7 @@ def showResults():
         elif passtime == 'pass3':
             neutral.append("Fills up before pass 3")
         elif passtime == 'open':
-            neutral.append("Rarely fills out")
+            neutral.append("Rarely fills up")
 
         prosCons.append({"pros": pros, "neutral": neutral, "cons": cons})
     _passtimes = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
