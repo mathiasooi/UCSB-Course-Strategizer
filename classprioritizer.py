@@ -14,6 +14,7 @@ class ClassPrioritizer:
             if QUARTER_NAMES[quarter_ind] in quarter:
                 self.quarter_ind = quarter_ind
       # self.major_courses = dag_analyzer.major_courses
+        self.dag_analyzer = dag_analyzer
         self.major_reqs_set = set()
         for req in dag_analyzer.major_reqs["requirements"]:
             course_names = req["names"]
@@ -57,7 +58,10 @@ class ClassPrioritizer:
             may_help_unlock_ct = self.get_subtree_major_ct(course)
             return course + " may be needed to take " + str(may_help_unlock_ct) + " other courses." + ("\nIt isn't expected to be offered again for another " + str(quarter_delay) + " quarters, (" + QUARTER_NAMES[(self.quarter_ind + quarter_delay) % 4] + ")." if quarter_delay > 1 else "")
         # actual combined heuristic score
-        return helps_unlock_score * 2 + quarter_delay
+        x = helps_unlock_score * 2
+        if x in itertools.chain.from_iterable([req["names"] for req in self.dag_analyzer.major_reqs["requirements"]]):
+            x += quarter_delay
+        return x
 
     def get_sorted_courses(self, courses):
         def compare(course_a: str, course_b: str):
