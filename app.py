@@ -92,9 +92,11 @@ def showResults():
     for i in range(len(ranked)):
         print(ranked[i], ps[i], s[i])
 
+    classes = [(ranked[i], ps[i], s[i]) for i in range(len(ranked))]
 
 
-    return render_template('results.html', classes=ranked, passtimes=ps)
+
+    return render_template('results.html', classes=classes)
     
 
 if __name__ == '__main__':
