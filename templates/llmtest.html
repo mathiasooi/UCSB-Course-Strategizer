@@ -2,6 +2,24 @@
 
 {% block content %}
 
+<script>
 
+    $.ajax({
+        type: "POST",
+        url: "llminterface",
+        contentType: "application/json",
+        data: JSON.stringify({
+            "major": "CMPSC",
+            "course": "CMPSC 16",
+            "description": "Problem solving with computers I, introductin to C++"
+        }),
+        dataType: "json"
+    }).done(function(data) {
+        console.log(data['text']);
+    });
+
+    console.log(output);
+
+</script>
 
 {% endblock %}

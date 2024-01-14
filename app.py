@@ -9,6 +9,7 @@ from jsonHelper import JsonHelper
 from pass_times import PassTimes
 from dag_analyze import DAGAnalyzer
 from classprioritizer import ClassPrioritizer
+from LLMInterface import LLMInterface
 
 app = Flask(__name__)
 app.secret_key = 'trdfyguhiug75r6drftyugih8767fyui6754345465dftyuvy'
@@ -32,6 +33,12 @@ def toggle_dark_mode():
 def llmtest():
     return render_template('llmtest.html')
 
+@app.route('/llminterface', methods=['POST'])
+def llminterface():
+    print(request.json)
+    l = LLMInterface()
+    return {"text": l.test("cs", "math 8", "discrete mathematics")}
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     # files = request.files
@@ -48,7 +55,7 @@ def get_enrollments(acronym: str, quarter='WINTER 2024') -> (dict, list):
     data: dict[str, list[dict]] = defaultdict(list)
     classes = []
     valid_class_ids = set()
-    with open('csvs/class.csv') as file:
+    with open('csvs/class.csv', encoding='utf-8') as file:
         for d in csv.DictReader(file):
             if d['acronym'].lower() == acronym.lower() and d['quarter'] == quarter:
                 valid_class_ids.add(d['id'])
