@@ -20,7 +20,15 @@
 			<div class="card border-0 shadow-sm">
 				<div class="card-body">
 					<p class="card-title fw-bold">{{c.class_name}}</p>
-					<small class="text-secondary">{{c.msgs}}</small>
+					<div class="ms-2 row g-2 row-cols-1 row-cols-lg-2">
+						{%for category, msgs in c.msgs.items()%}
+							{% for m in msgs %}
+								<div class="col border-1 text-nowrap">
+									<small class="text-{{'success' if category == 'pros' else 'body' if category == 'neutral' else 'danger'}}">{{m}}</small>
+								</div>
+							{%endfor%}
+						{%endfor%}
+					</div>
 					<a href="{{url_for('enrollment_each', acronym=c.class_name)}}" class="d-flex mt-3 btn text-primary p-0">See enrollment trends <i class="ms-1 bi bi-arrow-right"></i></a>
 				</div>
 			</div>

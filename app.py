@@ -109,30 +109,30 @@ def showResults():
         neutral = []
         cons = []
         if nextOffering <= 1:
-            neutral.append("This course will be offered next quarter")
+            neutral.append("Will be offered next quarter")
         else:
-            pros.append("This course will not be offered for " + str(nextOffering) + " more quarters")
+            pros.append("Will NOT be offered for " + str(nextOffering) + " more quarters")
 
         if unlocks == 0:
-            cons.append("This course is not a prerequisite for any other course")
+            cons.append("Unlocks 0 upper division courses")
         elif unlocks == 1:
-            neutral.append("This course is a prerequisite for one other course")
+            neutral.append("Unlocks 1 other course")
         else:
-            pros.append("This course is a prerequisite for " + str(unlocks) + " other course")
+            pros.append("Unlocks " + str(unlocks) + " other courses")
 
         if clas in requirements:
-            pros.append("This is a core class for your major")
+            pros.append("Major requirement class")
         else:
-            neutral.append("This is an elective class for your major")
+            neutral.append("Elective class")
 
         if passtime == 'pass1':
-            pros.append("This class is popular! It's usually filled up before the end of pass 1")
+            pros.append("Fills up before pass 1")
         elif passtime == 'pass2':
-            pros.append("This class is popular! It's usually filled up before the end of pass 2")
+            pros.append("Fills up before pass 2")
         elif passtime == 'pass3':
-            neutral.append("This class is usually full by the end of pass 3")
+            neutral.append("Fills up before pass 3")
         elif passtime == 'open':
-            neutral.append("This class usually has spots open by the end of pass 3")
+            neutral.append("Rarely fills out")
 
         prosCons.append({"pros": pros, "neutral": neutral, "cons": cons})
     _passtimes = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
