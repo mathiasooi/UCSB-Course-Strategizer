@@ -10,7 +10,7 @@ QUARTER_NAMES = ["WINTER", "SPRING", "SUMMER", "FALL"]
 class ClassPrioritizer:
 
     def __init__(self, dag_analyzer: DAGAnalyzer, available_courses, quarter: str):
-        self.edges = {}
+        self.edges = defaultdict(list)
         for quarter_ind in range(4):
             if QUARTER_NAMES[quarter_ind] in quarter:
                 self.quarter_ind = quarter_ind
@@ -40,10 +40,7 @@ class ClassPrioritizer:
         if isinstance(a, str):
             if a == 'CONC':
                 return
-            if to in self.edges:
-                self.edges[to].append(a)
-            else:
-                self.edges[to] = [a]
+            self.edges[a].append(to)
             return
         for l in a:
             self.add_edge(l, to)
