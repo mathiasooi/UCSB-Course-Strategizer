@@ -2,33 +2,27 @@
 
 {% block content %}
 
-<style>
-	.hiddenRow {
-		padding: 0 !important;
-	}
-</style>
+{{prosCons}}
 
-<script>
-	$('document').ready(function() {
-		$('.collapse').on('show.bs.collapse', function () {
-			$('.collapse.in').collapse('hide');
-		});
-	});
+<h3 class="navy fw-bold">Your Passtimes Strategy</h3>
+<p class="text-secondary">Based on your transcript and how fast a class fills up</p>
 
-    // course = ;
-    // console.log(course);
-</script>
-
-<div class="accordion accordion-flush" id="accordionFlushExample">
-	{% for class, pc in prosCons %}
-		<div class="accordion-item">
-			<h2 class="accordion-header">
-				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{loop.index}}" aria-expanded="false" aria-controls="flush-collapseOne">
-					{{ class + "," + pc["neutral"][0] }}
-				</button>
-			</h2>
-			<div id="flush-collapse{{loop.index}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-				<div class="accordion-body">{{ class + "," + pc["neutral"][0] }}</div>
+{% for passtime, classes in classes_per_passtime|dictsort %}
+	<div class="mt-4 d-flex justify-content-between">
+		<h5 class="text-warning fw-bold">{{passtime|title}}</h5>
+		{%if passtime_per_quarter.get(passtime) %}
+		<p class="text-secondary">Begins {{passtime_per_quarter.get(passtime, '') | naturaldate}}, 2023</p>
+		{%endif%}
+	</div>
+	<div class="row row-cols-1 row-cols-lg-2 g-4">
+		{%for c in classes%}
+		<div class="col">
+			<div class="card border-0 shadow-sm">
+				<div class="card-body">
+					<p class="card-title fw-bold">{{c.class_name}}</p>
+					<small class="text-secondary">{{c.msgs}}</small>
+					<a href="{{url_for('enrollment_each', acronym=c.class_name)}}" class="d-flex mt-3 btn text-primary p-0">See enrollment trends <i class="ms-1 bi bi-arrow-right"></i></a>
+				</div>
 			</div>
 		</div>
 		{%endfor%}
