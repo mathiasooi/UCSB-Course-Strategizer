@@ -126,7 +126,7 @@ def showResults():
             pros.append("Unlocks " + str(unlocks) + " other courses")
 
         if clas in requirements:
-            pros.append("Major requirement class")
+            pros.append("Core requirement")
         else:
             neutral.append("Elective class")
 
