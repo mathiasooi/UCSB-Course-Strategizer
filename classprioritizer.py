@@ -2,6 +2,7 @@ from dag_analyze import DAGAnalyzer
 import itertools
 from collections import defaultdict
 import csv
+import re
 
 from functools import cmp_to_key
 
@@ -23,7 +24,7 @@ class ClassPrioritizer:
         self.available_courses_set = set(available_courses)
 
         for to, prereqs in self.prerequisites.items():
-            self.add_edge(prereqs, to)
+            self.add_edge(to, prereqs)
 
         self.quarters_for_course = defaultdict(set) # key=acronym, value=set containing # ids of quarters course is offered
         with open("./csvs/class.csv", newline='', encoding="utf-8") as csv_file:
@@ -103,12 +104,19 @@ class ClassPrioritizer:
         return amt
             
 
-    def get_subtree_major_ct(self, acronym: str, depth=0):
+    def get_subtree_major_ct(self, acronym: str, visited, depth=0):
         # ignoring ors vs ands, just counting every relevant course that this course potentially unlocks
         # would be better to use something like summing course_need_for_other_course heuristic of major req courses need for this course
         c = 1 if acronym in self.major_reqs_set and acronym not in self.available_courses_set else 0
+        if acronym == "CMPSC 154":
+            print(self.edges.get(acronym))
         for child in self.edges.get(acronym) or []:
-            c += self.get_subtree_major_ct(child, depth+1)
+            if child in visited: continue
+            visited.add(child)
+            if len(re.findall(r"\d+", acronym)[0]) == 3 and len(re.findall(r"\d+", child)[0]) == 2:
+                print("FOUND YA")
+                continue
+            c += self.get_subtree_major_ct(child, visited, depth+1)
         return c
     
     def quarters_til_next_offered(self, acronym: str, curr_quarter: int):

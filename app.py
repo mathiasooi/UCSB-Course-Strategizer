@@ -1,10 +1,11 @@
 from flask import Flask, request, session, redirect, url_for, render_template, jsonify
 from flask_bootstrap import Bootstrap5
 from datetime import datetime
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 from forms import FiltersForm
 from transcriptPdfParser import Parser
 import csv, humanize, os
+from jsonHelper import JsonHelper
 
 from pass_times import PassTimes
 from dag_analyze import DAGAnalyzer
@@ -87,13 +88,42 @@ def showResults():
 
     ranked = c.get_sorted_courses(daganalyzer.get_availible_courses())
     ps = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
-    s = [c.score(course, True) for course in ranked]
+    s = [(str(c.get_subtree_major_ct(course, set())), str(c.quarters_til_next_offered(course, 0))) for course in ranked]
 
-    for i in range(len(ranked)):
-        print(ranked[i], ps[i], s[i])
+    classes = [[ranked[i], ps[i], s[i][0], s[i][1]] for i in range(len(ranked))]
 
-    classes = [(ranked[i], ps[i], s[i]) for i in range(len(ranked))]
+    prosCons = OrderedDict()
+    j = JsonHelper()
+    requirements = j.getCoursesFromRequirement(major)
+    for clas, passtime, unlocks, nextOffering in classes:
+        pros = []
+        neutral = []
+        cons = []
+        if nextOffering <= 1:
+            neutral.append("This course will be offered next quarter")
+        else:
+            pros.append("This course will not be offered for " + nextOffering + " more quarters")
+        
+        if unlocks == 0:
+            cons.append("This course is not a prerequisite for any other course")
+        elif unlocks == 1:
+            neutral.append("This course is a prerequisite for one other course")
+        else:
+            pros.append("This course is a prerequisite for " + unlocks + " other course")
+        
+        if clas in requirements:
+            pros.append("This is a core class for your major")
+        else:
+            neutral.append("This is an elective class for your major")
 
+        if passtime == 'pass1':
+            pros.append("This class is popular! It's usually filled up before the end of pass 1")        
+        elif passtime == 'pass2':
+            pros.append("This class is popular! It's usually filled up before the end of pass 2")
+        elif passtime == 'pass3':
+            neutral.append("This class is usually full by the end of pass 3")
+        elif passtime == 'open':
+            neutral.append("This class usually has spots open by the end of pass 3")
 
 
     return render_template('results.html', classes=classes)

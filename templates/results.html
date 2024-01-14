@@ -20,7 +20,7 @@
 </script>
 
 <div class="accordion accordion-flush" id="accordionFlushExample">
-	{% for class, pass, s in classes %}
+	{% for class, pass, s, j in classes %}
 		<div class="accordion-item">
 			<h2 class="accordion-header">
 				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{loop.index}}" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -28,7 +28,7 @@
 				</button>
 			</h2>
 			<div id="flush-collapse{{loop.index}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-				<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+				<div class="accordion-body">{{ s + "," + j }}</div>
 			</div>
 		</div>
 	{% endfor %}
