@@ -2,6 +2,7 @@ from dag_analyze import DAGAnalyzer
 import itertools
 from collections import defaultdict
 import csv
+import re
 
 from functools import cmp_to_key
 

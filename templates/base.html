@@ -37,6 +37,9 @@
     <title>UCSB Courses Recommender</title>
     {{ bootstrap.load_css() }}
     <style>
+        mark {
+            padding-right: 0;
+        }
         .navy {
             color: {{'#165cab' if session.is_dark else '#083c63'}};
         }
@@ -82,7 +85,6 @@
       <div class="navbar-nav">
           {{ render_nav_item('index', 'Home') }}
           {{ render_nav_item('enrollment', 'Enrollments') }}
-          {{ render_nav_item('schedule', 'Schedule') }}
           {{ dark_mode_toggle() }}
       </div>
     </div>
@@ -109,8 +111,6 @@
       <li class="nav-item"><a href="{{ url_for('index') }}" class="nav-link px-2 text-body-secondary">Home</a>
       </li>
       <li class="nav-item"><a href="{{ url_for('enrollment') }}" class="nav-link px-2 text-body-secondary">Enrollments</a>
-      </li>
-      <li class="nav-item"><a href="{{ url_for('schedule') }}" class="nav-link px-2 text-body-secondary">Schedule</a>
       </li>
     </ul>
   </footer>
