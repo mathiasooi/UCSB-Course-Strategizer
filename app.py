@@ -35,7 +35,6 @@ def llmtest():
 
 @app.route('/llminterface', methods=['POST'])
 def llminterface():
-    print(request.json)
     l = LLMInterface()
     return {"text": l.getResponse(request.json)}
 
@@ -159,7 +158,7 @@ def showResults():
                 msgs=msgs
             )
         )
-    return render_template('results.html', classes_per_passtime=classes_per_passtime, passtime_per_quarter={
+    return render_template('results.html', major = major, classes_per_passtime=classes_per_passtime, passtime_per_quarter={
         'pass1': datetime(year=2023, month=11, day=7),
         'pass2': datetime(year=2023, month=11, day=13),
         'pass3': datetime(year=2023, month=11, day=27)

@@ -44,6 +44,9 @@ class ClassPrioritizer:
             return
         for l in a:
             self.add_edge(l, to)
+
+    def get_unlocked_courses(self, course):
+        return self.edges[course]
     
     # Combined heuristics function used for final sorting
     #

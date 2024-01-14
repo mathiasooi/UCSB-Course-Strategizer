@@ -5,7 +5,7 @@
 {{prosCons}}
 
 <script>
-function getLLMResponse(major, course) {
+function getLLMResponse(major, course, info) {
 	abrevToFull = {
 		"CE": "Computer Engineer",
 		"CMPSC": "Computer Science",
@@ -27,7 +27,8 @@ function getLLMResponse(major, course) {
 		contentType: "application/json",
 		data: JSON.stringify({
 			"major": major,
-			"course": course
+			"course": course,
+			"info": info
 		}),
 		dataType: "json",
 		success: function(data) {
@@ -37,7 +38,7 @@ function getLLMResponse(major, course) {
 	return t;
 }
 
-console.log(getLLMResponse("CMPSC","CMPSC 16"))
+// console.log(getLLMResponse("CMPSC","CMPSC 16"))
 
 </script>
 
@@ -80,15 +81,23 @@ console.log(getLLMResponse("CMPSC","CMPSC 16"))
 {%endfor%}
 
 <script>
-  $(document).ready(function() {
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl, {
-    content: function() {
-      return $(popoverTriggerEl).attr("data-course");
-    }
-  })
-})
+$(document).ready(function() {
+	var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+	var queried = {}
+	var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+	return new bootstrap.Popover(popoverTriggerEl, {
+		content: function() {
+			let acro = $(popoverTriggerEl).attr("data-course");
+			let info = popoverTriggerEl.parentNode.parentNode.parentNode.querySelector('.row').innerText;
+			if (queried[acro]) {
+				return queried[acro]
+			}
+			queried[acro] = getLLMResponse("{{major}}",acro,info);
+			return queried[acro]
+		//   return $(popoverTriggerEl).attr("data-course");
+		}
+	})
+	})
 })
 </script>
 {% endblock %}

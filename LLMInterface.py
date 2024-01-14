@@ -2,18 +2,47 @@ import json
 import requests
 import pandas as pd
 
+from collections import defaultdict
+from prereqParser import prereqParser
+import csv
+
 class LLMInterface():
+    def __init__(self):
+        parser = prereqParser("./csvs/codenames.csv")
+        prerequisites = dict()
+        with open("./csvs/course.csv", newline='', encoding="utf-8") as csv_file:
+            csv_reader = csv.reader(csv_file)
+            next(csv_reader)  # Skip column description row
+
+            for row in csv_reader:
+                acronym, _, major, _, prereqs, _, _, _, _ =  row
+                prerequisites[acronym] = parser.parseLine(prereqs)
+
+        self.edges = defaultdict(list)
+        def add_edge(a, to):
+            if isinstance(a, str):
+                if a == 'CONC':
+                    return
+                self.edges[a].append(to)
+                return
+            for l in a:
+                add_edge(l, to)
+        for to, prereqs in prerequisites.items():
+            add_edge(prereqs, to)
+
     def getResponse(self, response):
-        print(response)
         url = "http://169.231.8.225:5000/v1/completions"
 
         headers = {
             "Content-Type": "application/json"
         }
 
+
         major = response['major']
         course_name = self.getCourseNameFromAbrev(response['course'])
         course_desc = self.get_description_by_acronym(response['course'])
+        info = response['info']
+        unlocks = self.edges[response['course']]
 
         if not course_name:
             course_name = "not provided"
@@ -32,30 +61,21 @@ class LLMInterface():
 
         data["prompt"] = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
 
-        ### Instruction:
-        A college student is deciding whether to take a course given the course description and name.
-        Respond clearly to the student why they should take the course as soon as they can, and how it will aid them in their career.
+### Instruction:
+Respond to the input in 100 words or less
 
-        ### Input:
+### Input:
+I'm a """ + major + """ major and want to take a course with name """ + course_name + ", and with description \"" + course_desc + '"' + """. I was given the following information about this course: """ + info + """ I also know that this course is the prerequisite for """ + str(len(unlocks)) + """ other course in my major
 
+### Response:
+"""
+        print(data["prompt"])
 
-        I'm a """ + major + """ major and want to take """ + course_name + ", with the description \"" + course_desc + '"' + """ Why should I take it?
-
-        ### Response:
-        """
 
         import sseclient
 
         out = requests.post(url, headers=headers, json=data, verify=False).json()["choices"][0]["text"]
 
-        #data['stream'] = True
-        #stream_response = requests.post(url, headers=headers, json=data, verify=False, stream=True)
-        #client = sseclient.SSEClient(stream_response)
-
-        #for event in client.events():
-        #    # print(event.data)
-        #    payload = json.loads(event.data)
-        #    print(payload['choices'][0]['text'], end='')
 
         i = min(out.find('\n'), out.find('#'))
         return out[0:i]
@@ -91,3 +111,7 @@ class LLMInterface():
             return description
         else:
             return False
+
+if __name__ == '__main__':
+    l = LLMInterface()
+    print(l.getResponse({"major":"Computer Science", "course":"MATH 4A"}))
