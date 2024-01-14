@@ -7,7 +7,39 @@
 <h3 class="navy fw-bold">Browse Enrollment Trends</h3>
 <p class="text-secondary">Data source: UCSB Office of Registrar</p>
 
-{{ render_form(filters_form, form_type='inline') }}
+<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/css/autoComplete.01.min.css">
+
+<form>
+    <input id="autoComplete" name="query" type="search" required class="form-control bg-body-tertiary rounded-2" autocomplete="off" autocapitalize="off" autocorrect="off">
+</form>
+
+<script>
+    var xh = new XMLHttpRequest();
+	xh.open("GET", "static/all_classes", false);
+	xh.send();
+	classes = xh.responseText.split(',');
+
+    const autoCompleteJS = new autoComplete({
+		placeHolder: "Search for classes...",
+		data: {
+			src: classes,
+			cache: true,
+		},
+		resultItem: {
+			highlight: true
+		},
+		events: {
+			input: {
+				selection: (event) => {
+					const selection = event.detail.selection.value;
+					autoCompleteJS.input.value = selection;
+				}
+			}
+		},
+        submit: true
+	});
+</script>
 
 {% for t in all_trends.values() %}
     <div class="mt-3">

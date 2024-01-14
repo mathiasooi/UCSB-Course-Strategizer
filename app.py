@@ -75,11 +75,6 @@ def enrollment_each(acronym: str):
         trends.sort(key=lambda d: d['timestamp'])
     return render_template('enrollment_each.html', all_trends=data, passtimes_per_quarter=passtimes_per_quarter, classes=classes, acronym=acronym)
 
-
-@app.route('/schedule')
-def schedule():
-    return render_template('schedule.html')
-
 @app.route('/handleFileUpload', methods=['POST'])
 def handleFileUpload():
     f = request.files['file']
