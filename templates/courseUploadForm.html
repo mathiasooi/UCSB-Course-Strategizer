@@ -123,31 +123,35 @@ $(document).ready(function () {
 });
 </script>
 
-<form id="fileUpload">
-    <label for="formFile" class="form-label">Upload your transcript</label>
-    <input class="form-control" type="file" id="formFile" name="file" onchange="parseTranscript()" required>
-</form>
+<div class="row row-cols-1 row-cols-lg-2">
+	<div class="col">
+		<form id="fileUpload">
+			<label for="formFile" class="form-label">Upload your transcript</label>
+			<input class="form-control" type="file" id="formFile" name="file" onchange="parseTranscript()" required>
+		</form>
 
-<br>
-
-<form method="POST" action="/result">
-	<label for="majorInput">Your Major</label>
-	<div class="input-group mb-3">
-		<input class="form-control" type="text" id="majorInput" name="major" required>
 	</div>
+	<div class="col">
+		<form method="POST" action="/result">
+			<label for="majorInput">Your Major</label>
+			<div class="input-group mb-3">
+				<input class="form-control" type="text" id="majorInput" name="major" required>
+			</div>
+			<div class="input-group mb-3">
+				<input id="autoComplete" type="text" class="form-control bg-body-tertiary">
+				<div class="input-group-append">
+					<button type="button" class="btn btn-warning" id="addClass">Add to your transcript</button>
+				</div>
+			</div>
+			<button type="submit" class="px-3 btn rounded-pill bg-navy">Recommend Classes <i
+					class="bi bi-arrow-right"></i>
+			</button>
+		</form>
 
-	<div class="input-group mb-3">
-		<input id="autoComplete" type="text" class="form-control bg-body-tertiary">
-		<div class="input-group-append">
-			<button type="button" class="btn btn-warning" id="addClass">Add to your transcript</button>
-		</div>
+		<ul id="classesDisplay"></ul>
+
 	</div>
+</div>
 
-	<ul id="classesDisplay"></ul>
-
-	<br>
-
-	<button type="submit" class="px-3 btn rounded-pill bg-navy">Recommend Classes <i class="bi bi-arrow-right"></i></button>
-</form>
 
 {% endblock %}
