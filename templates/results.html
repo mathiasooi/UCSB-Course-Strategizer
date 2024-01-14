@@ -9,7 +9,7 @@
 
 {% for passtime, classes in classes_per_passtime|dictsort %}
 	<div class="mt-4 d-flex justify-content-between">
-		<h5 class="text-warning fw-bold">{{passtime|title}}</h5>
+		<h5 class="navy fw-bold">{{passtime|title}}</h5>
 		{%if passtime_per_quarter.get(passtime) %}
 		<p class="text-secondary">Begins {{passtime_per_quarter.get(passtime, '') | naturaldate}}, 2023</p>
 		{%endif%}
@@ -24,7 +24,7 @@
 						{%for category, msgs in c.msgs.items()%}
 							{% for m in msgs %}
 								<div class="col border-1 text-nowrap">
-									<small class="text-{{'success' if category == 'pros' else 'body' if category == 'neutral' else 'danger'}}">{{m}}</small>
+									<small class="text-{{'success' if category == 'pros' else 'warning' if category == 'neutral' else 'danger'}}">{{m}}</small>
 								</div>
 							{%endfor%}
 						{%endfor%}
