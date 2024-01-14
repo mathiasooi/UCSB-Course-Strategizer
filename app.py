@@ -37,7 +37,7 @@ def llmtest():
 def llminterface():
     print(request.json)
     l = LLMInterface()
-    return {"text": l.test("cs", "math 8", "discrete mathematics")}
+    return {"text": l.getResponse(request.json)}
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -126,9 +126,9 @@ def showResults():
             pros.append("Will NOT be offered for " + str(nextOffering) + " more quarters")
 
         if unlocks == 0:
-            cons.append("Unlocks 0 upper division courses")
+            cons.append("Unlocks 0 upper division courses in your major")
         elif unlocks == 1:
-            neutral.append("Unlocks 1 other course")
+            neutral.append("Unlocks no other course in your major")
         else:
             pros.append("Unlocks " + str(unlocks) + " other courses")
 
@@ -149,10 +149,12 @@ def showResults():
         prosCons.append({"pros": pros, "neutral": neutral, "cons": cons})
     _passtimes = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
     classes_per_passtime = defaultdict(list)
+    l = LLMInterface()
     for class_name, passtime, msgs in zip(ranked, _passtimes, prosCons):
         classes_per_passtime[passtime].append(
             dict(
                 class_name=class_name,
+                class_fullname=l.getCourseNameFromAbrev(class_name),
                 passtime=passtime,
                 msgs=msgs
             )

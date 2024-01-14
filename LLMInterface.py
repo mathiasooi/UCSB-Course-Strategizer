@@ -1,19 +1,25 @@
 import json
 import requests
+import pandas as pd
 
 class LLMInterface():
-    def test(self, major, course_name, course_desc):
+    def getResponse(self, response):
+        print(response)
         url = "http://169.231.8.225:5000/v1/completions"
 
         headers = {
             "Content-Type": "application/json"
         }
 
-        class LLMPrompter:
-            def __init__(self, major):
-                self.major = major
-        course_name = "Foundations of Computer Science"
-        course_desc = "Introduction to the theoretical underpinnings of computer science. Topics include propositional predicate logic, set theory, functions and relations, counting, mathematical induction and recursion (generating functions)."
+        major = response['major']
+        course_name = self.getCourseNameFromAbrev(response['course'])
+        course_desc = self.get_description_by_acronym(response['course'])
+
+        if not course_name:
+            course_name = "not provided"
+
+        if not course_desc:
+            course_desc = "not provided"
 
         data = {
             "max_tokens": 200,
@@ -53,3 +59,35 @@ class LLMInterface():
 
         i = min(out.find('\n'), out.find('#'))
         return out[0:i]
+    
+    def get_description_by_acronym(self, acronym, csv_file_path='csvs/class.csv'):
+        # Read the CSV file into a DataFrame
+        # print(csv_file_path)
+        df = pd.read_csv(csv_file_path)
+
+        # Filter rows based on the provided acronym
+        selected_row = df[df['acronym'] == acronym]
+
+        # Check if any rows match the given acronym
+        if not selected_row.empty:
+            # Extract and return the description
+            description = selected_row['description'].values[0]
+            return description
+        else:
+            return False
+
+    def getCourseNameFromAbrev(self, acronym, csv_file_path='csvs/course.csv'):
+        # Read the CSV file into a DataFrame
+        # print(csv_file_path)
+        df = pd.read_csv(csv_file_path)
+
+        # Filter rows based on the provided acronym
+        selected_row = df[df['acronym'] == acronym]
+
+        # Check if any rows match the given acronym
+        if not selected_row.empty:
+            # Extract and return the description
+            description = selected_row['name'].values[0]
+            return description
+        else:
+            return False
