@@ -102,12 +102,6 @@ def showResults():
     c = ClassPrioritizer(daganalyzer, daganalyzer.get_availible_courses(), "WINTER 2024")
 
     ranked = c.get_sorted_courses(daganalyzer.get_availible_courses())
-    # ps = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
-    # s = [(str(c.need_by_major_courses_for_course(course)), str(c.quarters_til_next_offered(course, 0))) for course in ranked]
-    # classes = [[ranked[i], ps[i], s[i][0], s[i][1]] for i in range(len(ranked))]
-
-
-
     prosCons = []
     j = JsonHelper()
     requirements = j.getCoursesFromRequirement(major)
@@ -120,37 +114,47 @@ def showResults():
         neutral = []
         cons = []
         if nextOffering <= 1:
-            neutral.append("This course will be offered next quarter")
+            neutral.append("Will be offered next quarter")
         else:
-            pros.append("This course will not be offered for " + str(nextOffering) + " more quarters")
-        
+            pros.append("Will NOT be offered for " + str(nextOffering) + " more quarters")
+
         if unlocks == 0:
-            cons.append("This course is not a prerequisite for any other course")
+            cons.append("Unlocks 0 upper division courses")
         elif unlocks == 1:
-            neutral.append("This course is a prerequisite for one other course")
+            neutral.append("Unlocks 1 other course")
         else:
-            pros.append("This course is a prerequisite for " + str(unlocks) + " other course")
-        
+            pros.append("Unlocks " + str(unlocks) + " other courses")
+
         if clas in requirements:
-            pros.append("This is a core class for your major")
+            pros.append("Major requirement class")
         else:
-            neutral.append("This is an elective class for your major")
+            neutral.append("Elective class")
 
         if passtime == 'pass1':
-            pros.append("This class is popular! It's usually filled up before the end of pass 1")        
+            pros.append("Fills up before pass 1")
         elif passtime == 'pass2':
-            pros.append("This class is popular! It's usually filled up before the end of pass 2")
+            pros.append("Fills up before pass 2")
         elif passtime == 'pass3':
-            neutral.append("This class is usually full by the end of pass 3")
+            neutral.append("Fills up before pass 3")
         elif passtime == 'open':
-            neutral.append("This class usually has spots open by the end of pass 3")
+            neutral.append("Rarely fills up")
 
-
-        prosCons.append((clas, {"pros": pros, "neutral": neutral, "cons": cons}))
-
-
-    return render_template('results.html', prosCons = prosCons)
-    
+        prosCons.append({"pros": pros, "neutral": neutral, "cons": cons})
+    _passtimes = [passtimes.first_full_pass(course, "WINTER 2024") for course in ranked]
+    classes_per_passtime = defaultdict(list)
+    for class_name, passtime, msgs in zip(ranked, _passtimes, prosCons):
+        classes_per_passtime[passtime].append(
+            dict(
+                class_name=class_name,
+                passtime=passtime,
+                msgs=msgs
+            )
+        )
+    return render_template('results.html', classes_per_passtime=classes_per_passtime, passtime_per_quarter={
+        'pass1': datetime(year=2023, month=11, day=7),
+        'pass2': datetime(year=2023, month=11, day=13),
+        'pass3': datetime(year=2023, month=11, day=27)
+    })
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)

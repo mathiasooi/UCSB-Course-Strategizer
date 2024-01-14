@@ -30,18 +30,18 @@ class PassTimes:
             if int(row["enrolled"]) >= int(row["capacity"]):
                 self.first_full_data[row["class_id"].split()[-1]] = row["date"]
     
-    def first_full_pass(self, course: str, quarter: str) -> date:
+    def first_full_pass(self, course: str, quarter: str):
         # Returns the first date when course is full
         # "open" if there are still spots after pass 3 ended
         if PassTimes.course_acronym_to_id[course][quarter] not in self.first_full_data:
-            return "open"
+            return "Take Anytime"
         first_full = self.first_full_data[PassTimes.course_acronym_to_id[course][quarter]]
         if first_full <= self.pass2:
-            return "pass1"
+            return "Pass 1"
         elif self.pass2 <= first_full <= self.pass3:
-            return "pass2"
+            return "Pass 2"
         else:
-            return "pass3"
+            return "Pass 3"
 
 if __name__ == "__main__":
     passtimes = PassTimes("./csvs/class_enrollment_1.csv")
