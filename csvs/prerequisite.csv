@@ -1,0 +1,4291 @@
+course_acronym,prerequisite_acronym,is_strong,is_same_major
+ANTH 112Z,ANTH 3,false,true
+ANTH 112Z,ANTH 3S,false,true
+ANTH 112Z,ANTH 100,false,true
+ANTH 123,ANTH 5,true,true
+ANTH 123,ANTH 153T,true,true
+ANTH 150,ANTH 5,false,true
+ANTH 150,ANTH 7,false,true
+ANTH 150,ANTH 9,false,true
+ANTH 162,ANTH 3,false,true
+ANTH 162,ANTH 3S,false,true
+ANTH 170,ANTH 5,false,true
+ANTH 180B,ANTH 180A,false,true
+ANTH 182,ANTH 3,false,true
+ANTH 182,ANTH 3S,false,true
+ANTH 182,ANTH 100,false,true
+ANTH 182M,ANTH 3,false,true
+ANTH 182M,ANTH 3S,false,true
+ANTH 182M,ANTH 100,false,true
+ANTH 194,ANTH 3,false,true
+ANTH 194,ANTH 3S,false,true
+ANTH 194,ANTH 100,false,true
+ANTH 194P,ANTH 100,false,true
+ANTH 195B,ANTH 195A,false,true
+ANTH 198,Anthropology - ANTH 2,false,false
+ANTH 199,Anthropology - ANTH 2,false,false
+ANTH 199RA,Anthropology - ANTH 2,false,false
+ART 100,ART 10,false,true
+ANTH 125,ANTH 2,false,true
+ART 100,ART 1A,false,true
+ART 100,ART 7B,false,true
+ART 101,ART 10100,false,true
+ART 101,ART 1A,false,true
+ART 101,ART 7B,false,true
+ART 105PP,ART 12,false,true
+ART 105PP,ART 1A,false,true
+ART 105PP,ART 7C,false,true
+ART 111PP,ART 7B,false,true
+ART 117,ART 18,false,true
+ART 117,ART 1A,false,true
+ART 117,ART 7B,false,true
+ART 132,ART 32,false,true
+ART 132,ART 1A,false,true
+ART 132,ART 7A,false,true
+ART 189B,Art - ART 7D,true,false
+AS AM 160,POL S 12,false,false
+AS AM 160,AS AM 1,false,true
+AS AM 160,AS AM 2,false,true
+AS AM 197,Asian American Studies - AS AM 1,false,false
+AS AM 199,AS AM 2,true,true
+ASTRO 1H,ASTRO 1,false,true
+BL ST 99,BL ST 1,false,true
+BL ST 99,BL ST 3,false,true
+BL ST 99,BL ST 4,false,true
+BL ST 99,BL ST 7,false,true
+BL ST 199,Black Studies - BL ST 2,false,false
+BL ST 199RA,Black Studies - BL ST 2,false,false
+CH E 107,CH E 10,false,true
+CH E 110A,CH E 5,false,true
+CH E 110A,CH E 10,false,true
+CH E 110A,MAT 4B,false,false
+CH E 120B,CH E 10,false,true
+CH E 120B,CH E 110A,false,true
+CH E 120B,CH E 120A,false,true
+CH E 132C,MAT 4B,false,false
+CH E 132C,MAT 6A,false,false
+CH E 132C,MAT 6B,false,false
+CH E 152B,CH E 152A,false,true
+CH E 160,CH E 110A,false,true
+CH E 160,CHEM 113A,false,false
+CH E 180B,CH E 120C,true,true
+CH E 180B,CH E 128,true,true
+CH E 180B,CH E 140A,true,true
+CH E 180B,CH E 152A,true,true
+CH E 184A,CH E 110A,true,true
+CH E 184A,CH E 110B,true,true
+CH E 184A,CH E 120A,true,true
+CH E 184A,CH E 120B,true,true
+CH E 184A,CH E 120C,true,true
+CH E 184A,CH E 128,true,true
+CH E 184A,CH E 132B,true,true
+CH E 184A,CH E 140A,true,true
+CH E 184A,CH E 140B,true,true
+CH E 184A,CH E 152A,true,true
+CH E 198,Chemical Engineering - CH E 2,false,false
+CHEM CS 11B,CHEM 1A,false,false
+CHEM CS 11B,CHEM 2A,false,false
+CHEM CS 110,CHEM 1A,false,false
+CHEM CS 110,CHEM 1B,false,false
+CHEM CS 110,CHEM 2A,false,false
+CHEM CS 110,CHEM 2B,false,false
+CHEM CS 110,CHEM 1C,false,false
+CHEM CS 110,CHEM 2C,false,false
+CHEM 1AL,CHEM 1A,false,true
+CHEM 1AL,CHEM 2A,false,true
+CHEM 1B,CHEM 1A,false,true
+CHEM 1B,CHEM 2A,false,true
+CHEM 1BL,CHEM 1A,false,true
+CHEM 1BL,CHEM 2A,false,true
+CHEM 1BL,CHEM 1B,false,true
+CHEM 1BL,CHEM 2B,false,true
+CHEM 2B,CHEM 2A,false,true
+CHEM 2B,CHEM 1A,false,true
+CHEM 2BC,CHEM 2A,false,true
+CHEM 2BC,CHEM 1A,false,true
+CHEM 2BC,CHEM 2B,false,true
+CHEM 6AL,CHEM 1A,false,true
+CHEM 6AL,CHEM 2A,false,true
+CHEM 6AL,CHEM 1B,false,true
+CHEM 6AL,CHEM 2B,false,true
+CHEM 6AL,CHEM 1C,false,true
+CHEM 6AL,CHEM 2C,false,true
+CHEM 6AL,CHEM 109A,false,true
+CHEM 6AL,CHEM 109B,false,true
+CHEM 6BH,CHEM 6A,false,true
+CHEM 6BH,CHEM 109A,false,true
+CHEM 6BH,CHEM 109B,false,true
+CHEM 6BL,CHEM 6A,false,true
+CHEM 6BL,CHEM 109A,false,true
+CHEM 6BL,CHEM 109B,false,true
+CHEM 6CH,CHEM 6B,false,true
+CHEM 6CH,CHEM 109B,false,true
+CHEM 6CH,CHEM 109C,false,true
+CHEM 109A,CHEM 1C,false,true
+CHEM 109A,CHEM 2C,false,true
+CHEM 109A,CHEM 1B,false,true
+CHEM 109A,CHEM 2B,false,true
+CHEM 109B,CHEM 109A,false,true
+CHEM 109BH,CHEM 109A,false,true
+CHEM 110,CHEM 1A,false,true
+CHEM 110,CHEM 1B,false,true
+CHEM 110,CHEM 2A,false,true
+CHEM 110,CHEM 2B,false,true
+CHEM 110,CHEM 1C,false,true
+CHEM 110,CHEM 2C,false,true
+CHEM 112B,CHEM 112A,false,true
+CHEM 112B,CHEM 142A,false,true
+CHEM 112B,MCDB 108A,false,false
+CHEM 112B,CHEM 142B,false,true
+CHEM 112B,MCDB 108B,false,false
+CHEM 113B,CHEM 113A,false,true
+CHEM 113B,CH E 110A,false,false
+CHEM 113B,CH E 110B,false,false
+CHEM 115B,CHEM 113A,false,true
+CHEM 115B,CHEM 113B,false,true
+CHEM 115B,CHEM 113C,false,true
+CHEM 115B,CHEM 112A,false,true
+CHEM 115B,CHEM 112B,false,true
+CHEM 115B,CHEM 112C,false,true
+CHEM 115B,MAT 5A,false,false
+CHEM 116AL,CHEM 150,false,true
+CHEM 116AL,CHEM 113B,false,true
+CHEM 117A,CHEM 113A,false,true
+CHEM 117A,CHEM 113B,false,true
+CHEM 117A,CHEM 113C,false,true
+CHEM 117A,CHEM 112A,false,true
+CHEM 117A,CHEM 112B,false,true
+CHEM 117A,CHEM 112C,false,true
+CHEM 124,CHEM 107A,false,true
+CHEM 124,CHEM 107B,false,true
+CHEM 124,CHEM 109A,false,true
+CHEM 124,CHEM 109B,false,true
+CHEM 124,CHEM 6A,false,true
+CHEM 125L,CHEM 110L,false,true
+CHEM 125L,CHEM 142A,false,true
+CHEM 125L,CHEM 142B,false,true
+CHEM 142B,CHEM 142A,false,true
+CHEM 149,CHEM 1A,false,true
+CHEM 149,CHEM 1B,false,true
+CHEM 149,CHEM 1C,false,true
+CHEM 149,CHEM 2A,false,true
+CHEM 149,CHEM 2B,false,true
+CHEM 149,CHEM 2C,false,true
+CHEM 161,CHEM 142A,false,true
+CHEM 161,CHEM 142B,false,true
+CHEM 161,CHEM 142C,false,true
+CHEM 161,MCDB 108A,false,false
+CHEM 161,MCDB 108B,false,false
+CHEM 161,MCDB 108C,false,false
+CHEM 162B,CHEM 142A,false,true
+CHEM 162B,CHEM 142B,false,true
+CHEM 162B,CHEM 142C,false,true
+CHEM 162B,MCDB 108A,false,false
+CHEM 162B,MCDB 108B,false,false
+CHEM 162B,MCDB 108C,false,false
+CHEM 171,CHEM 173A,false,true
+CHEM 173B,CHEM 173A,false,true
+CHEM 184,Chemistry and Biochemistry - CHEM 3,false,false
+CHEM 193,CHEM 1A,true,true
+CHEM 193,CHEM 1B,true,true
+CHEM 193,CHEM 1C,true,true
+CH ST 117,CH ST 7A,false,true
+CH ST 117,CH ST 7B,false,true
+CH ST 117,CH ST 9A,false,true
+CH ST 117,CH ST 9B,false,true
+CH ST 125A,CH ST 1A,false,true
+CH ST 125A,CH ST 1B,false,true
+CH ST 125A,CH ST 1C,false,true
+CH ST 148,CH ST 1A,false,true
+CH ST 148,CH ST 1B,false,true
+CH ST 148,CH ST 1C,false,true
+CH ST 158,CH ST 1A,false,true
+CH ST 158,CH ST 1B,false,true
+CH ST 158,CH ST 1C,false,true
+CH ST 158L,CH ST 158,false,true
+CH ST 168I,CH ST 1A,false,true
+CH ST 168I,CH ST 1B,false,true
+CH ST 168I,CH ST 1C,false,true
+CH ST 174A,CH ST 1A,false,true
+CH ST 174A,CH ST 1B,false,true
+CH ST 174A,CH ST 1C,false,true
+CH ST 195B,CH ST 1A,true,true
+CH ST 197HB,CH ST 197H,false,true
+CHIN 2NH,CHIN 1N,false,true
+CHIN 5NH,CHIN 4N,false,true
+CHIN 101B,CHIN 101A,false,true
+CHIN 122B,CHIN 122A,false,true
+CHIN 127B,CHIN 127A,false,true
+CHIN 185CQ,HIST 2C,false,false
+CHIN 185CQ,HIST 80,false,false
+CHIN 185CQ,HIST 184A,false,false
+CHIN 185CQ,HIST 184B,false,false
+CHIN 185CQ,HIST 185A,false,false
+CHIN 185CQ,HIST 185B,false,false
+CHIN 185CQ,EACS 4A,false,false
+CHIN 185CQ,EACS 4B,false,false
+CHIN 185CQ,CHIN 184A,false,true
+CHIN 185CQ,CHIN 184B,false,true
+CHIN 185CQ,CHIN 185A,false,true
+CHIN 185CQ,CHIN 185B,false,true
+CHIN 198,Chinese - CHIN 2,false,false
+CHIN 199,Chinese - CHIN 2,false,false
+CLASS 36H,CLASS 36,false,true
+CLASS 198,Classics - CLASS 2,false,false
+CLASS 199,Classics - CLASS 2,false,false
+CLASS 199RA,Classics - CLASS 2,false,false
+COMM 175AD,COMM 138,false,true
+C LIT 50B,WRIT 2,false,false
+C LIT 102A,SPAN 25,false,false
+C LIT 102A,SPAN 16B,false,false
+C LIT 170,ART 5,false,false
+C LIT 180,WRIT 2,true,false
+C LIT 180,WRIT 50,true,false
+C LIT 180,WRIT 109A,false,false
+C LIT 180,ENGL 10,false,false
+C LIT 192A,ED 12,false,false
+C LIT 193,LIT 170,false,false
+C LIT 199,Comparative Literature - C LIT 2,false,false
+CMPSC 5B,CMPSC 5A,false,true
+CMPSC 9,CMPSC 8,false,true
+CMPSC 9,ENGR 3,false,false
+CMPSC 16,MAT 3A,false,false
+CMPSC 16,MAT 2A,false,false
+CMPSC 24,CMPSC 16,false,true
+CMPSC 24,MAT 3B,false,false
+CMPSC 24,MAT 2B,false,false
+CMPSC 40,CMPSC 16,false,true
+CMPSC 64,CMPSC 16,false,true
+CMPSC 64,MAT 3C,false,false
+CMPSC 64,MAT 4A,false,false
+CMPSC 111,MAT 4B,false,false
+CMPSC 111,MAT 6A,false,false
+CMPSC 111,CMPSC 24,false,true
+CMPSC 130A,CMPSC 40,false,true
+CMPSC 130A,CMPSC 32,false,true
+CMPSC 130A,PSTAT 120A,false,false
+CMPSC 130A,ECE 139,false,false
+CMPSC 130B,CMPSC 130A,false,true
+CMPSC 140,MAT 4B,false,false
+CMPSC 140,MAT 6A,false,false
+CMPSC 140,CMPSC 130A,false,true
+CMPSC 154,CMPSC 32,false,true
+CMPSC 154,CMPSC 64,false,true
+CMPSC 156,CMPSC 24,true,true
+CMPSC 156,CMPSC 32,true,true
+CMPSC 162,CMPSC 130A,true,true
+CMPSC 162,CMPSC 138,true,true
+CMPSC 165A,CMPSC 130A,false,true
+CMPSC 165B,CMPSC 130A,false,true
+CMPSC 170,CMPSC 130A,false,true
+CMPSC 170,CMPSC 154,false,true
+CMPSC 170,ECE 154A,false,false
+CMPSC 174B,CMPSC 130B,false,true
+CMPSC 176B,CMPSC 176A,false,true
+CMPSC 189B,CMPSC 189A,false,true
+CMPSC 196,MUS 1,false,false
+CMPTGCS 1L,CMPSC 1A,false,false
+CMPTGCS 1L,CMPSC 1B,false,false
+DANCE 47E,DANCE 47C,false,true
+DANCE 56E,DANCE 56C,false,true
+DANCE 147B,DANCE 47F,false,true
+DANCE 147E,DANCE 147D,false,true
+DANCE 151B,DANCE 151A,false,true
+DANCE 156B,DANCE 56F,false,true
+DANCE 156E,DANCE 156C,false,true
+DANCE 167A,DANCE 50,false,true
+DANCE 167A,DANCE 51,false,true
+DANCE 167A,DANCE 151A,false,true
+DANCE 186,DANCE 151C,false,true
+DANCE 191,DANCE 151C,false,true
+DANCE 193HB,DANCE 193H,false,true
+DANCE 199,Dance - DANCE 2,false,false
+EARTH 103,ART 104A,false,false
+EARTH 103,MAT 2B,false,false
+EARTH 103,MAT 3B,false,false
+EARTH 103,PHYS 6A,false,false
+EARTH 103,PHYS 1,false,false
+EARTH 104G,ART 2,false,false
+EARTH 115,ART 114,false,false
+EARTH 121,MCDB 1A,false,false
+EARTH 121,MCDB 1B,false,false
+EARTH 121,EEMB 2,false,false
+EARTH 121,EEMB 3,false,false
+EARTH 121,ART 2,false,false
+EARTH 121,ART 3,false,false
+EARTH 124I,CHEM 1C,false,false
+EARTH 124I,MAT 3A,false,false
+EARTH 124I,ART 2,false,false
+EARTH 124I,ART 3,false,false
+EARTH 124I,ART 4,false,false
+EARTH 124I,ART 4S,false,false
+EARTH 131,MAT 3A,true,false
+EARTH 131,MAT 3B,true,false
+EARTH 131,MAT 4A,true,false
+EARTH 131,MAT 4B,true,false
+EARTH 131,MAT 6A,false,false
+EARTH 131,PHYS 6A,false,false
+EARTH 131,PHYS 6B,false,false
+EARTH 131,PHYS 6C,false,false
+EARTH 131,PHYS 1,false,false
+EARTH 131,PHYS 2,false,false
+EARTH 134,MAT 2A,false,false
+EARTH 134,MAT 2B,false,false
+EARTH 134,MAT 3A,false,false
+EARTH 134,MAT 3B,false,false
+EARTH 134,MAT 4A,false,false
+EARTH 134,MAT 4B,false,false
+EARTH 144,MCDB 1A,false,false
+EARTH 144,MCDB 1B,false,false
+EARTH 144,EEMB 2,false,false
+EARTH 144,EEMB 3,false,false
+EARTH 144,ART 3,false,false
+EARTH 144,ART 30,false,false
+EARTH 144,ART 111,false,false
+EARTH 173,GEOG 3B,false,false
+EARTH 173,GEOG 4,false,false
+EARTH 173,ART 2,false,false
+EARTH 177,ART 2,false,false
+EARTH 177,ART 114,false,false
+EARTH 192,ED 2N,false,false
+EACS 199,East Asian Cultural Studies - EACS 2,false,false
+EEMB 2,MCDB 1A,false,false
+EEMB 7,MCDB 6,false,false
+EEMB 7,MCDB 1A,false,false
+EEMB 111,MCDB 1A,true,false
+EEMB 111,MCDB 1B,true,false
+EEMB 111,EEMB 2,true,true
+EEMB 111,EEMB 3,true,true
+EEMB 111H,EEMB 111,false,true
+EEMB 127,MCDB 1A,true,false
+EEMB 127,MCDB 1B,true,false
+EEMB 127,EEMB 2,true,true
+EEMB 127,EEMB 3,true,true
+EEMB 129,MCDB 1A,true,false
+EEMB 129,EEMB 2,true,true
+EEMB 129,MCDB 1B,true,false
+EEMB 129,EEMB 3,true,true
+EEMB 130C,ENV S 100,false,false
+EEMB 130C,MCDB 1A,false,false
+EEMB 130C,MCDB 1B,false,false
+EEMB 130C,EEMB 2,false,true
+EEMB 130C,EEMB 3,false,true
+EEMB 131,MCDB 1A,false,false
+EEMB 131,MCDB 1B,false,false
+EEMB 131,EEMB 2,false,true
+EEMB 131,EEMB 3,false,true
+EEMB 131,ART 2,false,false
+EEMB 131,ART 3,false,false
+EEMB 138,MCDB 1A,true,false
+EEMB 138,MCDB 1B,true,false
+EEMB 138,EEMB 2,true,true
+EEMB 138,EEMB 3,true,true
+EEMB 142B,MCDB 1A,true,false
+EEMB 142B,EEMB 2,true,true
+EEMB 142B,MCDB 1B,true,false
+EEMB 142B,EEMB 3,true,true
+EEMB 142BL,EEMB 142B,false,true
+EEMB W 146,MAT 2A,false,false
+EEMB W 146,MAT 2B,false,false
+EEMB W 146,MAT 3A,false,false
+EEMB W 146,MAT 3B,false,false
+EEMB W 146,MAT 34A,false,false
+EEMB W 146,MAT 34B,false,false
+EEMB W 146,PSTAT 5A,false,false
+EEMB W 146,PSTAT 5L,false,false
+EEMB W 146,PSTAT 109,false,false
+EEMB W 146,MAT 4A,false,false
+EEMB W 146,PSY 5,false,false
+EEMB 152,ENV S 100,false,false
+EEMB 152,MCDB 1A,false,false
+EEMB 152,MCDB 1B,false,false
+EEMB 152,EEMB 2,false,true
+EEMB 152,EEMB 3,false,true
+EEMB 152,MAT 3A,false,false
+EEMB 152,MAT 34A,false,false
+EEMB 157B,MCDB 1A,true,false
+EEMB 157B,MCDB 1B,true,false
+EEMB 157B,EEMB 2,true,true
+EEMB 157B,EEMB 3,true,true
+EEMB 163,MCDB 1A,true,false
+EEMB 163,EEMB 2,true,true
+EEMB 163,MCDB 1B,true,false
+EEMB 163,EEMB 3,true,true
+EEMB 168,MCDB 1A,true,false
+EEMB 168,MCDB 1B,true,false
+EEMB 168,EEMB 2,true,true
+EEMB 168,EEMB 3,true,true
+EEMB 174,EEMB 146,false,true
+EEMB 179,MAT 34A,false,false
+EEMB 179,MAT 34B,false,false
+EEMB 179,MAT 3A,false,false
+EEMB 179,MAT 3B,false,false
+EEMB 179,MAT 2A,false,false
+EEMB 179,MAT 2B,false,false
+EEMB 185,EEMB 142B,false,true
+EEMB 185,EEMB 142C,false,true
+ECON 2,ECON 1,false,true
+ECON 3B,ECON 3A,false,true
+ECON 5,MAT 34A,false,false
+ECON 5,MAT 34B,false,false
+ECON 5,MAT 2A,false,false
+ECON 5,MAT 2B,false,false
+ECON 5,MAT 3A,false,false
+ECON 5,MAT 3B,false,false
+ECON 10A,ECON 1,true,true
+ECON 10A,ECON 2,true,true
+ECON 10A,MAT 34A,false,false
+ECON 10A,MAT 34B,false,false
+ECON 10A,MAT 2A,false,false
+ECON 10A,MAT 2B,false,false
+ECON 10A,MAT 3A,false,false
+ECON 10A,MAT 3B,false,false
+ECON 96,ECON 1,true,true
+ECON 96,ECON 2,true,true
+ECON 100B,ECON 10A,false,true
+ECON 100B,ECON 100A,false,true
+ECON 100B,PSTAT 109,false,false
+ECON 100B,PSTAT 120A,false,false
+ECON 100C,ECON 100B,false,true
+ECON 100C,ECON 104B,false,true
+ECON 101,ECON 10A,false,true
+ECON 101,PSTAT 109,false,false
+ECON 101,PSTAT 120A,false,false
+ECON 107A,ECON 10A,false,true
+ECON 114B,ECON 10A,false,true
+ECON 114B,ECON 104A,false,true
+ECON 115,ECON 10A,false,true
+ECON 115,ECON 100A,false,true
+ECON 115,ECON 104A,false,true
+ECON 116A,ECON 100B,false,true
+ECON 116A,ECON 104B,false,true
+ECON 116A,ECON 140A,false,true
+ECON 118,ECON 136C,false,true
+ECON 118H,ECON 118,false,true
+ECON 130,ECON 100B,false,true
+ECON 130,ECON 104B,false,true
+ECON 130,ECON 101,false,true
+ECON 130,ECON 105,false,true
+ECON 132A,ECON 136B,false,true
+ECON 132AH,ECON 132A,false,true
+ECON 134C,ECON 134A,false,true
+ECON 135,ECON 100B,true,true
+ECON 135,ECON 101,true,true
+ECON 136A,ECON 3B,false,true
+ECON 136A,ECON 10A,false,true
+ECON 136A,PSTAT 109,false,false
+ECON 136A,PSTAT 120A,false,false
+ECON 136AH,ECON 136A,false,true
+ECON 136B,ECON 136A,false,true
+ECON 136C,ECON 136A,false,true
+ECON 136C,ECON 136B,false,true
+ECON 137A,ECON 3B,false,true
+ECON 137A,ECON 10A,false,true
+ECON 137A,PSTAT 109,false,false
+ECON 137A,PSTAT 120A,false,false
+ECON 137AH,ECON 137A,false,true
+ECON 138A,ECON 3B,false,true
+ECON 138A,ECON 10A,false,true
+ECON 138A,ECON 100A,false,true
+ECON 138A,PSTAT 109,false,false
+ECON 138A,PSTAT 120A,false,false
+ECON 139,ECON 136A,false,true
+ECON 139,ECON 136B,false,true
+ECON 140B,ECON 140A,false,true
+ECON 152,ECON 100B,false,true
+ECON 171,ECON 100B,false,true
+ECON 174,ECON 100B,false,true
+ECON 174,ECON 104B,false,true
+ECON 174,ECON 140A,false,true
+ECON 176,ECON 100B,true,true
+ECON 176,ECON 140A,true,true
+ECON 181,ECON 100B,false,true
+ECON 181,ECON 104B,false,true
+ECON 181,ECON 101,false,true
+ECON 181,ECON 105,false,true
+ECON 189,ECON 3B,false,true
+ECON 189,ECON 10A,false,true
+ECON 189,ECON 100A,false,true
+ECON 189,ECON 104A,false,true
+ECON 189,PSTAT 109,false,false
+ECON 189,PSTAT 120A,false,false
+ECON 189H,ECON 189,false,true
+ECON 196B,ECON 196A,true,true
+ECON 196B,ECON 140B,true,true
+ECON 199,Economics - ECON 2,false,false
+ECON 199RA,Economics - ECON 2,false,false
+ED 134,MAT 8,false,false
+ED 199,Education - ED 2,false,false
+ED 199RA,Education - ED 2,false,false
+ECE 10A,MAT 2A,false,false
+ECE 10A,MAT 2B,false,false
+ECE 10A,MAT 3A,false,false
+ECE 10A,MAT 3B,false,false
+ECE 10A,MAT 4A,false,false
+ECE 10A,MAT 3C,false,false
+ECE 10A,MAT 4B,false,false
+ECE 10A,MAT 5A,false,false
+ECE 10A,PHYS 3,false,false
+ECE 10A,PHYS 23,false,false
+ECE 10AL,ECE 10A,false,true
+ECE 10B,ECE 10A,false,true
+ECE 10BL,ECE 10B,false,true
+ECE 96,ED 12,false,false
+ECE 120A,ECE 132,false,true
+ECE 122B,ECE 124A,false,true
+ECE 122B,ECE 123,false,true
+ECE 122B,ECE 122A,false,true
+ECE 130A,MAT 4B,false,false
+ECE 130A,MAT 5A,false,false
+ECE 130B,ECE 130A,false,true
+ECE 137A,ECE 10A,false,true
+ECE 137A,ECE 10B,false,true
+ECE 137A,ECE 10C,false,true
+ECE 137A,ECE 2A,false,true
+ECE 137A,ECE 2B,false,true
+ECE 137A,ECE 2C,false,true
+ECE 137A,ECE 130A,false,true
+ECE 137A,ECE 132,false,true
+ECE 141A,ME 16,false,false
+ECE 141A,ME 17,false,false
+ECE 141A,ME 152A,false,false
+ECE 141A,ME 151A,false,false
+ECE 141A,ECE 130A,true,true
+ECE 141A,ECE 137A,true,true
+ECE 144,ECE 134,false,true
+ECE 145B,ECE 145A,false,true
+ECE 146A,ECE 130A,false,true
+ECE 146A,ECE 130B,false,true
+ECE 147B,ECE 147A,false,true
+ECE 153B,ECE 152A,false,true
+ECE 154B,ECE 154A,false,true
+ECE 157B,ECE 157A,false,true
+ECE 162B,ECE 162A,false,true
+ECE 179P,ENGR 3,false,false
+ECE 179P,ME 17,false,false
+ECE 179P,ECE 130C,false,true
+ECE 179P,ENGR 170A,false,false
+ECE 179P,ECE 181A,false,true
+ECE 188B,ECE 188A,false,true
+ECE 189B,ECE 189A,false,true
+ECE 196,MUS 1,false,false
+ECE 199,Electrical Computer Engineering - ECE 2,true,false
+ENGR 120B,ENGR 120A,false,true
+ENGR 195B,ENGR 195A,false,true
+ENGL 10,WRIT 2,false,false
+ENGL 99,ENGL 10,false,true
+ENGL 99,ENGL 10A,false,true
+ENGL 99,ENGL 10E,false,true
+ENGL 99,ENGL 10L,false,true
+ENGL 99,ENGL 3,false,true
+ENGL 99,ENGL 0,false,true
+ENGL 102,WRIT 2,false,false
+ENGL 102,WRIT 50,false,false
+ENGL 102,WRIT 109,false,false
+ENGL 102,ENGL 10,false,true
+ENGL 103A,WRIT 2,false,false
+ENGL 103A,WRIT 50,false,false
+ENGL 103A,WRIT 109,false,false
+ENGL 103A,ENGL 10,false,true
+ENGL 103AS,WRIT 2,false,false
+ENGL 103AS,WRIT 50,false,false
+ENGL 103AS,WRIT 109,false,false
+ENGL 103AS,ENGL 10,false,true
+ENGL 104B,WRIT 2,false,false
+ENGL 104B,WRIT 50,false,false
+ENGL 104B,WRIT 109,false,false
+ENGL 104B,ENGL 10,false,true
+ENGL 104BS,WRIT 2,false,false
+ENGL 104BS,WRIT 50,false,false
+ENGL 104BS,WRIT 109,false,false
+ENGL 104BS,ENGL 10,false,true
+ENGL 105A,WRIT 2,false,false
+ENGL 105AS,ENGL 105A,false,true
+ENGL 122NE,WRIT 2,false,false
+ENGL 128GN,WRIT 2,false,false
+ENGL 128GN,WRIT 50,false,false
+ENGL 128GN,WRIT 109,false,false
+ENGL 128GN,ENGL 10,false,true
+ENGL 133TL,WRIT 2,false,false
+ENGL 144,WRIT 2,false,false
+ENGL 144,WRIT 50,false,false
+ENGL 146AI,WRIT 2,false,false
+ENGL 146DS,WRIT 2,false,false
+ENGL 146GB,WRIT 2,false,false
+ENGL 146GB,WRIT 50,false,false
+ENGL 146GB,WRIT 109A,false,false
+ENGL 146GB,ENGL 10,false,true
+ENGL 147WT,WRIT 2,false,false
+ENGL 165AD,WRIT 2,false,false
+ENGL 171,WRIT 2,false,false
+ENGL 171,WRIT 50,false,false
+ENGL 171,WRIT 109,false,false
+ENGL 171,ENGL 10,false,true
+ENGL 183WP,WRIT 2,false,false
+ENGL 183WP,WRIT 50,false,false
+ENGL 183WP,WRIT 109,false,false
+ENGL 183WP,ENGL 10,false,true
+ENGL 192WW,WRIT 2,false,false
+ENGL 192WW,WRIT 50,false,false
+ENGL 192WW,WRIT 109,false,false
+ENGL 192WW,ENGL 10,false,true
+ENGL 196,WRIT 2,false,false
+ENGL 196,ENGL 198H,false,true
+ENGL 197,WRIT 2,false,false
+ENGL 197,WRIT 50,false,false
+ENGL 197,WRIT 109,false,false
+ENGL 197,ENGL 10,false,true
+ENV S 2H,ENV S 2,false,true
+ENV S 40,ENV S 1,false,true
+ENV S 40,ENV S 2,false,true
+ENV S 40,ENV S 3,false,true
+ENV S 115,ENV S 2,false,true
+ENV S 115,MAT 2B,false,false
+ENV S 115,MAT 3B,false,false
+ENV S 115,MAT 34B,false,false
+ENV S 115,MAT 34A,false,false
+ENV S 115,ENV S 25,false,true
+ENV S 120B,ENV S 120,false,true
+ENV S 120B,ENV S 120A,false,true
+ENV S 125A,ENV S 1,false,true
+ENV S 125A,ENV S 2,false,true
+ENV S 125A,ENV S 3,false,true
+ENV S 130B,ENV S 1,false,true
+ENV S 130B,ENV S 3,false,true
+ENV S 130B,ANTH 2,false,false
+ENV S 130C,ENV S 100,false,true
+ENV S 130C,MCDB 1A,false,false
+ENV S 130C,MCDB 1B,false,false
+ENV S 130C,EEMB 2,false,false
+ENV S 130C,EEMB 3,false,false
+ENV S 141,CHEM 1B,false,false
+ENV S 141,MAT 3B,false,false
+ENV S 141,MAT 34B,false,false
+ENV S 141,ENV S 25,false,true
+ENV S 144,MAT 3A,false,false
+ENV S 144,MAT 3B,false,false
+ENV S 144,MAT 34A,false,false
+ENV S 144,MAT 34B,false,false
+ENV S 152,ENV S 100,false,true
+ENV S 152,MCDB 1A,false,false
+ENV S 152,MCDB 1B,false,false
+ENV S 152,EEMB 2,false,false
+ENV S 152,EEMB 3,false,false
+ENV S 152,MAT 3A,false,false
+ENV S 152,MAT 34A,false,false
+ENV S 154,ENV S 2,false,true
+ENV S 154,ENV S 1,false,true
+ENV S 154,ENV S 3,false,true
+ENV S 161,ENV S 1,false,true
+ENV S 161,ENV S 2,false,true
+ENV S 161,ENV S 3,false,true
+ENV S 163A,ENV S 3,false,true
+ENV S 163A,POL S 12,false,false
+ENV S 163A,MAT 2A,false,false
+ENV S 163A,MAT 3A,false,false
+ENV S 163A,MAT 34A,false,false
+ENV S 163A,PSTAT 5A,false,false
+ENV S 163A,PSTAT 5L,false,false
+ENV S 163A,PSTAT 109,false,false
+ENV S 165B,ENV S 165A,false,true
+ENV S 175,ECON 10A,false,false
+ENV S 175,ECON 100A,false,false
+ENV S 175,ECON 104A,false,false
+ENV S 177,ENV S 1,false,true
+ENV S 177,POL S 6,false,false
+ENV S 188,ENV S 1,false,true
+ENV S 188,ENV S 3,false,true
+ENV S 191,Environmental Studies - ENV S 2,false,false
+ENV S 191,MCDB 20,false,false
+ENV S 191,EEMB 22,false,false
+ENV S 191,MCDB 1A,true,false
+ENV S 191,MCDB 1B,true,false
+ENV S 191,EEMB 2,true,false
+ENV S 191,EEMB 3,true,false
+ENV S 195B,ENV S 195A,false,true
+ESS 199,Exercise & Sport Studies - ESS 2,false,false
+FEMST 99,Feminist Studies - FEMST 1,false,false
+FEMST 99,Feminist Studies - FEMST 4,false,false
+FEMST 139,MS 30,false,false
+FEMST 139,MS 50,false,false
+FEMST 195HB,MS 195H,false,false
+FEMST 198,Feminist Studies - FEMST 2,false,false
+FEMST 199,Feminist Studies - FEMST 2,false,false
+FAMST 101C,MS 46,true,false
+FAMST 101C,MS 70,true,false
+FAMST 101CH,MS 101C,true,false
+FAMST 101D,MS 46,true,false
+FAMST 101D,MS 70,true,false
+FAMST 104,MS 46,true,false
+FAMST 106B,ES 46,false,false
+FAMST 106B,ES 102,false,false
+FAMST 106B,ES 104,false,false
+FAMST 106B,ES 107,false,false
+FAMST 107,MS 46,true,false
+FAMST 113PW,ES 46,false,false
+FAMST 115,ES 104,false,false
+FAMST 115,ES 105,false,false
+FAMST 119ML,MS 46,false,false
+FAMST 150AD,ES 46,false,false
+FAMST 166TN,ES 46,false,false
+FAMST 183,MS 46,false,false
+FAMST 187AR,ES 46,false,false
+FAMST 187SH,ES 46,false,false
+FAMST 187TP,ES 46,false,false
+FAMST 188B,ES 188A,false,false
+FAMST 189DM,MS 46,false,false
+FAMST 189DM,MS 70,false,false
+FAMST 189GN,MS 46,false,false
+FAMST 189GN,MS 70,false,false
+FAMST 192PM,ED 96,true,false
+FAMST 199,Film and Media Studies - FAMST 2,false,false
+FAMST 199RA,Film and Media Studies - FAMST 2,false,false
+FR 2,FR 1,false,true
+FR 3,FR 2,false,true
+FR 4,FR 3,false,true
+FR 5,FR 4,false,true
+FR 6,FR 5,false,true
+FR 50BX,WRIT 2,false,false
+FR 99,FR 3,false,true
+FR 100,FR 6,false,true
+FR 100,FR 6G,false,true
+FR 101B,FR 100,false,true
+FR 101B,FR 26,false,true
+FR 104B,FR 100,false,true
+FR 104B,FR 26,false,true
+FR 104E,FR 100,false,true
+FR 104E,FR 26,false,true
+FR 147C,FR 101A,true,true
+FR 147C,FR 101B,true,true
+FR 147C,FR 101C,true,true
+FR 147C,FR 104A,true,true
+DANCE 50,DANCE 51,false,true
+FR 147C,FR 104B,true,true
+FR 147C,FR 104C,true,true
+FR 147C,FR 104D,true,true
+FR 151R,FR 100,true,true
+FR 151R,FR 101,true,true
+FR 151R,FR 104,true,true
+FR 195H,French - FR 24,false,false
+FR 199,French - FR 2,false,false
+FR 199RA,French - FR 2,false,false
+GEOG 110,GEOG 3,false,true
+GEOG 110,GEOG 3A,false,true
+GEOG 111B,GEOG 111A,false,true
+GEOG 115B,GEOG 115A,false,true
+GEOG 116,GEOG 3B,false,true
+GEOG 116,GEOG 4,false,true
+GEOG 116,ART 2,false,false
+GEOG 119,GEOG 3,false,true
+GEOG 119,GEOG 3A,false,true
+GEOG 119,GEOG 8,false,true
+GEOG 119,ART 2,false,false
+GEOG 119,ART 3,false,false
+GEOG 119,ART 4,false,false
+GEOG 130,GEOG 3B,false,true
+GEOG 130,GEOG 4,false,true
+GEOG 130,ENV S 2,false,false
+GEOG 132,GEOG 3A,false,true
+GEOG 134,GEOG 3,false,true
+GEOG 134,GEOG 3A,false,true
+GEOG 134,GEOG 3B,false,true
+GEOG 134,GEOG 4,false,true
+GEOG 144,MAT 3A,false,false
+GEOG 144,MAT 3B,false,false
+GEOG 144,MAT 34A,false,false
+GEOG 144,MAT 34B,false,false
+GEOG 152,GEOG 5,false,true
+GER 101B,GER 6,false,true
+GER 107A,GER 6,false,true
+GER 108,GER 6,false,true
+GER 199,German - GER 2,false,false
+GER 199RA,German - GER 2,false,false
+GLOBL 110,GLOBL 1,true,true
+GLOBL 110,GLOBL 2,true,true
+GLOBL 120,ES 1,true,false
+GLOBL 120,ES 2,true,false
+GLOBL 130,GLOBL 1,true,true
+GLOBL 130,GLOBL 2,true,true
+GREEK 2,GREEK 1,false,true
+GREEK 101,GREEK 100,false,true
+GREEK 142,GREEK 102,false,true
+GREEK 199,Greek - GREEK 2,false,false
+HIST 107C,HIST 4B,false,true
+HIST 107C,HIST 17B,false,true
+HIST 107C,HIST 17C,false,true
+HIST 107C,HIST 20,false,true
+HIST 111T,HIST 2A,false,true
+HIST 111T,HIST 4A,false,true
+HIST 115B,HIST 2B,false,true
+HIST 115B,HIST 4B,false,true
+HIST 115Q,HIST 115,false,true
+HIST 115Q,HIST 116,false,true
+HIST 118A,HIST 2B,false,true
+HIST 118A,HIST 4B,false,true
+HIST 121R,HIST 106B,false,true
+HIST 121R,HIST 121A,false,true
+HIST 121R,HIST 121B,false,true
+HIST 121R,HIST 121C,false,true
+HIST 121R,HIST 121D,false,true
+HIST 121R,HIST 121E,false,true
+HIST 121R,HIST 121Q,false,true
+HIST 121R,HIST 122,false,true
+HIST 121R,HIST 129A,false,true
+HIST 121R,HIST 129B,false,true
+HIST 123R,HIST 123A,false,true
+HIST 123R,HIST 123B,false,true
+HIST 123R,HIST 123C,false,true
+HIST 123R,HIST 123Q,false,true
+HIST 127A,HIST 2C,false,true
+HIST 127A,HIST 4C,false,true
+HIST 129E,HIST 4C,false,true
+HIST 129Q,HIST 129A,false,true
+HIST 129Q,HIST 129B,false,true
+HIST 129Q,HIST 129C,false,true
+HIST 129Q,HIST 129D,false,true
+HIST 129Q,HIST 129E,false,true
+HIST 129Q,HIST 129F,false,true
+HIST 145C,HIST 46,false,true
+HIST 145C,ES 45,false,false
+HIST 151A,HIST 8,false,true
+HIST 151R,HIST 8,false,true
+HIST 151R,HIST 151A,false,true
+HIST 151R,HIST 151B,false,true
+HIST 151R,HIST 151Q,false,true
+HIST 164C,HIST 17B,false,true
+HIST 164R,HIST 17B,false,true
+HIST 164R,HIST 164C,false,true
+HIST 166R,HIST 166A,false,true
+HIST 166R,HIST 166B,false,true
+HIST 166R,HIST 166C,false,true
+HIST 166R,HIST 166D,false,true
+HIST 166R,HIST 166L,false,true
+HIST 167CB,HIST 17C,false,true
+HIST 172A,HIST 7,false,true
+HIST 172A,HIST 17A,false,true
+HIST 172A,HIST 17B,false,true
+HIST 172A,HIST 17C,false,true
+HIST 184A,HIST 2A,false,true
+HIST 184A,HIST 2B,false,true
+HIST 184A,HIST 2C,false,true
+HIST 184A,HIST 80,false,true
+HIST 184A,EACS 80,false,false
+HIST 185CQ,HIST 2C,false,true
+HIST 185CQ,HIST 80,false,true
+HIST 185CQ,HIST 184A,false,true
+HIST 185CQ,HIST 184B,false,true
+HIST 185CQ,HIST 185A,false,true
+HIST 185CQ,HIST 185B,false,true
+HIST 185CQ,EACS 4A,false,false
+HIST 185CQ,EACS 4B,false,false
+HIST 185CQ,CHIN 184A,false,false
+HIST 185CQ,CHIN 184B,false,false
+HIST 185CQ,CHIN 185A,false,false
+HIST 185CQ,CHIN 185B,false,false
+HIST 196JC,HIST 196J,true,true
+HIST 196SJ,HIST 74,false,true
+HIST 199RA,History - HIST 2,false,false
+INT 137RS,INT 36A,false,true
+ITAL 2,ITAL 1,false,true
+ITAL 2HY,ITAL 1,false,true
+ITAL 2HY,ITAL 1H,false,true
+ITAL 3,ITAL 2,false,true
+ITAL 4,ITAL 3,false,true
+ITAL 4,ITAL 16B,false,true
+ITAL 5,ITAL 4,false,true
+ITAL 16A,Italian - ITAL 1,false,false
+ITAL 16A,Italian - ITAL 3,false,false
+ITAL 99RA,ITAL 3,false,true
+ITAL 102,ITAL 6,false,true
+ITAL 119A,ITAL 1,false,true
+ITAL 119A,ITAL 6,false,true
+ITAL 144A,ITAL 144X,false,true
+ITAL 195H,Italian - ITAL 24,false,false
+ITAL 199,Italian - ITAL 2,false,false
+ITAL 199RA,Italian - ITAL 2,false,false
+JAPAN 2,JAPAN 1,false,true
+JAPAN 5,JAPAN 4,false,true
+JAPAN 120B,JAPAN 120A,false,true
+JAPAN 145,JAPAN 144,false,true
+JAPAN 169,JAPAN 149,false,true
+JAPAN 183,JAPAN 181,false,true
+JAPAN 198,Japanese - JAPAN 2,false,false
+JAPAN 199,Japanese - JAPAN 2,false,false
+JAPAN 199RA,Japanese - JAPAN 2,false,false
+KOR 2,KOR 1,false,true
+KOR 5,KOR 1,false,true
+KOR 5,KOR 2,false,true
+KOR 5,KOR 3,false,true
+KOR 5,KOR 4,false,true
+LAIS 149AD,HIST 8,false,false
+LAIS 149AD,HIST 49A,false,false
+LAIS 149AD,HIST 49B,false,false
+LAIS 189,SPAN 102L,false,false
+LAIS 189,SPAN 30,false,false
+LAIS 199,Latin American and Iberian Studies - LAIS 2,false,false
+LING 3B,LING 3B,false,true
+LING 3B,LING 3A,false,true
+LING 3C,LING 3C,false,true
+LING 3C,LING 3B,false,true
+LING 12,LING 12,false,true
+LING 12,LING 3C,false,true
+LING W 12,LING 12,false,false
+LING W 12,LING 3C,false,false
+LING 107,LING 106,false,true
+LING 109,LING 101,false,true
+LING 109,LING 108,false,true
+LING 110,LING 102,false,true
+LING 110,CMPSC 8,false,false
+LING 124,LING 20,false,true
+LING 124,LING 109,false,true
+LING 145,LING 106,false,true
+LING 193,Linguistics - LING 2,false,false
+LING 195C,LING 195B,false,true
+LING 199,Linguistics - LING 2,false,false
+MATRL 100B,MAT 100A,false,false
+MATRL 135,PHYS 5,false,false
+MATRL 135,PHYS 6C,false,false
+MATRL 135,PHYS 25,false,false
+MATRL 160,CH E 110A,false,false
+MATRL 160,CHEM 113A,false,false
+MATRL 162B,ECE 162A,false,false
+MATRL 186A,ME 151C,false,false
+MATRL 186A,ME 15,false,false
+MATRL 186A,MAT 101,false,false
+MATRL 186A,MAT 100C,false,false
+MATH 2B,MAT 2A,false,false
+MATH 3B,MAT 3A,false,false
+MATH 4A,MAT 2B,false,false
+MATH 4A,MAT 3B,false,false
+MATH 4B,MAT 4A,false,false
+MATH 6A,MAT 4A,false,false
+MATH 6A,MAT 5A,false,false
+MATH 6B,MAT 5B,false,false
+MATH 6B,MAT 4B,true,false
+MATH 6B,MAT 6A,true,false
+MATH 8,MAT 3C,false,false
+MATH 8,MAT 4A,false,false
+MATH 8,MAT 4B,false,false
+MATH 8,MAT 5A,false,false
+MATH 8,MAT 5B,false,false
+MATH 8,MAT 5C,false,false
+MATH 8,MAT 6A,false,false
+MATH 8,MAT 6B,false,false
+MATH 34B,MAT 2A,false,false
+MATH 34B,MAT 3A,false,false
+MATH 34B,MAT 34A,false,false
+MATH 101A,MAT 8,false,false
+MATH 102B,MAT 102A,false,false
+MATH 104A,MAT 4B,false,false
+MATH 104A,MAT 6A,false,false
+MATH 104A,MAT 6B,false,false
+MATH 104A,MAT 5A,false,false
+MATH 104A,MAT 5B,false,false
+MATH 104A,MAT 5C,false,false
+MATH 104A,MAT 117,false,false
+MATH 104A,CMPSC 5A,false,false
+MATH 104A,CMPSC 10,false,false
+MATH 104A,CMPSC 8,false,false
+MATH 104A,CMPSC 16,false,false
+MATH 104A,ENGR 3,false,false
+MATH 104B,MAT 104A,false,false
+MATH 108A,MAT 3C,false,false
+MATH 108A,MAT 4A,false,false
+MATH 108A,MAT 4B,false,false
+MATH 108A,MAT 5A,false,false
+MATH 108A,MAT 8,false,false
+MATH 108B,MAT 108A,false,false
+MATH 111B,MAT 111A,false,false
+MATH 115A,MAT 8,false,false
+MATH 116,MAT 8,false,false
+MATH 117,MAT 8,false,false
+MATH 118B,MAT 118A,true,false
+MATH 118B,MAT 108B,true,false
+MATH 122A,MAT 5A,false,false
+MATH 122A,MAT 5B,false,false
+MATH 122A,MAT 4B,false,false
+MATH 122A,MAT 6A,false,false
+MATH 122A,MAT 8,false,false
+MATH 124A,MAT 5A,false,false
+MATH 124A,MAT 5B,false,false
+MATH 124A,MAT 5C,false,false
+MATH 124A,MAT 4B,false,false
+MATH 124A,MAT 6A,false,false
+MATH 124A,MAT 6B,false,false
+MATH 124A,MAT 8,false,false
+MATH 132A,MAT 6A,true,false
+MATH 132A,MAT 108A,true,false
+MATH 132A,CMPSC 8,false,false
+MATH 132A,CMPSC 16,false,false
+MATH 132A,ENGR 3,false,false
+MATH 197B,MAT 197A,false,false
+MATH 199,Mathematics - MATH 2,false,false
+MATH 199RA,Mathematics - MATH 2,false,false
+ME 6,PHYS 3,false,false
+ME 6,PHYS 3L,false,false
+ME 6,MAT 4A,false,false
+ME 6,MAT 3C,false,false
+ME 15,ME 14,false,true
+ME 108,ME 14,false,true
+ME 108,ME 15,false,true
+ME 127,ME 16,false,true
+ME 141A,ME 16,false,true
+ME 141A,ME 17,false,true
+ME 141A,ME 152A,false,true
+ME 141A,ME 151A,false,true
+ME 141A,ECE 130A,false,false
+ME 141A,ECE 137A,false,false
+ME 151B,ME 151A,true,true
+ME 151B,ME 152A,true,true
+ME 152B,ME 152A,false,true
+ME 156B,ME 156A,false,true
+ME 158,ME 10,true,true
+ME 158,ME 156A,true,true
+ME 163,ME 16,false,true
+ME 179P,ENGR 3,false,false
+ME 179P,ME 17,false,true
+ME 179P,ECE 130C,false,false
+ME 179P,ME 170A,false,true
+ME 179P,ECE 181A,false,false
+ME 186A,ME 151C,false,true
+ME 186A,ME 15,false,true
+ME 186A,MAT 101,false,false
+ME 186A,MAT 100C,false,false
+ME 189B,ME 189A,false,true
+ME 197,ME 16,false,true
+MS 132,MS 131,false,true
+MS 142,MS 141,false,true
+MS 190,MS 131,true,true
+MS 190,MS 132,true,true
+MS 190,MS 133,true,true
+ENGL 109,WRIT 2,false,false
+ENGL 109,WRIT 50,false,false
+ENGL 109,WRIT 109,false,false
+ENGL 109,ENGL 10,false,true
+MS 190,MS 22,true,true
+MCDB 1B,MCDB 1A,true,true
+MCDB 1B,CHEM 1A,true,false
+MCDB 1B,CHEM 1B,true,false
+MCDB 1B,CHEM 1C,true,false
+MCDB 1LL,MCDB 1A,false,true
+MCDB 12,CHEM 1B,false,false
+MCDB 12,CHEM 2B,false,false
+MCDB 15NG,ME 1S,false,false
+MCDB 101A,MCDB 1A,false,true
+MCDB 101A,MCDB 1B,false,true
+MCDB 101A,EEMB 2,false,false
+MCDB 101A,CHEM 1A,false,false
+MCDB 101A,CHEM 1B,false,false
+MCDB 101A,CHEM 1C,false,false
+MCDB 101AH,MCDB 101A,false,true
+MCDB 101B,MCDB 1A,true,true
+MCDB 101B,EEMB 2,true,false
+MCDB 101B,MCDB 1B,true,true
+MCDB 101B,MCDB 101A,true,true
+MCDB 101BH,MCDB 101B,false,true
+MCDB 103L,MCDB 1A,true,true
+MCDB 103L,EEMB 2,true,false
+MCDB 103L,MCDB 1B,true,true
+MCDB 103L,MCDB 103,true,true
+MCDB 108B,MCDB 108A,false,true
+MCDB 108B,CHEM 109C,false,false
+MCDB 110,CHEM 1A,false,false
+MCDB 110,CHEM 1B,false,false
+MCDB 110,CHEM 1C,false,false
+MCDB 110,CHEM 109A,false,false
+MCDB 110,CHEM 109B,false,false
+MCDB 112,MCDB 1A,true,true
+MCDB 112,EEMB 2,true,false
+MCDB 112,MCDB 1B,true,true
+MCDB 112,EEMB 3,true,false
+MCDB 112,MCDB 101A,false,true
+MCDB 112,EEMB 129,false,false
+MCDB 112L,MCDB 1A,true,true
+MCDB 112L,EEMB 2,true,false
+MCDB 112L,MCDB 1B,true,true
+MCDB 112L,EEMB 3,true,false
+MCDB 112L,MCDB 101A,true,true
+MCDB 112L,MCDB 112,true,true
+MCDB 123,MCDB 108A,false,true
+MCDB 123,CHEM 142A,false,false
+MCDB 126B,MCDB 101A,false,true
+MCDB 126B,CHEM 142C,false,false
+MCDB 126B,CHEM 109A,false,false
+MCDB 126B,CHEM 109B,false,false
+MCDB 126B,CHEM 109C,false,false
+MCDB 126BL,MCDB 126B,false,true
+MCDB 132,MCDB 101A,false,true
+MCDB 132L,MCDB 132,false,true
+MCDB 133,MCDB 101A,false,true
+MCDB 152,MCDB 1A,true,true
+MCDB 152,MCDB 1B,true,true
+MCDB 152,MCDB 151,true,true
+MCDB 170,MCDB 1A,true,true
+MCDB 170,EEMB 2,true,false
+MCDB 170,MCDB 1B,true,true
+MCDB 170,MCDB 101A,false,true
+MCDB 170,EEMB 129,false,false
+MCDB 170,PSTAT 5A,false,false
+MCDB 170,PSTAT 5L,false,false
+MCDB 170,MAT 4A,false,false
+MUS 3B,MUS 3A,false,true
+MUS 20A,MUS 11,false,true
+MUS 20A,MUS 38,false,true
+MUS 20B,MUS 11,false,true
+MUS 20C,MUS 11,false,true
+MUS 31X,MUS 31F,false,true
+MUS 35B,MUS 33,false,true
+MUS 51,MUS 25,false,true
+MUS 51,MUS 29,false,true
+MUS 106B,MUS 5C,false,true
+MUS 106B,MUS 106A,false,true
+MUS 108,MUS 5C,false,true
+MUS 109LB,MUS 109L,false,true
+MUS 124,Music - MUS 3,false,false
+MUS 124,MUS 24,false,true
+MUS 135B,MUS 33,false,true
+MUS 158C,MUS 25,false,true
+MUS 160B,MUS 4C,false,true
+MUS 160B,MUS 5C,false,true
+MUS 162,MUS 112A,false,true
+MUS 162,MUS 112F,false,true
+MUS 182,MUS 10A,false,true
+MUS 182,MUS 10B,false,true
+MUS 182,MUS 10C,false,true
+MUS 192B,MUS 192A,false,true
+MUS 192C,MUS 192B,false,true
+MUS 198,MUS 112A,false,true
+MUS 198,MUS 112F,false,true
+MUS 199,MUS 112A,false,true
+MUS 199RA,MUS 112A,false,true
+PHIL 100A,PHIL 3,false,true
+PHIL 116,PHIL 183,false,true
+PHIL 128,PHIL 100A,false,true
+PHIL 134,PHIL 4,false,true
+PHIL 134,PHIL 100A,false,true
+PHIL 134,PHIL 100B,false,true
+PHIL 134,PHIL 100C,false,true
+PHIL 134,PHIL 100D,false,true
+PHIL 134,PHIL 100E,false,true
+PHIL 160,PHIL 20B,false,true
+PHIL 160,PHIL 100B,false,true
+PHIL 160,PHIL 100D,false,true
+PHIL 160,PHIL 100E,false,true
+PHIL 176,PHIL 100A,false,true
+PHIL 176,PHIL 100B,false,true
+PHIL 176,PHIL 100D,false,true
+PHIL 176,PHIL 100E,false,true
+PHIL 184,PHIL 183,false,true
+PHIL 199,Philosophy - PHIL 2,false,false
+PHYS 1,MAT 2A,false,false
+PHYS 1,MAT 3A,false,false
+PHYS 3,PHYS 2,false,true
+PHYS 3,MAT 2A,false,false
+PHYS 3,MAT 2B,false,false
+PHYS 3,MAT 3A,false,false
+PHYS 3,MAT 3B,false,false
+PHYS 3,MAT 3,false,false
+PHYS 3,MAT 4A,false,false
+PHYS 3L,PHYS 3,false,true
+PHYS 3L,PHYS 23,false,true
+PHYS 4,PHYS 3,false,true
+PHYS 4L,PHYS 4,false,true
+PHYS 4L,PHYS 24,false,true
+PHYS 6A,MAT 2A,false,false
+PHYS 6A,MAT 3A,false,false
+PHYS 6A,MAT 34A,false,false
+PHYS 6A,MAT 3,false,false
+PHYS 6AL,PHYS 6A,false,true
+PHYS 6B,PHYS 6A,false,true
+PHYS 6BL,PHYS 6B,false,true
+PHYS 13BL,PHYS 4,false,true
+PHYS 13BL,PHYS 24,false,true
+PHYS CS 15B,PHYS 15A,false,false
+PHYS 20BL,PHYS 3,false,true
+PHYS 20BL,PHYS 23,false,true
+PHYS 20BL,PHYS 20A,false,true
+PHYS 20BL,PHYS 4,false,true
+PHYS 20BL,PHYS 24,false,true
+PHYS 21,MAT 2A,false,false
+PHYS 21,MAT 3A,false,false
+PHYS 21,MAT 2B,false,false
+PHYS 21,MAT 3B,false,false
+PHYS 21,PHYS 8,false,true
+PHYS 21,PHYS 5,false,true
+PHYS 22,PHYS 21,false,true
+PHYS 24,PHYS 23,false,true
+PHYS 24,MAT 6A,false,false
+PHYS 29,MAT 2B,false,false
+PHYS 29,MAT 3B,false,false
+PHYS CS 32,PHYS 31,false,false
+PHYS CS 35,PHYS 34,false,false
+PHYS 101,MAT 6B,false,false
+PHYS 102,MAT 6B,false,false
+PHYS 104,PHYS 103,false,true
+PHYS 110B,PHYS 110A,false,true
+PHYS 115A,PHYS 5,false,true
+PHYS 115A,PHYS 25,false,true
+PHYS 115A,PHYS 100A,false,true
+PHYS 115B,PHYS 115A,false,true
+PHYS 119B,PHYS 119A,false,true
+PHYS 127BL,PHYS 127A,false,true
+PHYS 128AL,PHYS 13C,false,true
+PHYS 128AL,PHYS 20C,false,true
+PHYS 128AL,PHYS 15C,false,true
+PHYS 128AL,PHYS 115A,false,true
+PHYS 129L,PHYS 5,false,true
+PHYS 129L,PHYS 25,false,true
+PHYS 129L,PHYS 29,false,true
+PHYS 132,PHYS 5,false,true
+PHYS 132,PHYS 25,false,true
+PHYS 132,PHYS 115A,false,true
+PHYS 135,PHYS 6C,false,true
+PHYS 135,PHYS 5,false,true
+PHYS 135,PHYS 25,false,true
+PHYS 142L,PHYS 5,false,true
+PHYS 142L,PHYS 25,false,true
+PHYS 143L,PHYS 5,false,true
+PHYS 143L,PHYS 25,false,true
+PHYS 144L,PHYS 5,false,true
+PHYS 144L,PHYS 25,false,true
+PHYS 145L,PHYS 5,false,true
+PHYS 145L,PHYS 25,false,true
+PHYS 150,PHYS 5,false,true
+PHYS 150,PHYS 25,false,true
+PHYS 198,Physics - PHYS 2,false,false
+PHYS 199,Physics - PHYS 2,false,false
+PHYS 199RA,Physics - PHYS 2,false,false
+POL S 110CD,POL S 1,false,true
+POL S 119JW,POL S 1,true,true
+POL S 119JW,POL S 7,true,true
+POL S 126,POL S 7,false,true
+POL S 126,POL S 121,false,true
+POL S 126,POL S 15,false,true
+POL S 142,POL S 7,false,true
+POL S 154,POL S 15,false,true
+POL S 154,POL S 104,false,true
+POL S 154,SOC 3,false,false
+POL S 154,SOC 104A,false,false
+POL S 154,PSY 5,false,false
+POL S 154,COMM 88,false,false
+POL S 155,POL S 12,false,true
+POL S 155,POL S 155L,false,true
+POL S 157,POL S 15,false,true
+POL S 157,POL S 104,false,true
+POL S 157,POL S 104A,false,true
+POL S 157,SOC 3,false,false
+POL S 157,PSY 5,false,false
+POL S 157,COMM 88,false,false
+POL S 157,POL S 12,false,true
+POL S 160,POL S 12,false,true
+POL S 160,AS AM 1,false,false
+POL S 160,AS AM 2,false,false
+POL S 177,ENV S 1,false,false
+POL S 177,POL S 6,false,true
+POL S 188,POL S 1,false,true
+POL S 199RA,Political Science - POL S 2,false,false
+PORT 2,PORT 1,false,true
+PORT 2,PORT 16A,false,true
+PORT 5,PORT 4,false,true
+PORT 102B,PORT 102A,false,true
+PORT 199,Portuguese - PORT 2,false,false
+PSY 10A,PSY 1,false,true
+PSY 10A,PSY 5,false,true
+PSY 10A,PSTAT 5A,false,false
+PSY 10A,PSTAT 5L,false,false
+PSY 10A,COMM 87,false,false
+PSY 10A,MAT 3A,false,false
+PSY 10A,MAT 34A,false,false
+PSY 10A,MAT 2A,false,false
+PSY 10A,CHEM 1A,false,false
+PSY 10A,CHEM 1B,false,false
+PSY 10A,CHEM 2A,false,false
+PSY 10A,CHEM 2B,false,false
+PSY 10B,PSY 10A,false,true
+PSY 99,PSY 99P,false,true
+PSY 102,PSY 1,false,true
+PSY 105,PSY 1,false,true
+PSY 108,PSY 1,false,true
+PSY 120L,PSY 102,false,true
+PSY 120L,PSY 105,false,true
+PSY 120L,PSY 106,false,true
+PSY 120L,PSY 108,false,true
+PSY 123,PSY 106,false,true
+PSY 123,PSY 111,false,true
+PSY 129L,PSY 129,false,true
+PSY 129L,PSY 110A,false,true
+PSY 129L,PSY 130,false,true
+PSY 129L,PSY 110B,false,true
+PSY 129L,PSY 131,false,true
+PSY 129L,PSY 132,false,true
+PSY 133,PSY 106,false,true
+PSY 133,PSY 111,false,true
+PSY 133,MCDB 126A,false,false
+PSY 133,MCDB 126B,false,false
+PSY 133,MCDB 126C,false,false
+PSY 135,PSY 111,false,true
+PSY 142,PSY 105,false,true
+PSY 155L,PSY 143,false,true
+PSY 155L,PSY 146,false,true
+PSY 155L,PSY 155,false,true
+PSY 155L,ANTH 5,false,false
+PSY 163BR,PSY 106,false,true
+PSY 163BR,PSY 111,false,true
+PSY 197B,PSY 197A,true,true
+PSY 197C,PSY 197B,true,true
+PSY 198,Psychology - PSY 2,false,false
+PSY 199,Psychology - PSY 2,false,false
+PSY 199,PSY 99P,false,true
+PSY 199,PSY 199P,false,true
+PSY 199P,Psychology - PSY 2,false,false
+RG ST 10B,ES 10A,false,false
+RG ST 10E,RG ST 10D,false,true
+RG ST 11B,RG ST 11A,false,true
+RG ST 17B,RG ST 17A,false,true
+RG ST 57B,RG ST 57A,false,true
+RG ST 58B,RG ST 57C,false,true
+RG ST 58B,RG ST 58A,false,true
+RG ST 65B,RG ST 65A,false,true
+RG ST 65E,RG ST 65D,false,true
+RG ST 148B,RG ST 148A,false,true
+RG ST 158E,RG ST 57F,false,true
+RG ST 158E,RG ST 58D,false,true
+RG ST 159E,RG ST 159A,false,true
+RG ST 159E,RG ST 159B,false,true
+RG ST 159E,RG ST 159C,false,true
+RENST 199,Renaissance Studies - RENST 2,false,false
+RUSS 2,RUSS 1,false,true
+RUSS 5,RUSS 4,false,true
+LING 104,LING 102,false,true
+RUSS 101B,RUSS 6,false,true
+SLAV 198,Slavic - SLAV 2,false,false
+SLAV 199,Slavic - SLAV 2,false,false
+SOC 152B,SOC 152A,true,true
+SOC 190A,ED 12,false,false
+SOC 196HR,SOC 196H,false,true
+SPAN 3,SPAN 2,false,true
+SPAN 4,SPAN 3,false,true
+SPAN 4,SPAN 3S,false,true
+SPAN 4,SPAN 3H,false,true
+SPAN 5,SPAN 4,false,true
+SPAN 6,SPAN 5,false,true
+SPAN 16B,SPAN 16A,false,true
+SPAN 25,SPAN 6,false,true
+SPAN 30,SPAN 16B,false,true
+SPAN 30,SPAN 25,false,true
+SPAN 100,SPAN 16B,false,true
+SPAN 100,SPAN 25,false,true
+SPAN 109,SPAN 100,false,true
+SPAN 111B,SPAN 102L,false,true
+SPAN 111B,SPAN 30,false,true
+SPAN 115,SPAN 25,false,true
+SPAN 115,SPAN 16B,false,true
+SPAN 117B,SPAN 16B,false,true
+SPAN 117B,SPAN 25,false,true
+SPAN 141,SPAN 30,false,true
+SPAN 141,SPAN 102L,false,true
+SPAN 143,SPAN 30,false,true
+SPAN 143,SPAN 102L,false,true
+SPAN 154B,SPAN 154A,false,true
+SPAN 168,SPAN 102L,false,true
+SPAN 168,SPAN 30,false,true
+SPAN 183B,SPAN 102L,false,true
+SPAN 183B,SPAN 30,false,true
+SPAN 186VM,SPAN 100,false,true
+SPAN 189,SPAN 102L,false,true
+SPAN 189,SPAN 30,false,true
+SHS 166,PSY 1,true,false
+SHS 166,PSY 50,true,false
+SHS 167,ES 50,true,false
+SHS 167,ES 166,true,false
+PSTAT 10,MAT 2B,false,false
+PSTAT 10,MAT 3B,false,false
+PSTAT 100,PSTAT 120A,false,true
+PSTAT 100,PSTAT 9,false,true
+PSTAT 100,PSTAT 16,false,true
+PSTAT 100,MAT 4A,false,false
+PSTAT 105,PSTAT 10,true,true
+PSTAT 105,PSTAT 120B,true,true
+PSTAT 115,PSTAT 126,false,true
+PSTAT 120A,MAT 3C,false,false
+PSTAT 120A,MAT 4A,false,false
+PSTAT 120A,MAT 6A,false,false
+PSTAT 120B,PSTAT 120A,false,true
+PSTAT 122,PSTAT 10,true,true
+PSTAT 122,PSTAT 120B,true,true
+PSTAT 126,PSTAT 10,true,true
+PSTAT 126,PSTAT 120B,true,true
+PSTAT 127,PSTAT 126,false,true
+PSTAT 131,PSTAT 120A,true,true
+PSTAT 131,PSTAT 120B,true,true
+PSTAT 131,PSTAT 126,true,true
+PSTAT 134,PSTAT 120B,true,true
+PSTAT 134,PSTAT 10,true,true
+PSTAT 160A,MAT 4A,false,false
+PSTAT 160A,MAT 5A,false,false
+PSTAT 160A,MAT 8,false,false
+PSTAT 160A,PSTAT 120A,false,true
+PSTAT 170,PSTAT 120A,true,true
+PSTAT 170,PSTAT 120B,true,true
+PSTAT 170,PSTAT 160A,true,true
+PSTAT 171,MAT 2B,false,false
+PSTAT 171,MAT 3B,false,false
+PSTAT 172A,PSTAT 120A,true,true
+PSTAT 172A,PSTAT 171,true,true
+PSTAT 173,PSTAT 120B,false,true
+PSTAT 174,PSTAT 10,true,true
+PSTAT 174,PSTAT 120B,true,true
+PSTAT 182T,Statistics & Applied Probability - PSTAT 120A,false,false
+PSTAT 197B,PSTAT 197A,false,true
+PSTAT 197B,PSTAT 4,false,true
+PSTAT 197B,PSTAT 0,false,true
+PSTAT 199,Statistics & Applied Probability - PSTAT 2,false,false
+TMP 124,TMP 120,false,true
+TMP 127,TMP 120,false,true
+THTR 10B,THTR 5,false,true
+THTR 11B,THTR 5,false,true
+THTR 15B,THTR 5,false,true
+THTR 25,THTR 19,false,true
+THTR 110B,THTR 151B,false,true
+THTR 111B,THTR 11C,false,true
+THTR 111B,ME 151B,false,false
+THTR 122,THTR 1,true,true
+THTR 122,THTR 19,true,true
+THTR 122,THTR 22,true,true
+THTR 151B,THTR 15C,true,true
+THTR 151B,THTR 188S,true,true
+THTR 151B,THTR 110B,true,true
+THTR 151B,THTR 111B,true,true
+THTR 151D,THTR 151C,false,true
+THTR 151S,THTR 151C,false,true
+THTR 152B,THTR 1,true,true
+THTR 152B,THTR 14,true,true
+THTR 152B,THTR 19,true,true
+THTR 152B,THTR 152,true,true
+THTR 160C,THTR 5,true,true
+THTR 193HB,THTR 193H,false,true
+THTR 195P,THTR 195,false,true
+THTR 199,Theater - THTR 2,false,false
+WRIT 1,ED 6,false,false
+WRIT 2,LING 12,false,false
+WRIT 2E,LING 12,false,false
+WRIT 28,WRIT 1,false,true
+WRIT 50,WRIT 2,false,true
+WRIT 50,WRIT 2E,false,true
+WRIT 50,WRIT 2L,false,true
+WRIT 50E,WRIT 2,false,true
+WRIT 50E,WRIT 2E,false,true
+WRIT 50E,WRIT 2L,false,true
+WRIT 105C,WRIT 2,false,true
+WRIT 105C,WRIT 2E,false,true
+WRIT 105C,WRIT 2L,false,true
+WRIT 105CD,WRIT 2,false,true
+WRIT 105CD,WRIT 2E,false,true
+WRIT 105CD,WRIT 2L,false,true
+WRIT 105CR,WRIT 2,false,true
+WRIT 105CR,WRIT 2E,false,true
+WRIT 105CR,WRIT 2L,false,true
+WRIT 105G,WRIT 2,false,true
+WRIT 105G,WRIT 2E,false,true
+WRIT 105G,WRIT 2L,false,true
+WRIT 105M,WRIT 2,false,true
+WRIT 105M,WRIT 2E,false,true
+WRIT 105M,WRIT 2L,false,true
+WRIT 105P,WRIT 2,false,true
+WRIT 105P,WRIT 2E,false,true
+WRIT 105P,WRIT 2L,false,true
+WRIT 105PS,WRIT 2,false,true
+WRIT 105PS,WRIT 2E,false,true
+WRIT 105PS,WRIT 2L,false,true
+WRIT 105R,WRIT 2,false,true
+WRIT 105R,WRIT 2E,false,true
+WRIT 105R,WRIT 2L,false,true
+WRIT 105SW,WRIT 2,false,true
+WRIT 105SW,WRIT 2E,false,true
+WRIT 105SW,WRIT 2L,false,true
+WRIT 105SW,WRIT 36,false,true
+WRIT 105SW,WRIT 4,false,true
+WRIT 105SW,WRIT 37,false,true
+WRIT 105SW,WRIT 1,false,true
+WRIT 105SW,WRIT 6,false,true
+WRIT 105WE,WRIT 2,false,true
+WRIT 105WE,WRIT 2E,false,true
+WRIT 105WE,WRIT 2L,false,true
+WRIT 105WE,WRIT 36,false,true
+WRIT 105WE,WRIT 4,false,true
+WRIT 105WE,WRIT 37,false,true
+WRIT 105WE,WRIT 1,false,true
+WRIT 105WE,WRIT 6,false,true
+WRIT 107B,WRIT 2,false,true
+WRIT 107B,WRIT 2E,false,true
+WRIT 107B,WRIT 2L,false,true
+WRIT 107DJ,WRIT 2,false,true
+WRIT 107DJ,WRIT 2E,false,true
+WRIT 107DJ,WRIT 2L,false,true
+WRIT 107J,WRIT 2,false,true
+WRIT 107J,WRIT 2E,false,true
+WRIT 107J,WRIT 2L,false,true
+WRIT 107L,WRIT 2,false,true
+WRIT 107L,WRIT 2E,false,true
+WRIT 107L,WRIT 2L,false,true
+WRIT 107P,WRIT 2,false,true
+WRIT 107P,WRIT 2E,false,true
+WRIT 107P,WRIT 2L,false,true
+WRIT 107T,WRIT 2,false,true
+WRIT 107T,WRIT 2E,false,true
+WRIT 107T,WRIT 2L,false,true
+WRIT 107WC,WRIT 2,false,true
+WRIT 107WC,WRIT 2E,false,true
+WRIT 107WC,WRIT 2L,false,true
+WRIT 107WC,WRIT 36,false,true
+WRIT 107WC,WRIT 4,false,true
+WRIT 107WC,WRIT 37,false,true
+WRIT 107WC,WRIT 1,false,true
+WRIT 107WC,WRIT 6,false,true
+WRIT 109ED,WRIT 2,false,true
+WRIT 109ED,WRIT 2L,false,true
+WRIT 109ED,WRIT 2E,false,true
+WRIT 109F,WRIT 2,false,true
+WRIT 109F,WRIT 2L,false,true
+WRIT 109F,WRIT 2E,false,true
+WRIT 109GS,WRIT 2,false,true
+WRIT 109GS,WRIT 2L,false,true
+WRIT 109GS,WRIT 2E,false,true
+WRIT 109HP,WRIT 2,false,true
+WRIT 109HP,WRIT 2L,false,true
+WRIT 109HP,WRIT 2E,false,true
+WRIT 109HU,WRIT 2,false,true
+WRIT 109HU,WRIT 2L,false,true
+WRIT 109HU,WRIT 2E,false,true
+WRIT 109SS,WRIT 2,false,true
+WRIT 109SS,WRIT 2L,false,true
+WRIT 109SS,WRIT 2E,false,true
+WRIT 109ST,WRIT 2,false,true
+WRIT 109ST,WRIT 2L,false,true
+WRIT 109ST,WRIT 2E,false,true
+WRIT 109V,WRIT 2,false,true
+WRIT 109V,WRIT 2L,false,true
+WRIT 109V,WRIT 2E,false,true
+WRIT 124,WRIT 2,false,true
+WRIT 124,WRIT 2E,false,true
+WRIT 124,WRIT 2L,false,true
+WRIT 151A,WRIT 105A,false,true
+WRIT 151A,WRIT 107A,false,true
+WRIT 151A,WRIT 109A,false,true
+WRIT 152A,WRIT 105A,false,true
+WRIT 152A,WRIT 107A,false,true
+WRIT 152A,WRIT 109A,false,true
+WRIT 153A,WRIT 105A,false,true
+WRIT 153A,WRIT 107A,false,true
+WRIT 153A,WRIT 109A,false,true
+WRIT 155A,WRIT 105A,false,true
+WRIT 155A,WRIT 107A,false,true
+WRIT 155A,WRIT 109A,false,true
+WRIT 157A,WRIT 105A,false,true
+WRIT 157A,WRIT 107A,false,true
+WRIT 157A,WRIT 109A,false,true
+WRIT 159A,WRIT 105A,false,true
+WRIT 159A,WRIT 107A,false,true
+WRIT 159A,WRIT 109A,false,true
+W&L CS 170B,WL CS 170A,false,false
+ANTH 123MG,ANTH 9,false,true
+ANTH 143F,ANTH 3,false,true
+ANTH 143F,ANTH 3S,false,true
+ANTH 145,ANTH 5,false,true
+ANTH 145,ANTH 7,false,true
+ANTH 145,ENV S 2,false,false
+ANTH 145,ENV S 3,false,false
+ANTH 151T,ANTH 5,false,true
+ANTH 151T,PSY 1,false,false
+ANTH 171,ANTH 5,false,true
+ANTH 171,EEMB 2,true,false
+ANTH 171,EEMB 3,true,false
+ANTH 171,MCDB 1,true,false
+ANTH 171,MCDB 2,true,false
+ART 110,ART 14,false,true
+ART 110,ART 18,false,true
+ART 110,ART 1A,false,true
+ART 110,ART 7B,false,true
+ART 118,ART 18,false,true
+ART 118,ART 117,false,true
+ART 118,ART 1A,false,true
+ART 120NP,ART 19,false,true
+ART 120NP,ART 1A,false,true
+ART 126,ART 1A,false,true
+ART 134,Art - ART 7A,false,false
+ART 189C,ART 7D,true,true
+ME 17,ENGR 3,false,false
+ME 17,MAT 5B,false,false
+ME 17,MAT 6A,false,false
+ASTRO 2,ASTRO 1,false,true
+BL ST 99RA,BL ST 1,false,true
+BL ST 99RA,BL ST 3,false,true
+BL ST 99RA,BL ST 4,false,true
+BL ST 99RA,BL ST 7,false,true
+BL ST 180,FR 1,false,false
+BL ST 180,FR 2,false,false
+BL ST 180,FR 3,false,false
+BL ST 180,FR 7,false,false
+BL ST 180,LING 180,false,false
+CH E 110B,CH E 110A,false,true
+CH E 110B,MAT 4B,false,false
+CH E 118,CH E 110A,false,true
+CH E 120C,CH E 10,false,true
+CH E 120C,CH E 110A,false,true
+CH E 120C,CH E 110B,true,true
+CH E 120C,CH E 120B,true,true
+CH E 126,CH E 120C,false,true
+CH E 132A,MAT 4B,false,false
+CH E 132A,MAT 6A,false,false
+CH E 140A,CH E 10,false,true
+CH E 140A,CH E 110A,false,true
+CH E 140A,CH E 110B,false,true
+CH E 140A,CH E 120A,false,true
+CH E 140A,CH E 120B,false,true
+CH E 166,ENGR 3,false,false
+CH E 166,CH E 110A,false,true
+CH E 174,CH E 10,false,true
+CH E 174,CH E 107,false,true
+CH E 180A,CH E 110A,true,true
+CH E 180A,CH E 120A,true,true
+CH E 180A,CH E 120B,true,true
+CH E 184B,CH E 184A,false,true
+CHEM CS 11C,CHEM 1B,false,false
+CHEM CS 11C,CHEM 2B,false,false
+CHEM 1C,CHEM 1B,false,true
+CHEM 1C,CHEM 2B,false,true
+CHEM 1CL,CHEM 1B,false,true
+CHEM 1CL,CHEM 2B,false,true
+CHEM 1CL,CHEM 1C,false,true
+CHEM 1CL,CHEM 2C,false,true
+CHEM 2C,CHEM 2B,false,true
+CHEM 2C,CHEM 1B,false,true
+CHEM 2CC,CHEM 2B,false,true
+CHEM 2CC,CHEM 1B,false,true
+CHEM 2CC,CHEM 2C,false,true
+CHEM 6CL,CHEM 6B,false,true
+CHEM 6CL,CHEM 109B,false,true
+CHEM 6CL,CHEM 109C,false,true
+CHEM 109C,CHEM 109B,false,true
+CHEM 109CH,CHEM 109B,false,true
+CHEM 112C,CHEM 112B,false,true
+CHEM 112C,CHEM 142B,false,true
+CHEM 112C,MCDB 108B,false,false
+CHEM 112C,CHEM 142C,false,true
+CHEM 112C,MCDB 108C,false,false
+CHEM 112L,CHEM 125L,true,true
+CHEM 112L,CHEM 142C,true,true
+CHEM 113C,CHEM 113B,false,true
+CHEM 115C,CHEM 113A,false,true
+CHEM 115C,CHEM 113B,false,true
+CHEM 115C,CHEM 113C,false,true
+CHEM 115C,CHEM 112A,false,true
+CHEM 115C,CHEM 112B,false,true
+CHEM 115C,CHEM 112C,false,true
+CHEM 115C,MAT 5A,false,false
+CHEM 116BL,CHEM 116A,false,true
+CHEM 116BL,CHEM 113C,false,true
+CHEM 123,CHEM 1A,false,true
+CHEM 123,CHEM 1B,false,true
+CHEM 126,CHEM 109A,false,true
+CHEM 126,CHEM 109B,false,true
+CHEM 127,CHEM 107A,false,true
+CHEM 127,CHEM 107B,false,true
+CHEM 127,CHEM 107C,false,true
+CHEM 127,CHEM 109A,false,true
+CHEM 127,CHEM 109B,false,true
+CHEM 127,CHEM 109C,false,true
+CHEM 133,CHEM 109A,false,true
+CHEM 133,CHEM 109B,false,true
+CHEM 133,CHEM 109C,false,true
+CHEM 142C,CHEM 142B,false,true
+CHEM 147,CHEM 142A,false,true
+CHEM 147,MCDB 108A,false,false
+CHEM 148,CHEM 142A,false,true
+PSY 122,PSY 106,false,true
+CHEM 148,CHEM 142B,false,true
+CHEM 148,MCDB 108A,false,false
+CHEM 148,MCDB 108B,false,false
+CHEM 153,CHEM 150,false,true
+CHEM 175,CHEM 173A,false,true
+CHEM 175,CHEM 173B,false,true
+CHEM 176,CHEM 173A,false,true
+CH ST 110,CH ST 1A,false,true
+CH ST 110,CH ST 1B,false,true
+CH ST 110,CH ST 1C,false,true
+CH ST 185,CH ST 185L,false,true
+CH ST 185L,CH ST 185,false,true
+CH ST 197HC,CH ST 197H,false,true
+CH ST 199RA,Chicano Studies - CH ST 2,false,false
+CHIN 3NH,CHIN 2N,false,true
+CHIN 122C,CHIN 122B,false,true
+CHIN 126B,CHIN 6,false,true
+CHIN 127C,CHIN 127B,false,true
+C LIT 50,WRIT 2,false,false
+C LIT 102B,SPAN 25,false,false
+C LIT 102B,SPAN 16B,false,false
+C LIT 115,ENGL 10,false,false
+C LIT 115,WRIT 50,false,false
+CMPSC 32,CMPSC 24,false,true
+CMPSC 138,CMPSC 40,false,true
+CMPSC 160,CMPSC 64,false,true
+CMPSC 160,ENGR 154,false,false
+CMPSC 160,ENGR 154A,false,false
+CMPSC 160,CMPSC 130A,false,true
+CMPSC 160,CMPSC 138,false,true
+CMPSC 174A,CMPSC 130A,false,true
+CMPSC 176A,CMPSC 32,false,true
+CMPSC 176A,PSTAT 120A,false,false
+CMPSC 176A,ECE 139,false,false
+CMPSC 176C,CMPSC 176A,false,true
+CMPSC 177,CMPSC 170,false,true
+CMPSC 178,CMPSC 24,false,true
+CMPSC 178,CMPSC 40,false,true
+CMPSC 178,PSTAT 120A,false,false
+CMPSC 178,PSTAT 121A,false,false
+CMPSC 178,ECE 139,false,false
+CMPSC 184,CMPSC 56,false,true
+CMPSC 184,CMPSC 156,false,true
+CMPSC 184,CMPSC 130A,false,true
+CMPSC 196B,MUS 1,false,false
+CMPSC 196B,MUS 4,false,false
+CMPSC 196B,CMPSC 196,false,true
+CMPSC 196B,CMPSC 2,false,true
+DANCE 47F,DANCE 47C,false,true
+DANCE 56F,DANCE 56C,false,true
+DANCE 145H,DANCE 45,false,true
+DANCE 147C,DANCE 47F,false,true
+DANCE 147F,DANCE 147E,false,true
+DANCE 147PC,DANCE 47C,false,true
+DANCE 151C,THTR 23D,false,false
+DANCE 156C,DANCE 56F,false,true
+DANCE 156F,DANCE 156C,false,true
+DANCE 171,DANCE 70,false,true
+DANCE 193HC,DANCE 193H,false,true
+EARTH 3,ART 2,false,false
+EARTH 3,ART 4,false,false
+EARTH 3,ART 7,false,false
+EARTH 3,ART 20,false,false
+EARTH 102A,MAT 3A,false,false
+EARTH 102A,ART 114,true,false
+EARTH 102A,ART 115,true,false
+EARTH 104A,ART 2,false,false
+EARTH 104B,ART 114,true,false
+EARTH 104B,ART 103,true,false
+EARTH 109,ART 104A,false,false
+EARTH 119,ART 103,false,false
+EARTH 119,ART 104A,false,false
+EARTH 119,ART 104B,false,false
+EARTH 119,ART 102A,false,false
+EARTH 119,ART 102B,false,false
+EARTH 119,ART 102C,false,false
+EARTH 122,ART 2,false,false
+EARTH 122,ART 3,false,false
+EARTH 122,ART 104A,false,false
+EARTH 122,ART 114,false,false
+EARTH 124IG,ART 2,false,false
+EARTH 124IG,ART 4,false,false
+EARTH 124IG,ART 114,false,false
+EARTH 124IG,CHEM 1A,false,false
+EARTH 124IG,MAT 3A,false,false
+EARTH 124IG,MAT 3B,false,false
+EARTH 135,MAT 3A,false,false
+EARTH 135,MAT 3B,false,false
+EARTH 135,MAT 3C,false,false
+EARTH 135,MAT 4A,false,false
+EARTH 135,MAT 4B,false,false
+EARTH 135,MAT 5A,false,false
+EARTH 135,MAT 5C,false,false
+EARTH 135,MAT 6A,false,false
+EARTH 135,PHYS 1,false,false
+EARTH 135,PHYS 2,false,false
+EARTH 135,PHYS 6A,false,false
+EARTH 135,PHYS 6B,false,false
+EARTH 135,PHYS 6C,false,false
+EARTH 136,MAT 3A,false,false
+EARTH 136,MAT 3B,false,false
+EARTH 136,MAT 3C,false,false
+EARTH 136,MAT 4A,false,false
+EARTH 136,MAT 4B,false,false
+EARTH 136,MAT 5A,false,false
+EARTH 136,MAT 5C,false,false
+EARTH 136,MAT 6A,false,false
+EARTH 136,PHYS 6A,false,false
+EARTH 136,PHYS 6B,false,false
+EARTH 136,PHYS 6C,false,false
+EARTH 136,PHYS 1,false,false
+EARTH 136,PHYS 2,false,false
+EARTH 149,ES 3,false,false
+EARTH 149,ES 7,false,false
+EARTH 149,ES 30,false,false
+EARTH 149,MCDB 1A,false,false
+EARTH 149,EEMB 2,false,false
+EARTH 163,CHEM 1C,false,false
+EARTH 168,MAT 3B,true,false
+EARTH 168,CHEM 1A,true,false
+EARTH 168,CHEM 1B,true,false
+EARTH 168,CHEM 1C,true,false
+EEMB 2LL,EEMB 2,false,true
+EEMB 3,MCDB 1A,true,false
+EEMB 3,MCDB 1B,true,false
+EEMB 3,EEMB 2,true,true
+EEMB 102,MCDB 1A,true,false
+EEMB 102,MCDB 1B,true,false
+EEMB 102,EEMB 2,true,true
+EEMB 102,EEMB 3,true,true
+EEMB 102H,EEMB 102,false,true
+EEMB 103A,MCDB 1A,true,false
+EEMB 103A,MCDB 1B,true,false
+EEMB 103A,EEMB 2,true,true
+EEMB 103A,EEMB 3,true,true
+EEMB 116,MCDB 1A,true,false
+EEMB 116,MCDB 1B,true,false
+EEMB 116,EEMB 2,true,true
+EEMB 116,EEMB 3,true,true
+EEMB 120,MCDB 1A,true,false
+EEMB 120,EEMB 2,true,true
+EEMB 120,MCDB 1B,true,false
+EEMB 120,EEMB 3,true,true
+EEMB 127L,MCDB 1A,true,false
+EEMB 127L,MCDB 1B,true,false
+EEMB 127L,EEMB 2,true,true
+EEMB 127L,EEMB 3,true,true
+EEMB 127L,EEMB 127,true,true
+EEMB 128,ENV S 100,false,false
+EEMB 128,EEMB 120,false,true
+EEMB 128,EEMB 168,false,true
+EEMB 142C,MCDB 1A,true,false
+EEMB 142C,MCDB 1B,true,false
+EEMB 142C,EEMB 2,true,true
+EEMB 142C,EEMB 3,true,true
+EEMB 142CL,EEMB 142C,false,true
+EEMB 146,MAT 2A,false,false
+EEMB 146,MAT 2B,false,false
+EEMB 146,MAT 3A,false,false
+EEMB 146,MAT 3B,false,false
+EEMB 146,MAT 34A,false,false
+EEMB 146,MAT 34B,false,false
+EEMB 146,PSTAT 5A,false,false
+EEMB 146,PSTAT 5L,false,false
+EEMB 146,PSTAT 109,false,false
+EEMB 146,MAT 4A,false,false
+EEMB 146,PSY 5,false,false
+EEMB 148,MCDB 1A,true,false
+EEMB 148,EEMB 2,true,true
+EEMB 148,MCDB 1B,true,false
+EEMB 148,EEMB 3,true,true
+EEMB W 158,MCDB 1A,true,false
+EEMB W 158,MCDB 1B,true,false
+EEMB W 158,EEMB 2,true,false
+EEMB W 158,EEMB 3,true,false
+EEMB 180,MCDB 1A,false,false
+EEMB 180,MCDB 1B,false,false
+EEMB 180,EEMB 2,false,true
+EEMB 180,EEMB 3,false,true
+EEMB 180,MAT 3A,false,false
+EEMB 180,MAT 3B,false,false
+EEMB 180,MAT 34A,false,false
+EEMB 180,MAT 34B,false,false
+EEMB 180,MAT 2A,false,false
+EEMB 180,MAT 2B,false,false
+ECON 106,ECON 100B,false,true
+ECON 106,ECON 104B,false,true
+ECON 107B,ECON 10A,false,true
+ECON 112A,ECON 10A,false,true
+ECON 114A,ECON 10A,false,true
+ECON 114A,ECON 104A,false,true
+ECON 133,ECON 100B,false,true
+ECON 133,ECON 104B,false,true
+ECON 133,ECON 101,false,true
+ECON 133,ECON 105,false,true
+ECON 134A,ECON 100B,false,true
+ECON 134A,ECON 104B,false,true
+ECON 134A,ECON 140A,false,true
+ECON 136CH,ECON 136C,false,true
+ECON 138B,ECON 138A,false,true
+ECON 140A,ECON 10A,false,true
+ECON 140A,PSTAT 109,false,false
+ECON 140A,PSTAT 120A,false,false
+ECON 156,ECON 100B,false,true
+ECON 156,ECON 140A,false,true
+ED 135,MAT 181A,false,false
+ED 135,ED 134,false,true
+ECE 10C,ECE 10B,false,true
+ECE 10CL,ECE 10C,false,true
+ECE 120B,ECE 120A,false,true
+ECE 120B,ECE 124B,false,true
+ECE 130C,ECE 130A,false,true
+ECE 130C,ECE 130B,false,true
+ECE 135,ECE 132,true,true
+ECE 135,ECE 134,true,true
+ECE 137B,ECE 10C,false,true
+ECE 137B,ECE 2C,false,true
+ECE 137B,ECE 137A,false,true
+ECE 141B,ME 141A,false,false
+ECE 141B,ME 163,false,false
+ECE 141B,ECE 141A,false,true
+ECE 142,ECE 132,true,true
+ECE 142,ECE 134,true,true
+ECE 142,ECE 137A,true,true
+ECE 145C,ECE 145B,false,true
+ECE 146B,ECE 130A,true,true
+ECE 146B,ECE 130B,true,true
+ECE 146B,ECE 146A,true,true
+ECE 147C,ECE 147A,false,true
+ECE 147C,ME 155B,false,false
+ECE 147C,ME 173,false,false
+ECE 148,ECE 130A,true,true
+ECE 148,ECE 130B,true,true
+ECE 152A,ECE 15A,false,true
+ECE 152A,ECE 2A,false,true
+ECE 152A,ECE 10A,false,true
+ECE 152A,CMPSC 30,false,false
+ECE 152A,CMPSC 64,false,false
+ECE 162C,ECE 162A,false,true
+ECE 162C,ECE 162B,false,true
+ECE 183,PHYS 105A,false,false
+ECE 183,PHYS 103,false,false
+ECE 183,ME 163,false,false
+ECE 188C,ECE 188B,false,true
+ECE 189C,ECE 189B,false,true
+ENGR 195C,ENGR 195B,false,true
+ENGL 10S,ENGL 10,false,true
+ENGL 24S,ENGL 24,false,true
+ENGL 25S,ENGL 25,false,true
+ENGL 101,WRIT 2,false,false
+ENGL 101,WRIT 50,false,false
+ENGL 101,WRIT 109,false,false
+ENGL 101,ENGL 10,false,true
+ENGL 101S,WRIT 2,false,false
+ENGL 101S,WRIT 50,false,false
+ENGL 101S,WRIT 109,false,false
+ENGL 101S,ENGL 10,false,true
+ENGL 104A,WRIT 2,false,false
+ENGL 104A,WRIT 50,false,false
+ENGL 104A,WRIT 109,false,false
+ENGL 104A,ENGL 10,false,true
+ENGL 104AS,WRIT 2,false,false
+ENGL 104AS,WRIT 50,false,false
+ENGL 104AS,WRIT 109,false,false
+ENGL 104AS,ENGL 10,false,true
+ENGL 120,WRIT 2,false,false
+ENGL 120,WRIT 50,false,false
+ENGL 120,WRIT 109,false,false
+ENGL 120,ENGL 10,false,true
+ENGL 122CS,WRIT 2,false,false
+ENGL 122RC,WRIT 2,false,false
+ENGL 134AD,WRIT 2,false,false
+ENGL 134CR,WRIT 2,false,false
+ENGL 134RJ,WRIT 2,false,false
+ENGL 150,WRIT 2,false,false
+ENGL 150,WRIT 50,false,false
+ENGL 150,WRIT 109,false,false
+ENGL 150,ENGL 10,false,true
+ENGL 150S,WRIT 2,false,false
+ENGL 150S,WRIT 50,false,false
+ENGL 150S,ENGL 150,false,true
+ENGL 165AE,WRIT 2,false,false
+ENGL 165PP,WRIT 2,false,false
+ENGL 179,WRIT 2,false,false
+ENGL 179,WRIT 50,false,false
+ENGL 179,WRIT 109,false,false
+ENGL 185,WRIT 2,false,false
+ENGL 185,WRIT 50,false,false
+ENGL 185,WRIT 109,false,false
+ENGL 185,ENGL 10,false,true
+ENGL 192FE,WRIT 2,false,false
+ENGL 192FE,WRIT 50,false,false
+ENGL 192FE,WRIT 109,false,false
+ENGL 192FE,ENGL 10,false,true
+ENGL 198H,WRIT 2,false,false
+ENV S 3H,ENV S 3,false,true
+ENV S 15B,ENV S 15A,false,true
+ENV S 15BL,ENV S 15A,true,true
+ENV S 15BL,ENV S 15B,true,true
+ENV S 103A,MCDB 1A,true,false
+ENV S 103A,MCDB 1B,true,false
+ENV S 103A,EEMB 2,true,false
+ENV S 103A,EEMB 3,true,false
+ENV S 105,MAT 2B,false,false
+ENV S 105,MAT 3B,false,false
+ENV S 105,MAT 34B,false,false
+ENV S 105,MAT 34A,false,false
+ENV S 105,ENV S 25,false,true
+ENV S 111,MCDB 1A,true,false
+ENV S 111,EEMB 2,true,false
+ENV S 111,MCDB 20,false,false
+ENV S 111,EEMB 22,false,false
+ENV S 111,GEOG 3A,false,false
+ENV S 111,GEOG 3B,false,false
+ENV S 111,ART 2,false,false
+ENV S 111,ENV S 2,false,true
+ENV S 121,ENV S 120,false,true
+ENV S 121,ENV S 120A,false,true
+ENV SW 125B,ENV S 1,false,false
+ENV SW 125B,ENV S 2,false,false
+ENV SW 125B,ENV S 3,false,false
+ENV SW 125B,ENV S 40,false,false
+ENV S 127B,ENV S 127A,false,true
+ENV S 128,ENV S 100,false,true
+ENV S 128,EEMB 120,false,false
+ENV S 128,EEMB 168,false,false
+ENV S 134,ENV S 2,false,true
+ENV S 134,MAT 3A,false,false
+ENV S 134,MAT 34A,false,false
+ENV S 134,ENV S 25,false,true
+ENV S 134,ENV S 1,false,true
+ENV S 134,ENV S 4,false,true
+ENV S 134,ENV S 20,false,true
+ENV S 134,GEOG 3A,false,false
+ENV S 134,GEOG 3B,false,false
+ENV S 167,GEOG 3A,false,false
+ENV S 167,GEOG 3B,false,false
+ENV S 167,ENV S 2,false,true
+ENV S 167,EEMB 2,false,false
+ENV S 167,ART 2,false,false
+ENV S 168,MAT 3B,true,false
+ENV S 168,CHEM 1A,true,false
+ENV S 168,CHEM 1B,true,false
+ENV S 168,CHEM 1C,true,false
+ENV S 176,ENV S 1,false,true
+ENV S 176,ENV S 3,false,true
+ENV S 176,POL S 6,false,false
+ENV S 176,POL S 12,false,false
+ENV S 195C,ENV S 195B,false,true
+FEMST 162,MS 80,false,false
+FEMST 163,MS 80,false,false
+FEMST 195HC,MS 195H,false,false
+FAMST 46MS,MS 46,true,false
+FAMST 96,MS 46,true,false
+FAMST 96,MS 70,true,false
+FAMST 101E,MS 46,true,false
+FAMST 101E,MS 70,true,false
+FAMST 101F,MS 96,false,false
+FAMST 109EA,ES 46,false,false
+FAMST 109GA,ES 46,false,false
+FAMST 113SW,ES 46,false,false
+FAMST 122IT,MS 46,false,false
+FAMST 154PG,MS 46,false,false
+FAMST 154PG,MS 70,false,false
+FAMST 166TS,ES 46,false,false
+FAMST 184,ES 46,false,false
+FAMST 187LA,ES 46,false,false
+FAMST 187RA,ES 46,false,false
+FAMST 187SD,ES 46,false,false
+FAMST 189FT,MS 46,false,false
+FAMST 189FT,MS 70,false,false
+FAMST 189SM,MS 46,false,false
+FAMST 189SM,MS 70,false,false
+FAMST 192CT,ED 96,true,false
+FR 6GS,FR 5,false,true
+FR 11B,FR 11A,false,true
+FR 101C,FR 100,false,true
+FR 101C,FR 26,false,true
+FR 104F,FR 100,false,true
+FR 104F,FR 26,false,true
+FR 147D,FR 100,false,true
+FR 149F,FR 101A,true,true
+FR 149F,FR 101B,true,true
+FR 149F,FR 101C,true,true
+FR 149F,FR 104A,true,true
+FR 149F,FR 104B,true,true
+FR 149F,FR 104C,true,true
+FR 149F,FR 104D,true,true
+FR 197,French - FR 6,false,false
+GEOG 115C,GEOG 115B,false,true
+GEOG 117,GEOG 5,false,true
+GEOG 117,GEOG 3,false,true
+GEOG 117,GEOG 3A,false,true
+GEOG 117,GEOG 3B,false,true
+GEOG 117,GEOG 4,false,true
+GEOG 137,GEOG 3B,false,true
+GEOG 137,ART 2,false,false
+GEOG 149,MCDB 1A,true,false
+GEOG 149,EEMB 2,true,false
+GEOG 149,MCDB 20,false,false
+GEOG 149,EEMB 20,false,false
+GEOG 149,GEOG 3A,false,true
+GEOG 149,GEOG 3B,false,true
+GEOG 149,ART 2,false,false
+GEOG 149,ENV S 2,false,false
+GEOG 155,GEOG 5,false,true
+GEOG 155,GLOBL 1,false,false
+GEOG 155,GLOBL 2,false,false
+GEOG 155,ENV S 1,false,false
+GEOG 155,ENV S 2,false,false
+GEOG 155,ENV S 3,false,false
+GEOG 160,GEOG 115A,false,true
+GEOG 166,CHEM 1A,true,false
+GEOG 166,GEOG 104,true,true
+GEOG 167,GEOG 3A,false,true
+GEOG 167,GEOG 3B,false,true
+GEOG 167,ENV S 2,false,false
+GEOG 167,EEMB 2,false,false
+GEOG 167,ART 2,false,false
+GEOG 176C,GEOG 176B,false,true
+GER 8C,GER 2,false,true
+GER 101C,GER 6,false,true
+GER 105C,GER 5,false,true
+GER 114,GER 4,false,true
+GER 177A,GER 6,true,true
+GER 177A,GER 101A,true,true
+GER 177A,GER 101B,true,true
+GER 177A,GER 101C,true,true
+GER 190,GER 6,true,true
+GER 190,GER 101A,true,true
+GER 190,GER 101B,true,true
+GER 190,GER 101C,true,true
+GREEK 3,GREEK 2,false,true
+GREEK 10B,GREEK 10A,false,true
+GREEK 102,GREEK 101,false,true
+GREEK 162,GREEK 102,false,true
+HIST 2CH,HIST 2C,false,true
+HIST 111R,FR 111,false,false
+HIST 111R,ES 111A,false,false
+HIST 112E,HIST 2A,false,true
+HIST 123C,HIST 2C,false,true
+HIST 123C,HIST 4C,false,true
+HIST 146,HIST 46,false,true
+HIST 151FQ,HIST 8,false,true
+HIST 151FQ,HIST 151A,false,true
+HIST 151FQ,HIST 151B,false,true
+HIST 151FQ,HIST 151C,false,true
+HIST 151FQ,HIST 154L,false,true
+HIST 151FQ,HIST 156A,false,true
+HIST 151FQ,HIST 156B,false,true
+HIST 168CR,HIST 168A,false,true
+HIST 168CR,HIST 168B,false,true
+HIST 168CR,CH ST 168A,false,false
+HIST 168CR,CH ST 168B,false,false
+HIST 171R,HIST 17C,false,true
+HIST 171R,HIST 166C,false,true
+HIST 171R,HIST 171C,false,true
+HIST 171R,HIST 171D,false,true
+HIST 171R,HIST 171,false,true
+HIST 178A,HIST 17A,false,true
+HIST 178A,HIST 17B,false,true
+HIST 178A,HIST 17C,false,true
+HIST 187B,HIST 2A,false,true
+HIST 187B,HIST 2B,false,true
+HIST 187B,HIST 2C,false,true
+HIST 187B,HIST 9,false,true
+HIST 187B,HIST 87,false,true
+INT 137TH,INT 36A,false,true
+ITAL 6,ITAL 5,false,true
+ITAL 16B,ITAL 16A,false,true
+ITAL 16B,ITAL 1,true,true
+ITAL 16B,ITAL 2,true,true
+ITAL 103,ITAL 6,false,true
+ITAL 119B,ITAL 1,false,true
+ITAL 119B,ITAL 6,false,true
+ITAL 138F,ITAL 6,false,true
+JAPAN 3,JAPAN 2,false,true
+JAPAN 6,JAPAN 5,false,true
+JAPAN 120C,JAPAN 120B,false,true
+KOR 3,KOR 1,false,true
+KOR 3,KOR 2,false,true
+KOR 6,KOR 1,false,true
+KOR 6,KOR 2,false,true
+KOR 6,KOR 3,false,true
+KOR 6,KOR 4,false,true
+KOR 6,KOR 5,false,true
+LATIN 3,LATIN 2,false,true
+LATIN 101,LATIN 100,false,true
+LATIN 114,LATIN 102,false,true
+LATIN 199,Latin - LATIN 2,false,false
+LAIS 145,SPAN 25,false,false
+LAIS 145,SPAN 16B,false,false
+LAIS 145,SPAN 100,false,false
+LAIS 165,SPAN 30,false,false
+LAIS 165,SPAN 100,false,false
+LING W 3C,LING 3C,false,false
+LING W 3C,LING 3B,false,false
+LING 105,LING 102,true,true
+LING 105,LING 104,true,true
+LING 108,LING 101,false,true
+LING 108,LING 107,false,true
+LING 115,LING 107,false,true
+LING 137,LING 20,false,true
+LING 146,LING 106,false,true
+MATRL 100C,MAT 100A,true,false
+MATRL 100C,MAT 100B,true,false
+MATH 101B,MAT 101A,false,false
+MATH 104C,MAT 104B,false,false
+MATH 108C,MAT 108A,false,false
+MATH 111C,MAT 111B,false,false
+MATH 115B,MAT 115A,false,false
+MATH 118C,MAT 118B,false,false
+MATH 122B,MAT 122A,false,false
+MATH 137A,MAT 5A,false,false
+MATH 137A,MAT 4B,false,false
+MATH 137A,MAT 8,false,false
+MATH 145,MAT 8,false,false
+MATH 145,MAT 108A,false,false
+MATH 145,MAT 117,false,false
+MATH 147A,MAT 5B,false,false
+MATH 147A,MAT 6A,false,false
+MATH 147A,MAT 108A,false,false
+MATH 147A,MAT 117,false,false
+MATH 182,MAT 8,false,false
+ME 102,ME 151C,true,true
+ME 102,ME 152B,true,true
+ME 104,ME 6,false,true
+ME 129,ME 127,false,true
+ME 141B,ME 141A,false,true
+ME 141B,ME 163,false,true
+ME 141B,ECE 141A,false,false
+ME 151C,ME 151B,true,true
+ME 151C,ME 152B,true,true
+ME 153,ME 10,true,true
+ME 153,ME 16,true,true
+ME 155A,ME 17,false,true
+ME 155A,ME 163,false,true
+ME 155B,ME 155A,false,true
+ME 155C,ME 155A,false,true
+ME 166,ME 15,false,true
+ME W 167,ME 15,false,false
+ME 169,PHYS 105A,false,false
+ME 169,PHYS 103,false,false
+ME 169,ME 163,false,true
+ME 189C,ME 189A,true,true
+ME 189C,ME 189B,true,true
+MS 133,MS 132,false,true
+MS 143,MS 142,false,true
+MCDB 1A,CHEM 1A,false,false
+MCDB 1A,CHEM 1B,false,false
+MCDB 1A,CHEM 1C,false,false
+MCDB 15JS,ME 1S,false,false
+MCDB 108A,MCDB 1A,true,true
+MCDB 108A,EEMB 2,true,false
+MCDB 108A,MCDB 1B,true,true
+MCDB 108A,CHEM 1A,false,false
+MCDB 108A,CHEM 1B,false,false
+MCDB 108A,CHEM 1C,false,false
+MCDB 108A,CHEM 109A,false,false
+MCDB 108A,CHEM 109B,false,false
+MCDB 108A,CHEM 109C,false,false
+MCDB 108C,MCDB 108A,false,true
+MCDB 108C,MCDB 108B,false,true
+MCDB 108C,PHYS 6A,false,false
+MCDB 108C,PHYS 6B,false,false
+MCDB 108C,PHYS 6C,false,false
+MCDB 108C,MAT 34A,false,false
+MCDB 108C,MAT 34B,false,false
+MCDB 109L,MCDB 108A,false,true
+MCDB 109L,MCDB 108B,false,true
+MCDB 109L,MCDB 1A,false,true
+MCDB 109L,MCDB 1B,false,true
+MCDB 111,MCDB 1A,true,true
+MCDB 111,EEMB 2,true,false
+MCDB 111,MCDB 1B,true,true
+MCDB 118,MCDB 1A,true,true
+MCDB 118,EEMB 2,true,false
+MCDB 118,MCDB 1B,true,true
+MCDB 118,MCDB 101A,false,true
+MCDB 118,EEMB 129,false,false
+MCDB 134,MCDB 101A,false,true
+MCDB 134,EEMB 129,false,false
+MCDB 135,MCDB 101A,false,true
+MCDB 135,MCDB 101B,false,true
+MCDB 135H,MCDB 135,false,true
+MCDB 139,MCDB 1A,true,true
+MCDB 139,EEMB 2,true,false
+MCDB 139,MCDB 1B,true,true
+MCDB 139,EEMB 3,true,false
+MCDB 139H,MCDB 139,false,true
+MCDB 140L,MCDB 101A,true,true
+MCDB 140L,MCDB 101B,true,true
+MCDB 140L,MCDB 110,true,true
+MCDB 140L,MCDB 108A,true,true
+MCDB 140L,MCDB 108B,true,true
+MCDB 140L,MCDB 108C,true,true
+MCDB 146,MCDB 101A,false,true
+MCDB 146,EEMB 129,false,false
+MCDB 146,MCDB 103,false,true
+MCDB 146,MCDB 112,false,true
+MCDB 153,MCDB 1A,false,true
+MCDB 153,MCDB 1B,false,true
+MCDB 153,MCDB 101A,false,true
+MCDB 153,EEMB 129,false,false
+MCDB 187,MCDB 1A,true,true
+MCDB 187,EEMB 2,true,false
+MCDB 187,MCDB 1B,true,true
+MCDB 187,EEMB 3,true,false
+MCDB 192,CHEM 1A,false,false
+MCDB 192,CHEM 1B,false,false
+MCDB 192,CHEM 1C,false,false
+MCDB 192,MCDB 1A,true,true
+MCDB 192,MCDB 1B,true,true
+MCDB 192,EEMB 2,true,false
+MUS 35C,MUS 33,false,true
+MUS 103,MUS 5C,true,true
+MUS 103,MUS 102,true,true
+MUS 106C,MUS 5E,false,true
+MUS 106C,MUS 106B,false,true
+MUS 109LC,MUS 109L,false,true
+MUS 135C,MUS 33,false,true
+MUS 150,MUS 25,false,true
+MUS 150,MUS 33,false,true
+MUS 160C,MUS 4C,true,true
+MUS 160C,MUS 5C,true,true
+MUS 160C,MUS 160A,true,true
+MUS 184,MUS 10A,false,true
+MUS 184,MUS 10B,false,true
+MUS 184,MUS 10C,false,true
+MUS A 139,MUS 25,false,false
+PHIL 131,PHIL 100A,false,true
+PHIL 139,PHIL 100A,false,true
+PHIL 141,PHIL 100A,false,true
+PHIL 150E,PHIL 100A,false,true
+PHIL 150E,PHIL 100B,false,true
+PHIL 150E,PHIL 100C,false,true
+PHIL 150E,PHIL 100D,false,true
+PHIL 150E,PHIL 100E,false,true
+PHIL 150E,PHIL 100F,false,true
+PHYS 2,PHYS 1,false,true
+PHYS 2,MAT 2A,false,false
+PHYS 2,MAT 2B,false,false
+PHYS 2,MAT 3A,false,false
+PHYS 2,MAT 3B,false,false
+PHYS 5,PHYS 4,false,true
+PHYS 5L,PHYS 4,false,true
+PHYS 5L,PHYS 24,false,true
+PHYS 5L,PHYS 5,false,true
+PHYS 5L,PHYS 25,false,true
+PHYS 6C,PHYS 6B,false,true
+PHYS 6CL,PHYS 6C,false,true
+PHYS 13CL,PHYS 5,false,true
+PHYS 13CL,PHYS 25,false,true
+PHYS CS 15C,PHYS 15B,false,false
+PHYS 20CL,PHYS 4,false,true
+PHYS 20CL,PHYS 24,false,true
+PHYS 20CL,PHYS 20B,false,true
+PHYS 20CL,PHYS 5,false,true
+PHYS 20CL,PHYS 25,false,true
+PHYS 23,PHYS 22,false,true
+PHYS 25,PHYS 24,false,true
+PHYS 25,MAT 6A,false,false
+PHYS CS 33,PHYS 31,true,false
+PHYS CS 33,PHYS 32,true,false
+PHYS CS 36,PHYS 34,true,false
+PHYS CS 36,PHYS 35,true,false
+PHYS 106,PHYS 105A,false,true
+PHYS 106,PHYS 103,false,true
+PHYS 106,ME 163,false,false
+PHYS 110A,PHYS 5,false,true
+PHYS 110A,PHYS 25,false,true
+PHYS 110A,MAT 6B,false,false
+PHYS 115C,PHYS 115B,false,true
+PHYS 123B,PHYS 115A,false,true
+PHYS 125,PHYS 115B,false,true
+PHYS 127AL,PHYS 13C,false,true
+PHYS 127AL,PHYS 20C,false,true
+PHYS 127AL,MAT 3B,false,false
+PHYS 131,PHYS 105A,false,true
+PHYS 131,PHYS 105B,false,true
+PHYS 131,PHYS 103,false,true
+PHYS 131,PHYS 104,false,true
+PHYS 133,PHYS 5,false,true
+PHYS 133,PHYS 25,false,true
+PHYS 133,PHYS 115A,false,true
+PHYS 134L,PHYS 5,false,true
+PHYS 134L,PHYS 25,false,true
+PHYS 134L,PHYS 115A,false,true
+PHYS 141,PHYS 110B,false,true
+POL S 119DJ,POL S 1,true,true
+POL S 119DJ,POL S 7,true,true
+POL S 124,POL S 7,false,true
+POL S 127,POL S 7,false,true
+POL S 130,POL S 6,false,true
+POL S 135,POL S 6,false,true
+POL S 161,POL S 12,false,true
+POL S 162,POL S 12,false,true
+POL S 170,POL S 12,true,true
+POL S 170,POL S 15,true,true
+POL S 172,POL S 15,false,true
+POL S 176,POL S 6,false,true
+POL S 176,POL S 12,false,true
+POL S 176,ENV S 1,false,false
+POL S 176,ENV S 3,false,false
+PORT 3,PORT 2,false,true
+PORT 6,PORT 5,false,true
+PORT 16B,PORT 16A,false,true
+PSY 106,PSY 1,false,true
+PSY 111,PSY 3,false,true
+PSY 111,PSY 106,false,true
+PSY 111L,PSY 111,false,true
+PSY 115,PSY 111,false,true
+PSY 118L,PSY 108,false,true
+PSY 118L,PSY 123,false,true
+PSY 118L,PSY 129,false,true
+PSY 118L,PSY 130,false,true
+PSY 137,PSY 106,false,true
+PSY 137,PSY 111,false,true
+PSY 139,PSY 102,false,true
+PSY 139,PSY 106,false,true
+PSY 147,PSY 102,false,true
+PSY 150L,PSY 102,false,true
+PSY 151,PSY 105,false,true
+PSY 161,PSY 111,false,true
+PSY 161,MCDB 151,false,false
+PSY 162,PSY 111,false,true
+PSY 162,MCDB 151,false,false
+RG ST 10C,RG ST 10A,false,true
+RG ST 10C,RG ST 10B,false,true
+RG ST 10F,RG ST 10E,false,true
+RG ST 11C,RG ST 11B,false,true
+RG ST 57C,RG ST 57B,false,true
+RG ST 58C,RG ST 57D,false,true
+RG ST 58C,RG ST 58B,false,true
+RG ST 65C,RG ST 65B,false,true
+RG ST 65F,RG ST 65E,false,true
+RG ST 148C,ES 148B,false,false
+RG ST 156CI,RG ST 156C,false,true
+RG ST 157CP,RG ST 57F,false,true
+RG ST 157CP,RG ST 58D,false,true
+RG ST 158F,RG ST 158E,false,true
+RG ST 159F,RG ST 159A,false,true
+RG ST 159F,RG ST 159B,false,true
+RG ST 159F,RG ST 159C,false,true
+RUSS 3,RUSS 2,false,true
+RUSS 6,RUSS 5,false,true
+RUSS 101C,RUSS 6,false,true
+RUSS 121,RUSS 6,false,true
+SOC 142A,SOC 142,false,true
+SOC 156B,SOC 156A,false,true
+SPAN 3HY,SPAN 2,false,true
+SPAN 3HY,SPAN 2H,false,true
+SPAN 116,SPAN 16B,false,true
+SPAN 116,SPAN 25,false,true
+SPAN 138,SPAN 30,false,true
+SPAN 138,SPAN 102L,false,true
+SPAN 140A,SPAN 102L,false,true
+SPAN 140A,SPAN 30,false,true
+SPAN 145,SPAN 25,false,true
+SPAN 145,SPAN 16B,false,true
+SPAN 145,SPAN 100,false,true
+SPAN 152,SPAN 30,false,true
+SPAN 152,SPAN 102L,false,true
+SPAN 154C,SPAN 154B,false,true
+SPAN 165,SPAN 30,false,true
+SPAN 165,SPAN 100,false,true
+SPAN 183E,SPAN 102L,false,true
+SPAN 183E,SPAN 30,false,true
+SPAN 183IA,SPAN 102L,false,true
+SPAN 183IA,SPAN 30,false,true
+SPAN 186FL,SPAN 100,false,true
+SPAN 187A,SPAN 102L,false,true
+SPAN 187A,SPAN 30,false,true
+SPAN 194,SPAN 102L,false,true
+SPAN 194,SPAN 30,false,true
+PSTAT 8,MAT 3C,false,false
+PSTAT 8,MAT 4A,false,false
+PSTAT 8,MAT 4B,false,false
+PSTAT 8,MAT 5A,false,false
+PSTAT 8,MAT 5B,false,false
+PSTAT 8,MAT 5C,false,false
+PSTAT 8,MAT 6A,false,false
+PSTAT 8,MAT 6B,false,false
+PSTAT 8,MAT 8,false,false
+PSTAT 120C,PSTAT 120B,false,true
+PSTAT 172B,PSTAT 172A,false,true
+PSTAT 176,PSTAT 160A,false,true
+PSTAT 176,PSTAT 160B,false,true
+PSTAT 176,PSTAT 170,false,true
+PSTAT 183,PSTAT 171,false,true
+PSTAT 197C,PSTAT 197A,false,true
+PSTAT 197C,PSTAT 197B,false,true
+PSTAT 197C,PSTAT 4,false,true
+PSTAT 197C,PSTAT 0,false,true
+THTR 10C,THTR 5,false,true
+THTR 11C,THTR 5,false,true
+THTR 15C,THTR 5,false,true
+THTR 110C,THTR 151C,false,true
+THTR 110D,THTR 110C,false,true
+THTR 111C,THTR 11C,false,true
+THTR 111C,ME 151C,false,false
+THTR 119,THTR 19,false,true
+THTR 123,THTR 1,true,true
+THTR 123,THTR 19,true,true
+THTR 123,THTR 23,true,true
+THTR 125,THTR 1,true,true
+THTR 125,THTR 19,true,true
+THTR 125,THTR 25,true,true
+THTR 140A,THTR 5,false,true
+THTR 151C,THTR 15C,true,true
+THTR 151C,THTR 188S,true,true
+THTR 151C,THTR 110C,true,true
+THTR 151C,THTR 111C,true,true
+THTR 151G,THTR 151C,false,true
+THTR 152C,THTR 152B,false,true
+THTR 152E,THTR 152D,false,true
+THTR 193HC,THTR 193H,false,true
+WRIT 99,WRIT 2,true,true
+WRIT 107A,WRIT 2,false,true
+WRIT 107A,WRIT 2E,false,true
+WRIT 107A,WRIT 2L,false,true
+WRIT 107A,ECON 136A,false,false
+WRIT 107G,WRIT 2,false,true
+WRIT 107G,WRIT 2E,false,true
+WRIT 107G,WRIT 2L,false,true
+WRIT 107M,WRIT 2,false,true
+WRIT 107M,WRIT 2E,false,true
+WRIT 107M,WRIT 2L,false,true
+WRIT 151B,WRIT 151A,false,true
+WRIT 152B,WRIT 152A,false,true
+WRIT 153B,WRIT 153A,false,true
+WRIT 155B,WRIT 155A,false,true
+WRIT 157B,WRIT 157A,false,true
+WRIT 159B,WRIT 159A,false,true
+WRIT 160,WRIT 2,false,true
+WRIT 160,WRIT 2E,false,true
+WRIT 160,WRIT 2L,false,true
+W&L CS 141B,LIT 141A,false,false
+W&L CS 170C,WL CS 170A,false,false
+ANTH 110,ANTH 2,false,true
+ANTH 113,ANTH 2,false,true
+ANTH 113,CH ST 1A,false,false
+ANTH 113,CH ST 1B,false,false
+ANTH 113,CH ST 1C,false,false
+ANTH 117,ANTH 2,false,true
+ANTH 175,ANTH 2,false,true
+CHEM W 142A,CHEM 107A,false,false
+CHEM W 142A,CHEM 107B,false,false
+CHEM W 142A,CHEM 107C,false,false
+CHEM W 142A,CHEM 109A,false,false
+CHEM W 142A,CHEM 109B,false,false
+CHEM W 142A,CHEM 109C,false,false
+CHEM 150,CHEM 1A,false,true
+CHEM 150,CHEM 1B,false,true
+CHEM 150,CHEM 1C,false,true
+CHEM 150,CHEM 2A,false,true
+CHEM 150,CHEM 2B,false,true
+CHEM 150,CHEM 2C,false,true
+CHEM 173A,CHEM 113A,false,true
+CHEM 173A,CHEM 113B,false,true
+CHEM 173A,CHEM 113C,false,true
+CHEM 173A,CHEM 112A,false,true
+CHEM 173A,CHEM 112B,false,true
+CHEM 173A,CHEM 112C,false,true
+CH ST 140,CH ST 1A,false,true
+CH ST 140,CH ST 1B,false,true
+CH ST 140,CH ST 1C,false,true
+CH ST 168B,HIST 17A,false,false
+CH ST 168B,HIST 17B,false,false
+CH ST 168B,HIST 17C,false,false
+CH ST 168B,CH ST 1A,false,true
+CH ST 168B,CH ST 1B,false,true
+CH ST 168B,CH ST 1C,false,true
+CLASS 40H,CLASS 40,true,true
+C LIT 99,Comparative Literature - C LIT 8,false,false
+C LIT 99,ED 30,false,false
+C LIT 99,ED 36,false,false
+DANCE 51,DANCE 56C,false,true
+EEMB 159,MCDB 1A,true,false
+EEMB 159,MCDB 1B,true,false
+EEMB 159,EEMB 2,true,true
+EEMB 159,EEMB 3,true,true
+EEMB 170,MCDB 1A,true,false
+EEMB 170,EEMB 2,true,true
+EEMB 170,MCDB 1B,true,false
+EEMB 170,EEMB 3,true,true
+ECON 150B,ECON 100B,true,true
+ECON 150B,ECON 140A,true,true
+ENGL 65AL,WRIT 2,false,false
+ENGL 103B,WRIT 2,false,false
+ENGL 103B,WRIT 50,false,false
+ENGL 103B,WRIT 109,false,false
+ENGL 103B,ENGL 10,false,true
+ENGL 122CC,WRIT 2,false,false
+ENGL 122CM,WRIT 2,false,false
+ENGL 122UE,WRIT 2,false,false
+ENGL 124,WRIT 2,false,false
+ENGL 124,WRIT 50,false,false
+ENGL 124,WRIT 109,false,false
+ENGL 124,ENGL 10,false,true
+ENGL 134AA,WRIT 2,false,false
+ENGL 134AL,WRIT 2,false,false
+ENGL 148KC,WRIT 2,false,false
+ENGL 170SB,WRIT 2,false,false
+ENGL 171LE,WRIT 2,false,false
+ENGL 171LE,WRIT 50,false,false
+ENGL 171LE,WRIT 109,false,false
+ENGL 171LE,ENGL 10,false,true
+ENGL 184,WRIT 2,false,false
+ENGL 184,WRIT 50,false,false
+ENGL 184,WRIT 109,false,false
+ENGL 184,ENGL 10,false,true
+ENGL 192DF,WRIT 2,false,false
+ENGL 192DF,WRIT 50,false,false
+ENGL 192DF,WRIT 109,false,false
+ENGL 192DF,ENGL 10,false,true
+ENGL 193,WRIT 2,false,false
+ENGL 193,WRIT 50,false,false
+ENGL 193,WRIT 109,false,false
+ENGL 193,ENGL 10,false,true
+ENV S 122CC,WRIT 2,false,false
+ENV S 160,ENV S 1,false,true
+ENV S 160,ENV S 2,false,true
+ENV S 160,ENV S 3,false,true
+ENV S 160,WRIT 2,false,false
+ENV S 160,WRIT 2E,false,false
+ENV S 160,WRIT 2L,false,false
+ENV S 160,WRIT 105A,false,false
+ENV S 160,WRIT 105Z,false,false
+ENV S 160,WRIT 107A,false,false
+ENV S 160,WRIT 107Z,false,false
+ENV S 160,WRIT 109A,false,false
+FAMST 109EM,ES 46,false,false
+FAMST 109EP,ES 46,false,false
+FAMSTW 151FA,MS 46,false,false
+FAMST 155SW,ES 46,false,false
+FAMST 192DT,ED 96,true,false
+GEOG 176A,GEOG 12,false,true
+HIST 105CW,HIST 2C,false,true
+HIST 105CW,HIST 4C,false,true
+HIST 105CW,HIST 17C,false,true
+HIST 114A,HIST 2A,false,true
+HIST 114A,HIST 4A,false,true
+HIST 114A,RG ST 80A,false,false
+HIST 123B,HIST 2C,false,true
+HIST 123B,HIST 4C,false,true
+HIST 151C,HIST 8,false,true
+HIST 184B,HIST 2A,false,true
+HIST 184B,HIST 2B,false,true
+HIST 184B,HIST 2C,false,true
+HIST 184B,HIST 80,false,true
+HIST 184B,EACS 80,false,false
+LAIS 151C,HIST 8,false,false
+LING 129,LING 20,false,true
+LING 194,LING 20,false,true
+MATH 100B,MAT 100A,false,false
+ME 14,MAT 2B,false,false
+ME 14,MAT 3B,false,false
+ME 14,PHYS 1,false,false
+ME 16,PHYS 2,false,false
+ME 16,ME 14,false,true
+MCDB 6,CHEM 1A,false,false
+MCDB 6,CHEM 1B,false,false
+MCDB W 108A,MCDB 1A,true,false
+MCDB W 108A,EEMB 2,true,false
+MCDB W 108A,MCDB 1B,true,false
+MCDB W 108A,CHEM 1A,false,false
+MCDB W 108A,CHEM 1B,false,false
+MCDB W 108A,CHEM 1C,false,false
+MCDB W 108A,CHEM 109A,false,false
+MCDB W 108A,CHEM 109B,false,false
+MCDB W 108A,CHEM 109C,false,false
+MCDB W 138,MCDB 101A,false,false
+MCDB W 138,EEMB 129,false,false
+PHIL 164,PHIL 20B,false,true
+PHIL 164,PHIL 100B,false,true
+PHIL 164,PHIL 100D,false,true
+PHIL 164,PHIL 100E,false,true
+PHYS 100A,MAT 6B,false,false
+PHYS 100B,MAT 5C,false,false
+PHYS 100B,MAT 6B,false,false
+PHYS 103,PHYS 2,false,true
+PHYS 103,PHYS 22,false,true
+PHYS 103,MAT 6A,false,false
+PHYS 119A,PHYS 5,false,true
+PHYS 119A,PHYS 25,false,true
+PHYS 119A,PHYS 115A,false,true
+POL SW 121,POL S 7,false,false
+POL S 146,POL S 6,false,true
+POL S 146,POL S 7,false,true
+PSY 134,PSY 111,false,true
+PSY 134,MCDB 126,false,false
+PSY 183,PSY 1,false,true
+PSTATW 120A,MAT 3C,false,false
+PSTATW 120A,MAT 4A,false,false
+PSTATW 120A,MAT 6A,false,false
+PSTATW 182T,Statistics & Applied Probability - PSTAT 120A,false,false
+WRIT W 107WC,WRIT 2,false,false
+WRIT W 107WC,WRIT 2L,false,false
+WRIT W 107WC,WRIT 2E,false,false
+WRIT W 107WC,WRIT 36,false,false
+WRIT W 107WC,WRIT 4,false,false
+WRIT W 107WC,WRIT 37,false,false
+WRIT W 107WC,WRIT 1,false,false
+WRIT W 107WC,WRIT 6,false,false
+WRIT W 109ST,WRIT 2,false,false
+WRIT W 109ST,WRIT 2L,false,false
+WRIT W 109ST,WRIT 2E,false,false
+WRIT W 109ST,WRIT 36,false,false
+WRIT W 109ST,WRIT 4,false,false
+WRIT W 109ST,WRIT 37,false,false
+WRIT W 109ST,WRIT 1,false,false
+WRIT W 109ST,WRIT 6,false,false
+ANTH 129MG,ANTH 5,false,true
+ANTH 129MG,ANTH 7,false,true
+ANTH 153T,ANTH 5,false,true
+ANTH 153T,ANTH 7,false,true
+ANTH 186Z,ANTH 3,false,true
+ART 189A,ART 7D,true,true
+BIOE 120A,CHEM 1B,true,false
+BIOE 120A,MAT 6B,true,false
+BIOE 120A,PHYS 3,true,false
+CH E 10,CH E 5,false,true
+CH E 10,CHEM 1A,false,false
+CH E 10,CHEM 1B,false,false
+CH E 10,CHEM 1C,false,false
+CH E 10,CHEM 2A,false,false
+CH E 10,CHEM 2B,false,false
+CH E 10,CHEM 2C,false,false
+CH E 10,MAT 2A,false,false
+CH E 10,MAT 3A,false,false
+CH E 10,MAT 2B,false,false
+CH E 10,MAT 3B,false,false
+CH E 10,MAT 4A,false,false
+CH E 120A,CH E 10,false,true
+CH E 120A,MAT 4B,false,false
+CH E 120A,MAT 6A,false,false
+CH E 120A,MAT 6B,false,false
+CH E 128,CH E 10,true,true
+CH E 128,CH E 110A,true,true
+CH E 128,CH E 110B,true,true
+CH E 132B,MAT 4B,false,false
+CH E 132B,MAT 6A,false,false
+CH E 132B,MAT 6B,true,false
+CH E 132B,ENGR 3,true,false
+CH E 140B,CH E 110A,true,true
+CH E 140B,CH E 110B,true,true
+CH E 140B,CH E 120A,true,true
+CH E 140B,CH E 120B,true,true
+CH E 140B,CH E 140A,true,true
+CH E 152A,CH E 120A,true,true
+CH E 152A,CH E 120B,true,true
+CH E 152A,CH E 120C,true,true
+CH E 152A,CH E 140A,true,true
+CHEM 25,ED 1B,false,false
+CHEM 25,CHEM 1A,false,true
+CHEM 25,CHEM 2A,false,true
+CHEM 102,CHEM 1A,false,true
+CHEM 102,CHEM 1B,false,true
+CHEM 102,CHEM 1C,false,true
+CHEM 109AH,CHEM 1B,false,true
+CHEM 109AH,CHEM 2B,false,true
+CHEM 109AH,CHEM 1C,false,true
+CHEM 109AH,CHEM 2C,false,true
+CHEM 110L,CHEM 142A,false,true
+CHEM 112A,CHEM 1C,false,true
+CHEM 112A,CHEM 2C,false,true
+CHEM 112A,MAT 2A,false,false
+CHEM 112A,MAT 2B,false,false
+CHEM 112A,MAT 3A,false,false
+CHEM 112A,MAT 3B,false,false
+CHEM 112A,MAT 4A,false,false
+CHEM 112A,MAT 3C,false,false
+CHEM 112A,MAT 6A,false,false
+CHEM 112A,MAT 5A,false,false
+CHEM 112A,PHYS 1,true,false
+CHEM 112A,PHYS 2,true,false
+CHEM 112A,PHYS 3,true,false
+CHEM 112A,PHYS 3L,true,false
+CHEM 112A,PHYS 4,true,false
+CHEM 112A,PHYS 4L,true,false
+CHEM 112A,PHYS 6A,true,false
+CHEM 112A,PHYS 6B,true,false
+CHEM 112A,PHYS 6C,true,false
+CHEM 112A,CHEM 142A,false,true
+CHEM 112A,MCDB 108A,false,false
+CHEM 113A,CHEM 1C,false,true
+CHEM 113A,CHEM 2C,false,true
+CHEM 113A,MAT 2A,false,false
+CHEM 113A,MAT 2B,false,false
+CHEM 113A,MAT 3A,false,false
+CHEM 113A,MAT 3B,false,false
+CHEM 113A,MAT 4A,false,false
+CHEM 113A,MAT 3C,false,false
+CHEM 113A,MAT 6A,false,false
+CHEM 113A,MAT 5A,false,false
+CHEM 113A,PHYS 1,false,false
+CHEM 113A,PHYS 2,false,false
+CHEM 113A,PHYS 3,false,false
+CHEM 113A,PHYS 3L,false,false
+CHEM 113A,PHYS 4,false,false
+CHEM 113A,PHYS 4L,false,false
+CHEM 113A,PHYS 6A,false,false
+CHEM 113A,PHYS 6B,false,false
+CHEM 113A,PHYS 6C,false,false
+CHEM 115A,MAT 4B,false,false
+CHEM 115A,CHEM 113A,false,true
+CHEM 115A,CHEM 113B,false,true
+CHEM 115A,CHEM 113C,false,true
+CHEM 115A,CHEM 112A,false,true
+CHEM 115A,CHEM 112B,false,true
+CHEM 115A,CHEM 112C,false,true
+CHEM 116CL,CHEM 113C,true,true
+CHEM 116CL,CHEM 116B,true,true
+CHEM 116CL,CHEM 173A,false,true
+CHEM 129,CHEM 107A,false,true
+CHEM 129,CHEM 107B,false,true
+CHEM 129,CHEM 107C,false,true
+CHEM 129,CHEM 109A,false,true
+CHEM 129,CHEM 109B,false,true
+CHEM 129,CHEM 109C,false,true
+CHEM 132,CHEM 109A,true,true
+CHEM 132,CHEM 109B,true,true
+CHEM 132,CHEM 109C,true,true
+CHEM 132,CHEM 129,true,true
+CHEM 142A,CHEM 107A,false,true
+CHEM 142A,CHEM 107B,false,true
+CHEM 142A,CHEM 107C,false,true
+CHEM 142A,CHEM 109A,false,true
+CHEM 142A,CHEM 109B,false,true
+CHEM 142A,CHEM 109C,false,true
+CHEM 162A,CHEM 142A,false,true
+CHEM 162A,CHEM 142B,false,true
+CHEM 162A,CHEM 142C,false,true
+CHEM 162A,MCDB 108A,false,false
+CHEM 162A,MCDB 108B,false,false
+CHEM 162A,MCDB 108C,false,false
+CH ST 156,CH ST 1A,true,true
+CH ST 156,CH ST 1B,true,true
+CH ST 156,CH ST 1C,true,true
+CHIN 4NH,CHIN 3N,false,true
+CHIN 122A,CHIN 6,false,true
+CHIN 122A,CHIN 5N,false,true
+CHIN 126A,CHIN 6,false,true
+CHIN 127A,CHIN 122C,false,true
+CLASS 20AH,CLASS 20A,true,true
+C LIT 50C,WRIT 2,false,false
+C LIT 192CH,ED 12,false,false
+CMPSC 24A,CMPSC 16,false,true
+CMPSC 24A,MAT 3B,false,false
+CMPSC 24A,MAT 2B,false,false
+CMPSC 110,CMPSC 40,true,true
+CMPSC 110,CMPSC 32,true,true
+CMPSC 180,CMPSC 130B,false,true
+CMPSC 189A,CMPSC 48,false,true
+CMPSC 189A,CMPSC 56,false,true
+CMPSC 189A,CMPSC 148,false,true
+CMPSC 189A,CMPSC 156,false,true
+CMPSC 189A,CMPSC 172,false,true
+DANCE 47D,DANCE 47C,false,true
+DANCE 56D,DANCE 56C,false,true
+DANCE 147A,DANCE 47F,false,true
+DANCE 147D,DANCE 147C,false,true
+DANCE 151A,DANCE 50,true,true
+DANCE 151A,DANCE 51,true,true
+DANCE 156A,DANCE 56F,false,true
+DANCE 156D,DANCE 156C,false,true
+DANCE 158,DANCE 56F,true,true
+DANCE 158,DANCE 58,true,true
+EARTH 100,MAT 3C,false,false
+EARTH 100,MAT 4A,false,false
+EARTH 100,MAT 4B,false,false
+EARTH 100,PHYS 1,false,false
+EARTH 100,PHYS 2,false,false
+EARTH 100,PHYS 3,false,false
+EARTH 100,PHYS 6A,false,false
+EARTH 100,PHYS 6B,false,false
+EARTH 100,PHYS 6C,false,false
+EARTH 111L,ART 111,false,false
+EARTH 114,ART 2,false,false
+EARTH 114,CHEM 1A,false,false
+EARTH 125,ART 173,false,false
+EARTH 125,GEOG 116,false,false
+EARTH 127,ART 104A,true,false
+EARTH 127,ART 114,true,false
+EARTH 157,ART 2,false,false
+EARTH 185,ART 104A,true,false
+EARTH 185,ART 114,true,false
+EARTH 185,ART 115,true,false
+EEMB 101,EEMB 2,false,true
+EEMB 101,MCDB 1A,false,false
+EEMB 101,MCDB 3,false,false
+EEMB 112,MCDB 1A,true,false
+EEMB 112,MCDB 1B,true,false
+EEMB 112,EEMB 2,true,true
+EEMB 112,EEMB 3,true,true
+EEMB 113,MCDB 1A,true,false
+EEMB 113,EEMB 2,true,true
+EEMB 113,MCDB 1B,true,false
+EEMB 113,EEMB 3,true,true
+EEMB 113L,EEMB 113,false,true
+EEMB 133,MCDB 1A,true,false
+EEMB 133,MCDB 1B,true,false
+EEMB 133,EEMB 2,true,true
+EEMB 133,EEMB 3,true,true
+EEMB 136L,EEMB 136,false,true
+EEMB 142A,MCDB 1A,true,false
+EEMB 142A,EEMB 2,true,true
+EEMB 142A,MCDB 1B,true,false
+EEMB 142A,EEMB 3,true,true
+EEMB 142AL,EEMB 142A,false,true
+EEMB 145,MCDB 1A,true,false
+EEMB 145,MCDB 1B,true,false
+EEMB 145,EEMB 2,true,true
+EEMB 145,EEMB 3,true,true
+EEMB 157,MCDB 1A,true,false
+EEMB 157,EEMB 2,true,true
+EEMB 157,MCDB 1B,true,false
+EEMB 157,EEMB 3,true,true
+EEMB 171,ENV S 100,false,false
+EEMB 171,MCDB 1A,false,false
+EEMB 171,MCDB 1B,false,false
+EEMB 171,EEMB 2,false,true
+EEMB 171,EEMB 3,false,true
+EEMB 179H,EEMB 179,true,true
+ECON 113B,ECON 10A,false,true
+ECON 117A,ECON 100B,false,true
+ECON 117A,ECON 104B,false,true
+ECON 117A,ECON 140A,false,true
+ECON 136BH,ECON 136B,false,true
+ECON 180,ECON 100B,false,true
+ECON 180,ECON 104B,false,true
+ECON 180,ECON 101,false,true
+ECON 180,ECON 105,false,true
+ECON 196A,ME 140B,false,false
+ECE 122A,ECE 152A,false,true
+ECE 132,PHYS 4,false,false
+ECE 132,PHYS 24,false,false
+ECE 132,MAT 4B,false,false
+ECE 132,MAT 5A,false,false
+ECE 134,PHYS 3,false,false
+ECE 134,PHYS 23,false,false
+ECE 134,MAT 4B,false,false
+ECE 134,MAT 5A,false,false
+ECE 134,MAT 5B,false,false
+ECE 134,MAT 6A,false,false
+ECE 134,MAT 5C,false,false
+ECE 134,MAT 6B,false,false
+ECE 145A,ECE 137A,false,true
+ECE 145A,ECE 137B,false,true
+ECE 147A,ECE 130A,false,true
+ECE 147A,ECE 130B,false,true
+ECE 154A,ECE 152A,false,true
+ECE 157A,ECE 152A,false,true
+ECE 158,ECE 130A,false,true
+ECE 158,ECE 130B,false,true
+ECE 162A,ECE 130A,true,true
+ECE 162A,ECE 130B,true,true
+ECE 162A,ECE 134,true,true
+ECE 179D,ECE 130A,false,true
+ECE 179D,ME 155A,false,false
+ECE 188A,ECE 130A,true,true
+ECE 188A,ECE 130B,true,true
+ECE 188A,ECE 137A,true,true
+ECE 188A,ECE 137B,true,true
+ECE 189A,ECE 153B,false,true
+ENGL 15S,ENGL 15,false,true
+ENGL 22S,ENGL 22,false,true
+ENGL 50S,ENGL 50,false,true
+ENGL 110A,WRIT 2,false,false
+ENGL 110A,WRIT 50,false,false
+ENGL 110A,WRIT 109,false,false
+ENGL 110A,ENGL 10,false,true
+ENGL 122ME,WRIT 2,false,false
+ENGL 131BR,WRIT 2,false,false
+ENGL 131BR,WRIT 50,false,false
+ENGL 131BR,WRIT 109,false,false
+ENGL 131BR,ENGL 10,false,true
+ENGL 147GM,WRIT 2,false,false
+ENGL 165EM,WRIT 2,false,false
+ENGL 170TL,WRIT 2,false,false
+ENGL 176ML,WRIT 2,false,false
+ENGL 176ML,WRIT 50,false,false
+ENGL 176ML,WRIT 109,false,false
+ENGL 176ML,ENGL 10,false,true
+ENGL 192SC,WRIT 2,false,false
+ENGL 192SC,WRIT 50,false,false
+ENGL 192SC,WRIT 109,false,false
+ENGL 192SC,ENGL 10,false,true
+ENGL 192SF,WRIT 2,false,false
+ENGL 192SF,WRIT 50,false,false
+ENGL 192SF,WRIT 109,false,false
+ENGL 192SF,ENGL 10,false,true
+ENGL 192SS,WRIT 2,false,false
+ENGL 192SS,WRIT 50,false,false
+ENGL 192SS,WRIT 109,false,false
+ENGL 192SS,ENGL 10,false,true
+ENV S 1H,ENV S 1,false,true
+ENV S 30,MAT 34A,false,false
+ENV S 30,MAT 3A,false,false
+ENV S 30,MAT 2A,false,false
+ENV S 129,ENV S 1,false,true
+ENV S 129,ENV S 2,false,true
+ENV S 129,ENV S 3,false,true
+ENV S 130A,ENV S 1,false,true
+ENV S 130A,ENV S 3,false,true
+ENV S 130A,ANTH 2,false,false
+ENV S 133,MCDB 1A,true,false
+ENV S 133,MCDB 1B,true,false
+ENV S 133,EEMB 2,true,false
+ENV S 133,EEMB 3,true,false
+ENV S 171,MCDB 1A,true,false
+ENV S 171,MCDB 1B,true,false
+ENV S 171,EEMB 2,true,false
+ENV S 171,EEMB 3,true,false
+ENV S 171,EEMB 1,false,false
+ENV S 171,EEMB 60,false,false
+ENV S 171,EEMB 100,false,false
+ENV S 171,CHEM 1A,false,false
+ENV S 171,CHEM 1B,false,false
+ENV S 171,CHEM 1C,false,false
+ENV S 171,CHEM 15A,false,false
+ENV S 171,CHEM 15B,false,false
+ENV S 178,POL S 12,false,false
+ENV S 178,ENV S 3,false,true
+FEMST 133,MS 20,false,false
+FEMST 133,MS 30,false,false
+FEMST 133,MS 40,false,false
+FEMST 133,MS 50,false,false
+FEMST 133,MS 60,false,false
+FEMST 133,MS 80,false,false
+FEMST 159B,HIST 17A,false,false
+FEMST 159B,HIST 17B,false,false
+FEMST 159B,HIST 17C,false,false
+FEMST 164,MS 20,false,false
+FEMST 164,MS 30,false,false
+FEMST 164,MS 40,false,false
+FEMST 164,MS 50,false,false
+FEMST 164,MS 60,false,false
+FEMST 164,MS 80,false,false
+FEMST 195HA,MS 195H,false,false
+FAMST 101B,MS 46,true,false
+FAMST 101B,MS 70,true,false
+FAMST 106A,ES 46,false,false
+FAMST 106A,ES 102,false,false
+FAMST 106A,ES 104,false,false
+FAMST 106A,ES 107,false,false
+FAMST 112,MS 46,false,false
+FAMST 122ME,MS 46,false,false
+FAMST 155SR,ES 46,false,false
+FAMST 163,ES 46,false,false
+FAMST 165BA,ES 46,false,false
+FAMST 169,ES 46,false,false
+FAMST 175,ES 46,false,false
+FAMST 187AA,ES 46,false,false
+FAMST 187GG,ES 46,false,false
+FAMST 187YC,ES 46,false,false
+FAMST 189TW,MS 46,false,false
+FAMST 189TW,MS 70,false,false
+FAMST 192FT,ED 96,true,false
+FR 50CX,WRIT 2,false,false
+FR 101A,FR 100,false,true
+FR 101A,FR 26,false,true
+FR 149D,FR 101A,true,true
+FR 149D,FR 101B,true,true
+FR 149D,FR 101C,true,true
+FR 149D,FR 104A,true,true
+FR 149D,FR 104B,true,true
+FR 149D,FR 104C,true,true
+FR 149D,FR 104D,true,true
+FR 162A,FR 100,false,true
+GEOG 108,GEOG 5,false,true
+GEOG 115A,GEOG 3,false,true
+GEOG 115A,GEOG 3A,false,true
+GEOG 133,GEOG 110,false,true
+GEOG 141A,GEOG 5,false,true
+GEOG 172,LIT 5A,false,false
+GEOG 172,BIOL 30,false,false
+GEOG 172,PSY 5,false,false
+GEOG 172,COMM 87,false,false
+GER 101A,GER 6,false,true
+GER 106,GER 1,false,true
+GER 106,GER 6,false,true
+GLOBL 140,GLOBL 1,true,true
+GLOBL 140,GLOBL 2,true,true
+GLOBL 196SJ,HIST 74,false,false
+GREEK 100,GREEK 3,false,true
+GREEK 110,GREEK 102,false,true
+HIST 106B,HIST 4B,false,true
+HIST 115A,HIST 2B,false,true
+HIST 115A,HIST 4B,false,true
+HIST 124A,HIST 2C,false,true
+HIST 124A,HIST 4C,false,true
+HIST 133D,HIST 2C,false,true
+HIST 133D,HIST 4C,false,true
+HIST 133Q,HIST 33D,false,true
+HIST 133Q,HIST 133B,false,true
+HIST 133Q,HIST 133C,false,true
+HIST 133Q,HIST 133D,false,true
+HIST 135C,HIST 4B,false,true
+HIST 135C,HIST 4C,false,true
+HIST 136M,HIST 9,false,true
+HIST 136M,HIST 8,false,true
+HIST 136M,HIST 17A,false,true
+HIST 136M,HIST 168B,false,true
+HIST 145A,HIST 46,false,true
+HIST 145A,ES 45,false,false
+HIST 149AD,HIST 8,false,true
+HIST 149AD,HIST 49A,false,true
+HIST 149AD,HIST 49B,false,true
+HIST 159B,HIST 17A,false,true
+HIST 159B,HIST 17B,false,true
+HIST 159B,HIST 17C,false,true
+HIST 168A,HIST 17A,false,true
+HIST 168A,HIST 17B,false,true
+HIST 168A,HIST 17C,false,true
+HIST 168A,CH ST 1A,false,false
+HIST 168A,CH ST 1B,false,false
+HIST 168A,CH ST 1C,false,false
+HIST 184E,HIST 2A,false,true
+HIST 184E,HIST 2B,false,true
+HIST 184E,HIST 2C,false,true
+HIST 187R,HIST 87,false,true
+ITAL 101,ITAL 6,false,true
+JAPAN 4,JAPAN 3,false,true
+JAPANW 120A,JAPAN 6,false,false
+JAPAN 144,JAPAN 120C,false,true
+JAPAN 144,JAPAN 125,false,true
+JAPAN 181,JAPAN 120C,false,true
+JAPAN 181,JAPAN 125,false,true
+KOR 4,KOR 1,false,true
+KOR 4,KOR 2,false,true
+KOR 4,KOR 3,false,true
+KOR 199,Korean - KOR 2,false,false
+LATIN 100,LATIN 3,false,true
+LATIN 103,LATIN 1,true,true
+LATIN 103,LATIN 2,true,true
+LATIN 103,LATIN 3,true,true
+LATIN 138,LATIN 102,false,true
+LING 101,LING 20,false,true
+LING 117,LING 20,false,true
+LING 127,LING 20,false,true
+LING 134,LING 20,false,true
+MATRL 100A,CHEM 1A,false,false
+MATRL 100A,CHEM 1B,false,false
+MATRL 100A,PHYS 4,false,false
+MATRL 100A,MAT 4B,false,false
+MATRL 100A,MAT 6A,false,false
+MATRL 100A,MAT 6B,false,false
+MATRL 162A,ECE 130A,true,false
+MATRL 162A,ECE 130B,true,false
+MATRL 162A,ECE 134,true,false
+MATRL 185,MAT 100B,false,false
+MATRL 185,MAT 101,false,false
+MATH 94,MAT 3C,false,false
+MATH 94,MAT 4A,false,false
+MATH 94,MAT 4B,false,false
+MATH 94,MAT 5A,false,false
+MATH 94,MAT 5B,false,false
+MATH 94,MAT 5C,false,false
+MATH 94,MAT 6A,false,false
+MATH 94,MAT 6B,false,false
+MATH 102A,MAT 8,false,false
+MATH 111A,MAT 8,true,false
+MATH 111A,MAT 108A,true,false
+MATH 113,MAT 8,false,false
+MATH 118A,MAT 5A,false,false
+MATH 118A,MAT 5B,false,false
+MATH 118A,MAT 4B,false,false
+MATH 118A,MAT 6A,false,false
+MATH 118A,MAT 108A,true,false
+MATH 118A,MAT 117,true,false
+MATH 119A,MAT 5A,false,false
+MATH 119A,MAT 5B,false,false
+MATH 119A,MAT 4B,false,false
+MATH 119A,MAT 6A,false,false
+MATH 119A,MAT 8,false,false
+MATH 190,MAT 3C,false,false
+MATH 190,MAT 4A,false,false
+MATH 190,MAT 4B,false,false
+MATH 190,MAT 5A,false,false
+MATH 190,MAT 5B,false,false
+MATH 190,MAT 5C,false,false
+MATH 190,MAT 6A,false,false
+MATH 190,MAT 6B,false,false
+MATH 190,MAT 94,false,false
+ME 105,ME 151B,false,true
+ME 105,ME 152B,false,true
+ME 105,ME 163,false,true
+ME 105,MAT 101,false,false
+ME 105,MAT 100B,false,false
+ME 128,ENGR 10,true,false
+ME 128,ENGR 14,true,false
+ME 128,ENGR 15,true,false
+ME 128,ENGR 16,true,false
+ME 128,ENGR 153,true,false
+ME 140A,ME 17,false,true
+ME 151A,PHYS 2,false,false
+ME 151A,ME 14,false,true
+ME 151A,MAT 5C,false,false
+ME 151A,MAT 6B,false,false
+ME 152A,MAT 5C,false,false
+ME 152A,MAT 6B,false,false
+ME 152A,ME 16,false,true
+ME 154,ME 15,false,true
+ME 154,ME 16,false,true
+ME 156A,ME 14,false,true
+ME 156A,ME 15,false,true
+ME 156A,MAT 101,false,false
+ME 156A,MAT 100B,false,false
+ME 157,ENGR 151A,false,false
+ME 157,ENGR 151B,false,false
+ME 157,ENGR 152A,false,false
+ME 157,ENGR 152B,false,false
+ME 167,ME 15,false,true
+ME 179D,ECE 130A,false,false
+ME 179D,ME 155A,false,true
+ME 179L,ENGR 3,false,false
+ME 179L,ME 6,false,true
+ME 179L,ECE 2A,false,false
+ME 179L,ME 170C,false,true
+ME 179L,ECE 181C,false,false
+ME 185,MAT 100B,false,false
+ME 185,MAT 101,false,false
+ME 189A,ME 151C,false,true
+ME 189A,ME 152B,false,true
+ME 189A,ME 153,false,true
+ME 189A,ME 163,false,true
+MS 141,MS 133,false,true
+MCDB 11,CHEM 1A,false,false
+MCDB 11,CHEM 2A,false,false
+MCDB 15HG,ME 1S,false,false
+MCDB 15SF,ME 1S,false,false
+MCDB 101L,MCDB 101A,false,true
+MCDB 101L,MCDB 101B,false,true
+MCDB 101L,EEMB 129,false,false
+MCDB 103,MCDB 1A,true,true
+MCDB 103,EEMB 2,true,false
+MCDB 103,MCDB 1B,true,true
+MCDB 126,MCDB 101A,false,true
+MCDB 126,CHEM 142C,false,false
+MCDB 126,CHEM 109A,false,false
+MCDB 126,CHEM 109B,false,false
+MCDB 126,CHEM 109C,false,false
+MCDB 126AL,MCDB 126,false,true
+MCDB 126AL,MCDB 126A,false,true
+MCDB 131,MCDB 101A,false,true
+MCDB 131,CHEM 109A,false,false
+MCDB 131,CHEM 109B,false,false
+MCDB 131,CHEM 109C,false,false
+MCDB 131,MCDB 110,false,true
+MCDB 131L,MCDB 131,false,true
+MCDB 151,MCDB 1A,true,true
+MCDB 151,MCDB 1B,true,true
+MUS 5A,MUS 11,false,true
+MUS 35A,MUS 33,false,true
+MUS 101A,MUS 5C,false,true
+MUS 135A,MUS 33,false,true
+MUS 158B,MUS 25,false,true
+MUS 160A,MUS 4C,false,true
+MUS 160A,MUS 5C,false,true
+PHIL 135,PHIL 100B,false,true
+PHIL 135,PHIL 100D,false,true
+PHIL 135,PHIL 100E,false,true
+PHIL 149,PHIL 100B,true,true
+PHIL 149,PHIL 100C,true,true
+PHIL 149,PHIL 100D,true,true
+PHIL 149,PHIL 100E,true,true
+PHYS 13AL,PHYS 3,false,true
+PHYS 13AL,PHYS 23,false,true
+PHYS CS 15A,PHYS 31,false,false
+PHYS 20AL,PHYS 2,false,true
+PHYS 20AL,PHYS 22,false,true
+PHYS 20AL,PHYS 3,false,true
+PHYS 20AL,PHYS 23,false,true
+PHYS 120,PHYS 5,false,true
+PHYS 120,PHYS 25,false,true
+PHYS 123A,PHYS 115A,false,true
+PHYS 136,PHYS 2,false,true
+PHYS 136,PHYS 22,false,true
+POL S 118,POL S 6,false,true
+POL S 118,POL S 7,false,true
+POL S 118,POL S 15,false,true
+POL S 121,POL S 7,false,true
+POL S 140,POL S 6,false,true
+POL S 140,GLOBL 2,false,false
+POL S 149,POL S 6,true,true
+POL S 149,POL S 15,true,true
+POL S 166,POL S 15,false,true
+POL S 175,POL S 12,false,true
+POL S 175,ENV S 3,false,false
+POL S 178,POL S 12,false,true
+PORT 4,PORT 3,false,true
+PORT 4,PORT 16B,false,true
+PORT 102A,PORT 6,false,true
+PSY 136,PSY 106,false,true
+PSY 136,PSY 111,false,true
+PSY 153,PSY 102,false,true
+PSY 153,PSY 106,false,true
+PSY 153,PSY 111,false,true
+PSY 190L,Psychology - PSY 2,false,false
+PSY 190L,PSY 99P,false,true
+PSY 190L,PSY 199P,false,true
+PSY 190L,MUS 3,false,false
+PSY 190L,MUS 0,false,false
+PSY 190L,ED 3,false,false
+RG ST 10D,RG ST 10A,false,true
+RG ST 10D,RG ST 10B,false,true
+RG ST 10D,RG ST 10C,false,true
+RG ST 58D,RG ST 57E,false,true
+RG ST 58D,RG ST 58C,false,true
+RG ST 135,RG ST 30F,false,true
+RG ST 148A,RG ST 10F,false,true
+RG ST 159G,RG ST 159D,false,true
+RG ST 159G,RG ST 159E,false,true
+RG ST 159G,RG ST 159F,false,true
+RUSS 4,RUSS 3,false,true
+RUSS 101D,RUSS 6,false,true
+SPAN 156,SPAN 102L,false,true
+SPAN 156,SPAN 30,false,true
+SPAN 175,SPAN 102L,false,true
+SPAN 175,SPAN 30,false,true
+SPAN 178,SPAN 16A,false,true
+SPAN 178,SPAN 16B,false,true
+SPAN 178,SPAN 25,false,true
+SPAN 188,SPAN 102L,false,true
+SPAN 188,SPAN 30,false,true
+PSTAT 5H,ME 5A,false,false
+PSTAT 5H,ME 5L,false,false
+PSTAT 5H,ME 109,false,false
+PSTAT 175,PSTAT 10,true,true
+PSTAT 175,PSTAT 120B,true,true
+PSTAT 197A,PSTAT 126,false,true
+THTR 10A,THTR 5,false,true
+THTR 11A,THTR 5,false,true
+THTR 15A,THTR 5,false,true
+THTR 40,THTR 5,false,true
+THTR 110A,THTR 10C,false,true
+THTR 110A,THTR 151A,false,true
+THTR 111A,THTR 11C,false,true
+THTR 111A,ME 151A,false,false
+THTR 112,THTR 111C,false,true
+THTR 151A,THTR 15C,true,true
+THTR 151A,THTR 188S,true,true
+THTR 151A,THTR 110A,true,true
+THTR 151A,THTR 111A,true,true
+THTR 151F,THTR 151C,false,true
+THTR 152D,THTR 152C,false,true
+THTR 199RA,Theater - THTR 2,false,false
+WRIT 1E,ED 6,false,false
+ANTH 116A,ANTH 2,false,true
+ANTH 138,ANTH 2,false,true
+ANTH 147,ANTH 2,false,true
+ANTH 167,ANTH 3,false,true
+ANTH 167,ANTH 3S,false,true
+BIOE 120B,BIOE 120A,false,true
+BIOE 120B,ENGR 120A,false,false
+CH E 141,CH E 110A,false,true
+CH E 141,CH E 140A,false,true
+CH E 146,CH E 140A,false,true
+CH E 154,CH E 170,false,true
+CH E 154,CH E 107,false,true
+CH E 154,MAT 4B,false,false
+CH E 154,MAT 6A,false,false
+CH E 154,MAT 6B,false,false
+CHEM 104,CH E 110A,true,false
+CHEM 104,CH E 140A,true,false
+CHEM 113AL,CHEM 113A,false,true
+CHEM 143,CHEM 142A,false,true
+CHEM 143,CHEM 142B,false,true
+CHEM 143,CHEM 142C,false,true
+CHEM 143,MCDB 108A,false,false
+CHEM 143,MCDB 108B,false,false
+CHEM 143,MCDB 108C,false,false
+CHEM 163,CHEM 109A,false,true
+CHEM 163,CHEM 109B,false,true
+CHEM 163,CHEM 109C,false,true
+CHEM 186,CHEM 173A,false,true
+CH ST 109,CH ST 1A,false,true
+CH ST 109,CH ST 1B,false,true
+CH ST 109,CH ST 1C,false,true
+CH ST 109,ANTH 2,false,false
+CH ST 190,CH ST 1A,false,true
+C LIT 34,FR 34,false,false
+C LIT 107,WRIT 2,false,false
+CMPSC 148,CMPSC 32,false,true
+EARTH 141L,Earth Science - EARTH 141,false,false
+EARTH 141L,EEMB 137,false,false
+EEMB 140,MCDB 1A,true,false
+EEMB 140,EEMB 2,true,true
+EEMB 140,MCDB 1B,true,false
+EEMB 140,EEMB 3,true,true
+EEMB 140L,MCDB 1A,true,false
+EEMB 140L,EEMB 2,true,true
+EEMB 140L,MCDB 1B,true,false
+EEMB 140L,EEMB 3,true,true
+EEMB 140L,EEMB 140,false,true
+EEMB 147,MCDB 1A,true,false
+EEMB 147,MCDB 1B,true,false
+EEMB 147,EEMB 2,true,true
+EEMB 147,EEMB 3,true,true
+EEMB 150A,MCDB 1A,true,false
+EEMB 150A,EEMB 2,true,true
+EEMB 150A,MCDB 1B,true,false
+EEMB 150A,EEMB 3,true,true
+EEMB 165,MCDB 1A,true,false
+EEMB 165,MCDB 1B,true,false
+EEMB 165,EEMB 2,true,true
+EEMB 165,EEMB 3,true,true
+ECON 191D,ECON 10A,false,true
+ECON 191D,ECON 100A,false,true
+ECON 191D,ECON 104A,false,true
+ECE 136B,PHYS 5,false,false
+ECE 136B,PHYS 5L,false,false
+ENGL 110B,ENGL 110A,false,true
+ENGL 132PR,WRIT 2,false,false
+ENGL 132WE,WRIT 2,false,false
+ENGL 134NA,WRIT 2,false,false
+ENGL 141MC,WRIT 2,false,false
+ENGL 149,WRIT 2,false,false
+ENGL 149,WRIT 50,false,false
+ENGL 149,WRIT 109,false,false
+ENGL 149,ENGL 10,false,true
+ENGL 171NH,WRIT 2,false,false
+ENGL 171NH,WRIT 50,false,false
+ENGL 171NH,WRIT 109,false,false
+ENGL 171NH,ENGL 10,false,true
+ENGL 187ML,WRIT 2,false,false
+ENGL 187ML,WRIT 50,false,false
+ENGL 187ML,WRIT 109,false,false
+ENGL 187ML,ENGL 10,false,true
+ENV S 147,MAT 3A,false,false
+ENV S 147,MAT 34A,false,false
+ENV S 147,ENV S 25,false,true
+ENV S 147,CHEM 1A,false,false
+ENV S 147,CHEM 1B,false,false
+ENV S 147,ENV S 15A,false,true
+ENV S 147,ENV S 15B,false,true
+PHYS 138,PHYS 119B,false,true
+FAMST 101A,MS 46,true,false
+FAMST 101A,MS 70,true,false
+FAMST 122NI,MS 46,false,false
+FAMST 155NH,ES 46,false,false
+FAMST 187CO,ES 46,false,false
+FAMST 187FC,ES 46,false,false
+FAMST 187FM,ES 46,false,false
+ITAL 111,ITAL 101,false,true
+ITAL 111,ITAL 102,false,true
+FAMST 187GC,ES 46,false,false
+FAMST 187RW,ES 46,false,false
+SOC 152C,SOC 152A,true,true
+SOC 152C,SOC 152B,true,true
+FAMST 189JA,MS 46,false,false
+FAMST 189JA,MS 70,false,false
+FR 151F,FR 100,false,true
+SPAN 8A,SPAN 2,false,true
+SPAN 8B,SPAN 4,false,true
+SPAN 8B,ME 4,false,false
+SPAN 8B,SPAN 8A,false,true
+SPAN 155B,SPAN 30,false,true
+SPAN 155B,SPAN 102L,false,true
+SPAN 186BI,SPAN 100,false,true
+FR 151G,FR 101A,false,true
+FR 151G,FR 101B,false,true
+FEMST 121,MS 20,false,false
+FEMST 121,MS 30,false,false
+FEMST 121,MS 40,false,false
+FEMST 121,MS 50,false,false
+FEMST 121,MS 60,false,false
+FEMST 121,MS 80,false,false
+FR 151G,FR 101C,false,true
+FR 151G,FR 104A,false,true
+FR 151G,FR 104B,false,true
+FR 151G,FR 104C,false,true
+FR 151G,FR 104D,false,true
+FR 151G,FR 104E,false,true
+FR 151G,FR 104F,false,true
+FR 154A,WRIT 2,false,false
+GEOG 102,GEOG 3A,false,true
+GEOG 102,GEOG 3,false,true
+GEOG 102,GEOG 3B,false,true
+GEOG 102,GEOG 4,false,true
+GEOG 102,GEOG 115A,false,true
+GEOG 142,GEOG 3,false,true
+GEOG 142,GEOG 3A,false,true
+GEOG 142,GEOG 3B,false,true
+GEOG 142,GEOG 4,false,true
+GEOG 142,ENV S 2,false,false
+GEOG 142,ART 1,false,false
+GEOG 142,CHEM 1A,false,false
+GREEK 158,GREEK 102,false,true
+HEB 2,HEB 1,false,true
+HIST 107S,HIST 9,false,true
+HIST 115R,HIST 115,false,true
+HIST 115R,HIST 115X,false,true
+HIST 115R,HIST 118A,false,true
+HIST 115R,HIST 118B,false,true
+HIST 115R,HIST 125,false,true
+HIST 115R,HIST 130,false,true
+HIST 117C,HIST 4B,false,true
+HIST 151B,HIST 8,false,true
+HIST 151Q,HIST 8,false,true
+HIST 153M,HIST 8,false,true
+HIST 153M,HIST 2B,false,true
+HIST 153M,HIST 2C,false,true
+HIST 153M,HIST 193F,false,true
+HIST 153M,HIST 193M,false,true
+HIST 167CA,HIST 17A,false,true
+HIST 167CA,HIST 17B,false,true
+HIST 175D,HIST 17A,false,true
+HIST 175D,HIST 17B,false,true
+HIST 175D,HIST 17C,false,true
+EEMB 130,MCDB 1A,true,false
+EEMB 130,MCDB 1B,true,false
+EEMB 130,EEMB 2,true,true
+EEMB 130,EEMB 3,true,true
+EEMB 155CC,MCDB 1A,true,false
+EEMB 155CC,MCDB 1B,true,false
+EEMB 155CC,EEMB 2,true,true
+EEMB 155CC,EEMB 3,true,true
+HIST 178B,HIST 17A,false,true
+GER 115B,GER 6,true,true
+GER 115B,GER 101A,true,true
+GER 115B,GER 101B,true,true
+GER 115B,GER 101C,true,true
+HIST 178B,HIST 17B,false,true
+HIST 178B,HIST 17C,false,true
+EARTH 117,ART 1,false,false
+EARTH 117,ART 2,false,false
+EARTH 117,GEOG 3B,false,false
+EARTH 186,ART 2,true,false
+EARTH 186,ART 3,true,false
+EARTH 186,ART 104A,true,false
+HIST 187A,HIST 2A,false,true
+ANTH 118TS,ANTH 3,false,true
+ANTH 118TS,ANTH 3S,false,true
+ANTH 118TS,ES 45,false,false
+ANTH 157L,ANTH 2,false,true
+HIST 187A,HIST 2B,false,true
+HIST 187A,HIST 2C,false,true
+HIST 187A,HIST 9,false,true
+HIST 187A,HIST 87,false,true
+JAPANW 5,JAPAN 4,false,false
+JAPANW 120B,JAPAN 120A,false,false
+HIST 115X,HIST 4B,false,true
+HIST 121D,HIST 4B,false,true
+HIST 121D,HIST 9,false,true
+LATIN 2,LATIN 1,false,true
+ENGR 120A,CHEM 1B,true,false
+ENGR 120A,MAT 6B,true,false
+ENGR 120A,PHYS 3,true,false
+CLASS 114,CLASS 50,false,true
+LATIN 116,LATIN 102,false,true
+LAIS 174,SPAN 102L,false,false
+LAIS 174,SPAN 30,false,false
+PHYS 20,MAT 2A,false,false
+PHYS 20,MAT 3A,false,false
+PHYS 20,MAT 3,false,false
+LING 120,LING 20,false,true
+MATH 119B,MAT 6B,true,false
+MATH 119B,MAT 119A,true,false
+MCDB 172,MCDB 1A,true,true
+FR 104C,FR 100,false,true
+FR 104C,FR 26,false,true
+FR 147B,FR 101A,true,true
+FR 147B,FR 101B,true,true
+FR 147B,FR 101C,true,true
+FR 147B,FR 104A,true,true
+FR 147B,FR 104B,true,true
+FR 147B,FR 104C,true,true
+FR 147B,FR 104D,true,true
+MCDB 172,EEMB 2,true,false
+MCDB 172,MCDB 1B,true,true
+MCDB 172,MCDB 101A,false,true
+MUS 115,MUS 15,false,true
+MUS 115,MUS 3A,false,true
+MCDB 172,EEMB 129,false,false
+MCDB 172,MAT 4A,false,false
+ART 122PC,ART 22,false,true
+ART 122PC,ART 7D,false,true
+ART 122PC,ART 1A,false,true
+RG ST 65D,RG ST 65C,false,true
+RG ST 157G,RG ST 57F,false,true
+RG ST 157G,RG ST 58D,false,true
+RG ST 159D,RG ST 159A,false,true
+RG ST 159D,RG ST 159B,false,true
+RG ST 159D,RG ST 159C,false,true
+RG ST 159L,RG ST 159D,false,true
+RG ST 159L,RG ST 159E,false,true
+RG ST 159L,RG ST 159F,false,true
+WRIT 105S,WRIT 2,false,true
+WRIT 105S,WRIT 2E,false,true
+WRIT 105S,WRIT 2L,false,true
+WRIT 109CS,WRIT 2,false,true
+WRIT 109CS,WRIT 2L,false,true
+WRIT 109CS,WRIT 2E,false,true
+LING 131,LING 20,false,true
+MCDB 172,MAT 108C,false,false
+GREEK 154,GREEK 102,false,true
+MUS 101B,MUS 5C,false,true
+LATIN 115,LATIN 102,false,true
+PHIL 150D,PHIL 100A,false,true
+PHIL 150D,PHIL 100B,false,true
+ENV S 100,ENV S 2,false,true
+ENV S 100,ENV S 1,false,true
+ENV S 100,ENV S 3,false,true
+ENV S 100,MCDB 20,false,false
+ENV S 100,EEMB 22,false,false
+ENV S 100,MCDB 1A,false,false
+ENV S 100,EEMB 2,false,false
+ENV S 100,MCDB 1B,false,false
+ENV S 100,EEMB 3,false,false
+ENV S 120A,ENV S 2,false,true
+ENV S 120A,ENV S 60,false,true
+ENV S 120A,MCDB 20,false,false
+ENV S 120A,EEMB 22,false,false
+ENV S 120A,MCDB 1A,false,false
+ENV S 120A,EEMB 2,false,false
+ENV S 120A,CHEM 1A,false,false
+ENV S 120A,CHEM 1B,false,false
+ENV S 120A,ENV S 15A,false,true
+ENV S 120A,ENV S 15B,false,true
+ENV S 131,ENV S 1,false,true
+ENV S 131,ENV S 2,false,true
+ENV S 131,ENV S 3,false,true
+ENV S 172,ENV S 1,false,true
+ENV S 172,ENV S 2,false,true
+ENV S 172,ENV S 3,false,true
+MCDB 103H,MCDB 103,false,true
+MCDB 151H,MCDB 151,false,true
+SHS 122,ES 50,true,false
+PHIL 150D,PHIL 100C,false,true
+PHIL 150D,PHIL 100D,false,true
+PHIL 150D,PHIL 100E,false,true
+FAMST 124,ES 46,false,false
+FAMST 187FT,ES 46,false,false
+FAMST 187NP,ES 46,false,false
+FAMST 189CD,MS 46,false,false
+FAMST 189CD,MS 70,false,false
+FAMST 189MM,MS 46,false,false
+FAMST 189MM,MS 70,false,false
+PHIL 150D,PHIL 100F,false,true
+PHIL 161,PHIL 100B,false,true
+PSTAT 109,MAT 34A,false,false
+PSTAT 109,MAT 34B,false,false
+PSTAT 109,MAT 2A,false,false
+PSTAT 109,MAT 2B,false,false
+PSTAT 109,MAT 3A,false,false
+PSTAT 109,MAT 3B,false,false
+PHIL 161,PHIL 100D,false,true
+PHIL 161,PHIL 100E,false,true
+PHIL 175A,PHIL 100A,false,true
+PHIL 175A,PHIL 100B,false,true
+ENGL 65AA,WRIT 2,false,false
+ENGL 134BB,WRIT 2,false,false
+ENGL 165AA,WRIT 2,false,false
+ENGL 165PL,WRIT 2,false,false
+ENGL 170IC,WRIT 2,false,false
+PHIL 175A,PHIL 100D,false,true
+CH ST 146,CH ST 1A,false,true
+CH ST 146,CH ST 1B,false,true
+CH ST 146,CH ST 1C,false,true
+CH ST 169,CH ST 1A,true,true
+CH ST 169,CH ST 1B,true,true
+CH ST 169,CH ST 1C,true,true
+CH ST 192HR,CH ST 1A,false,true
+CH ST 192HR,CH ST 1B,false,true
+CH ST 192HR,CH ST 1C,false,true
+CH ST 195A,CH ST 1A,true,true
+PHIL 175A,PHIL 100E,false,true
+POL S 110ET,POL S 1,false,true
+POL S 141,POL S 7,false,true
+POL S 143,POL S 6,true,true
+POL S 143,POL S 15,true,true
+PSY 120,PSY 108,false,true
+PSY 163BG,PSY 106,false,true
+PSY 163BG,PSY 111,false,true
+RG ST 159B,RG ST 159A,false,true
+RG ST 159H,RG ST 159D,false,true
+RG ST 159H,RG ST 159E,false,true
+RG ST 159H,RG ST 159F,false,true
+RUSS 101E,RUSS 6,false,true
+SPAN 104,SPAN 100,false,true
+SPAN 110B,SPAN 102L,false,true
+SPAN 110B,SPAN 30,false,true
+SPAN 131,SPAN 102L,false,true
+SPAN 131,SPAN 30,false,true
+SPAN 169,SPAN 102L,false,true
+SPAN 169,SPAN 30,false,true
+SPAN 174,SPAN 102L,false,true
+SPAN 174,SPAN 30,false,true
+SPAN 177,SPAN 16A,false,true
+SPAN 177,SPAN 16B,false,true
+SPAN 177,SPAN 25,false,true
+SPAN 183EB,SPAN 102L,false,true
+SPAN 183EB,SPAN 30,false,true
+PSTAT 135,PSTAT 131,false,true
+PSTAT 135,PSTAT 231,false,true
+PSTAT 135,CMPSC 165B,false,false
+PSTAT 135,CMPSC 9,false,false
+PSTAT 135,CMPSC 16,false,false
+ANTH 9,ANTH 5,false,true
+ANTH 9,ANTH 7,false,true
+ANTH 103,ANTH 5,false,true
+ANTH 115,ANTH 2,false,true
+ANTH 152,ENV S 1,false,false
+ANTH 152,ENV S 3,false,false
+ANTH 152,ANTH 2,false,true
+ANTH 169,ANTH 5,false,true
+ANTH 169,ANTH 7,false,true
+ANTH 174,ANTH 2,false,true
+ART 105TD,ART 12,false,true
+ART 105TD,ART 1A,false,true
+ART 105TD,ART 7C,false,true
+ART 112,ART 14,false,true
+ART 112,ART 1A,false,true
+ART 112,ART 7B,false,true
+CHEM 118,CHEM 113A,false,true
+CHEM 118,CHEM 113B,false,true
+CHEM 118,CHEM 113C,false,true
+CHEM 118,CHEM 112A,false,true
+CHEM 118,CHEM 112B,false,true
+CHEM 118,CHEM 112C,false,true
+CHEM 118,CHEM 150,false,true
+CHEM 134,CHEM 129,false,true
+CHEM 151,MCDB 108A,false,false
+CHEM 151,CHEM 142A,false,true
+CH ST 114,CH ST 1A,false,true
+CH ST 114,CH ST 1B,false,true
+CH ST 114,CH ST 1C,false,true
+CH ST 124,CH ST 1A,false,true
+CH ST 124,CH ST 1B,false,true
+CH ST 124,CH ST 1C,false,true
+CH ST 124,CH ST 124L,false,true
+CH ST 124L,CH ST 124,false,true
+CH ST 162,CH ST 1A,false,true
+CH ST 162,CH ST 1B,false,true
+CH ST 162,CH ST 1C,false,true
+CH ST 162,CH ST 162L,false,true
+CH ST 162L,CH ST 162,false,true
+CHIN 125,CHIN 6,false,true
+CHIN 185T,HIST 2A,false,false
+CHIN 185T,HIST 2B,false,false
+CHIN 185T,HIST 2C,false,false
+CHIN 185T,HIST 80,false,false
+CHIN 185T,CHIN 184A,false,true
+CHIN 185T,CHIN 184B,false,true
+CHIN 185T,CHIN 185A,false,true
+CHIN 185T,CHIN 185B,false,true
+CHIN 185T,EACS 4A,false,false
+CHIN 185T,EACS 4B,false,false
+CMPSC 171,CMPSC 130A,false,true
+DANCE 164,DANCE 47F,false,true
+DANCE 164,DANCE 56F,false,true
+DANCE 167B,DANCE 50,false,true
+DANCE 167B,DANCE 51,false,true
+DANCE 167B,DANCE 151A,false,true
+DANCE 167B,DANCE 167A,false,true
+EARTH 102C,ART 114,true,false
+EARTH 102C,ART 115,true,false
+EARTH 105,ART 1,false,false
+EARTH 105,ART 2,false,false
+EARTH 105,ART 3,false,false
+EARTH 105,ART 4,false,false
+EARTH 113,MAT 3A,false,false
+EARTH 113,MAT 3B,false,false
+EARTH 113,MAT 34A,false,false
+EARTH 113,MAT 34B,false,false
+EARTH 113,PHYS 1,false,false
+EARTH 113,PHYS 6A,false,false
+EARTH 113,PHYS 21,false,false
+EARTH 137,GEOG 3B,false,false
+EARTH 137,GEOG 4,false,false
+EARTH 137,ART 2,false,false
+EARTH 148,Earth Science - EARTH 2,false,false
+EARTH 148,Earth Science - EARTH 3,false,false
+EARTH 148,Earth Science - EARTH 7,false,false
+EARTH 148,Earth Science - EARTH 30,false,false
+EARTH 148,MCDB 1A,false,false
+EARTH 148,EEMB 2,false,false
+EARTH 169,MAT 2B,false,false
+EARTH 169,MAT 3B,false,false
+EARTH 169,CHEM 1A,false,false
+EARTH 169,CHEM 1B,false,false
+EARTH 169,CHEM 1C,false,false
+EEMB 157C,MCDB 1A,true,false
+EEMB 157C,MCDB 1B,true,false
+EEMB 157C,EEMB 2,true,true
+EEMB 157C,EEMB 3,true,true
+ECE 136C,PHYS 5,false,false
+ECE 136C,PHYS 5L,false,false
+ENGL 107,WRIT 2,false,false
+ENGL 107,WRIT 50,false,false
+ENGL 107,WRIT 109,false,false
+ENGL 107,ENGL 10,false,true
+ENGL 128AF,WRIT 2,false,false
+ENGL 128NA,WRIT 2,false,false
+ENGL 147AB,WRIT 2,false,false
+ENGL 147SM,WRIT 2,false,false
+ENGL 165RR,WRIT 2,false,false
+ENV S 101,ENV S 1,false,true
+ENV S 101,ENV S 3,false,true
+ENV S 101,ENV S 60,false,true
+ENV S 101,EEMB 2,false,false
+ENV S 113,MAT 3A,false,false
+ENV S 113,MAT 3B,false,false
+ENV S 113,MAT 34A,false,false
+ENV S 113,MAT 34B,false,false
+ENV S 113,PHYS 1,false,false
+ENV S 113,PHYS 6A,false,false
+ENV S 113,PHYS 21,false,false
+ENV S 122NE,WRIT 2,false,false
+ENV S 122NE,WRIT 50,false,false
+ENV S 122NE,WRIT 109,false,false
+ENV S 122NE,FR 109,false,false
+ENV S 122NE,ENGL 10,false,false
+ENV S 151,ENV S 1,false,true
+ENV S 151,ENV S 3,false,true
+ENV S 151,ANTH 2,false,false
+ENV S 169,MAT 2B,false,false
+ENV S 169,MAT 3B,false,false
+ENV S 169,CHEM 1A,false,false
+ENV S 169,CHEM 1B,false,false
+ENV S 169,CHEM 1C,false,false
+FAMST 155KB,ES 46,false,false
+FAMST 155SK,ES 46,false,false
+FAMST 165AC,ES 46,false,false
+FAMST 166AI,ES 46,false,false
+FAMST 166AR,ES 46,false,false
+FAMST 187BK,ES 46,false,false
+FAMST 187MV,ES 46,false,false
+FAMST 187OC,ES 46,false,false
+FAMST 187SS,ES 46,false,false
+FAMST 189AM,MS 46,false,false
+FAMST 189AM,MS 70,false,false
+FAMST 189MG,MS 46,false,false
+FAMST 189MG,MS 70,false,false
+FR 151B,FR 100,false,true
+GEOG 153C,GEOG 5,false,true
+GEOG 158,GEOG 3,false,true
+GEOG 158,GEOG 3A,false,true
+GEOG 158,GEOG 3B,false,true
+GEOG 158,GEOG 4,false,true
+GEOG 163,GEOG 3,false,true
+GEOG 163,GEOG 3A,false,true
+GEOG 163,ART 4,false,false
+GEOG 175,GEOG 3,false,true
+GEOG 175,GEOG 3A,false,true
+GEOG 175,GEOG 3B,false,true
+GEOG 175,GEOG 4,false,true
+GEOG 190,MAT 2A,false,false
+GEOG 190,MAT 3A,false,false
+GEOG 190,MAT 34A,false,false
+GER 115C,GER 6,true,true
+GER 115C,GER 101A,true,true
+GER 115C,GER 101B,true,true
+GER 115C,GER 101C,true,true
+GREEK 173,GREEK 102,false,true
+HEB 3,HEB 2,false,true
+HIST 101SR,HIST 101G,false,true
+HIST 101SR,HIST 9,false,true
+HIST 109T,HIST 2C,false,true
+HIST 109T,HIST 4C,false,true
+HIST 109T,HIST 17C,false,true
+HIST 111F,HIST 2A,false,true
+HIST 111F,HIST 4A,false,true
+HIST 145B,HIST 46,false,true
+HIST 145B,ES 45,false,false
+HIST 150CL,HIST 8,false,true
+HIST 150CL,HIST 151A,false,true
+HIST 150CL,HIST 151B,false,true
+HIST 150CL,HIST 154L,false,true
+HIST 153A,HIST 8,false,true
+HIST 161R,HIST 17A,false,true
+HIST 161R,HIST 161B,false,true
+HIST 161R,HIST 161N,false,true
+HIST 170B,HIST 7,false,true
+HIST 170B,HIST 17A,false,true
+HIST 170B,HIST 17B,false,true
+HIST 170B,HIST 17C,false,true
+HIST 185T,HIST 2A,false,true
+HIST 185T,HIST 2B,false,true
+HIST 185T,HIST 2C,false,true
+HIST 185T,HIST 80,false,true
+HIST 185T,CHIN 184A,false,false
+HIST 185T,CHIN 184B,false,false
+HIST 185T,CHIN 185A,false,false
+HIST 185T,CHIN 185B,false,false
+HIST 185T,EACS 4A,false,false
+HIST 185T,EACS 4B,false,false
+HIST 187S,HIST 9,false,true
+HIST 187S,HIST 80,false,true
+HIST 187S,HIST 87,false,true
+HIST 192,HIST 17A,false,true
+HIST 192,HIST 17B,false,true
+HIST 192,HIST 17C,false,true
+INT 176LA,INT 176,false,true
+ITAL 3HY,ITAL 2,false,true
+ITAL 3HY,ITAL 2H,false,true
+JAPANW 6,JAPAN 5,false,false
+JAPANW 120C,JAPAN 120B,false,false
+LATIN 102,LATIN 101,false,true
+LATIN 137,LATIN 102,false,true
+LING 111,LING 110,false,true
+LING 150,LING 20,false,true
+MARINCS 102,MARIN 100A,false,false
+MATH 124B,MAT 4B,false,false
+MATH 124B,MAT 6A,false,false
+MATH 124B,MAT 6B,false,false
+MATH 124B,MAT 124A,false,false
+ME 110,ENGR 14,true,false
+ME 110,ENGR 152A,true,false
+ME 134,ENGR 151C,false,false
+MCDB 13,CHEM 1C,false,false
+MCDB 13,CHEM 2C,false,false
+MCDB 14,CHEM 1C,false,false
+MCDB 14,CHEM 2C,false,false
+MCDB 133L,MCDB 133,false,true
+MCDB 136H,MCDB 101A,true,true
+MCDB 136H,MCDB 101B,true,true
+MCDB 145,MCDB 108A,false,true
+MCDB 145,CHEM 142A,false,false
+MUS 3C,MUS 3B,false,true
+MUS 101C,MUS 5E,false,true
+MUS 158D,MUS 25,false,true
+PHIL 150A,PHIL 100A,false,true
+PHIL 150A,PHIL 100B,false,true
+PHIL 150A,PHIL 100C,false,true
+PHIL 150A,PHIL 100D,false,true
+PHIL 150A,PHIL 100E,false,true
+PHIL 150A,PHIL 100F,false,true
+PHIL 166A,PHIL 20B,false,true
+PHIL 166A,PHIL 100B,false,true
+PHIL 166A,PHIL 100D,false,true
+PHIL 166A,PHIL 100E,false,true
+PHIL 166A,PHIL 160,false,true
+PHIL 167,PHIL 20B,false,true
+PHIL 167,PHIL 20C,false,true
+PHIL 167,PHIL 100B,false,true
+PHIL 167,PHIL 100D,false,true
+PHIL 167,PHIL 100E,false,true
+PHIL 175B,PHIL 100A,false,true
+PHIL 175B,PHIL 100B,false,true
+PHIL 175B,PHIL 100D,false,true
+PHIL 175B,PHIL 100E,false,true
+PHIL 185,PHIL 184,false,true
+PHIL 185,MAT 109A,false,false
+PHYS 139,PHYS 119B,false,true
+POL S 114,CH ST 1B,false,false
+POL S 114,POL S 1,false,true
+POL S 187,POL S 1,false,true
+PSY 117L,PSY 108,false,true
+PSY 117L,PSY 117,false,true
+PSY 132,PSY 111,false,true
+PSY 138L,PSY 111,false,true
+PSY 145,PSY 105,false,true
+PSY 145,PSY 142,false,true
+PSY 163TS,PSY 106,false,true
+PSY 163TS,PSY 111,false,true
+RG ST 157I,RG ST 57F,false,true
+RG ST 157I,RG ST 58D,false,true
+RG ST 159C,RG ST 159A,false,true
+RG ST 159C,RG ST 159B,false,true
+RUSS 101F,RUSS 6,false,true
+RUSS 122,RUSS 6,false,true
+SPAN 119A,SPAN 16A,false,true
+SPAN 119A,SPAN 16B,false,true
+SPAN 119A,SPAN 25,false,true
+SPAN 182A,SPAN 30,false,true
+SPAN 182A,SPAN 102L,false,true
+SPAN 185,SPAN 102L,false,true
+SPAN 185,SPAN 30,false,true
+WRIT 105CW,WRIT 2,false,true
+WRIT 105CW,WRIT 2E,false,true
+WRIT 105CW,WRIT 2L,false,true
+WRIT 105CW,WRIT 36,false,true
+WRIT 105CW,WRIT 4,false,true
+WRIT 105CW,WRIT 37,false,true
+WRIT 105CW,WRIT 1,false,true
+WRIT 105CW,WRIT 6,false,true
+WRIT 105PD,WRIT 2,false,true
+WRIT 105PD,WRIT 2E,false,true
+WRIT 105PD,WRIT 2L,false,true
+C LIT 190A,LIT 60,false,false
+C LIT 190A,WRIT 2,false,false
+ENGL 122EC,WRIT 2,false,false
+ENGL 122LE,WRIT 2,false,false
+ENGL 148EN,WRIT 2,false,false
+ENV S 122LE,WRIT 2,false,false
+HIST 156A,HIST 8,false,true
+HIST 179B,HIST 17B,false,true
+MCDB W 111,MCDB 1A,true,false
+MCDB W 111,EEMB 2,true,false
+MCDB W 111,MCDB 1B,true,false
+PHIL 163,PHIL 20B,false,true
+PHIL 163,PHIL 20C,false,true
+PHIL 163,PHIL 100B,false,true
+PHIL 163,PHIL 100D,false,true
+PHIL 163,PHIL 100E,false,true
+POL S 152,POL S 12,true,true
+POL S 152,POL S 15,true,true
+SPAN W 3,SPAN 2,false,false
+SPAN 103,SPAN 16B,false,true
+SPAN 103,SPAN 25,false,true
+SPAN 147,SPAN 16A,false,true
+SPAN 147,SPAN 16B,false,true
+SPAN 147,SPAN 25,false,true
+SPAN 186TM,SPAN 100,false,true
+PSTATW 160A,MAT 4A,false,false
+PSTATW 160A,MAT 5A,false,false
+PSTATW 160A,MAT 8,false,false
+PSTATW 160A,PSTAT 8,false,false
+PSTATW 160A,PSTAT 120A,false,false
+ANTH 124,ANTH 2,false,true
+AS AM 2H,AS AM 2,false,true
+CHEM 130A,CHEM 1C,false,true
+CHEM 130A,CHEM 2C,false,true
+DANCE 151DA,DANCE 50,true,true
+EEMB 106,MCDB 1A,true,false
+EEMB 106,MCDB 1B,true,false
+EEMB 106,EEMB 2,true,true
+EEMB 106,EEMB 3,true,true
+EEMB 144,MCDB 1A,true,false
+EEMB 144,EEMB 2,true,true
+EEMB 144,MCDB 1B,true,false
+EEMB 144,EEMB 3,true,true
+EEMB 144L,MCDB 1A,true,false
+EEMB 144L,EEMB 2,true,true
+EEMB 144L,MCDB 1B,true,false
+EEMB 144L,EEMB 3,true,true
+EEMB 144L,EEMB 144,false,true
+EEMB 144L,EEMB 142B,false,true
+EEMB 153,EEMB 142B,false,true
+EEMB 153,EEMB 142A,false,true
+EEMB 153,EEMB 120,false,true
+EEMB 157A,MCDB 1A,true,false
+EEMB 157A,EEMB 2,true,true
+EEMB 157A,MCDB 1B,true,false
+EEMB 157A,EEMB 3,true,true
+ECE 136A,PHYS 5,false,false
+ECE 136A,PHYS 5L,false,false
+ECE 150,ECE 152A,true,true
+ENGL 102BA,WRIT 2,false,false
+ENGL 102BA,WRIT 50,false,false
+ENGL 102BA,WRIT 109,false,false
+ENGL 102BA,ENGL 10,false,true
+ENGL 103WT,WRIT 2,false,false
+ENGL 103WT,WRIT 50,false,false
+ENGL 103WT,WRIT 109,false,false
+ENGL 103WT,ENGL 10,false,true
+ENGL 110T,WRIT 2,false,false
+ENGL 141ME,WRIT 2,false,false
+ENGL 143HE,WRIT 2,false,false
+FAMST 122JA,MS 46,false,false
+FAMST 189AC,MS 46,false,false
+FAMST 189AC,MS 70,false,false
+FAMST 193,ES 46,false,false
+GEOG 131,GEOG 3,false,true
+GEOG 131,GEOG 3A,false,true
+GEOG 131,GEOG 3B,false,true
+GEOG 131,GEOG 4,false,true
+GEOG 191,MAT 3A,false,false
+GEOG 191,MAT 34A,false,false
+GLOBL 196A,PORT 3,true,false
+GLOBL 196A,GLOBL 196A,true,true
+GREEK 143,GREEK 102,false,true
+HIST 4HA,HIST 4A,false,true
+HIST 106R,HIST 106A,false,true
+HIST 106R,HIST 106B,false,true
+HIST 106R,HIST 106C,false,true
+HIST 106R,HIST 109,false,true
+HIST 106R,HIST 110,false,true
+HIST 106R,HIST 110D,false,true
+HIST 118B,HIST 2B,false,true
+HIST 118B,HIST 4B,false,true
+HIST 121C,HIST 2B,false,true
+HIST 121C,HIST 4B,false,true
+HIST 121C,HIST 9,false,true
+HIST 122,HIST 2B,false,true
+HIST 122,HIST 4B,false,true
+HIST 122,RG ST 80B,false,false
+HIST 127F,HIST 2B,false,true
+HIST 127F,HIST 2C,false,true
+HIST 127F,HIST 4B,false,true
+HIST 127F,HIST 4C,false,true
+HIST 138FM,HIST 4A,false,true
+HIST 138FM,HIST 4B,false,true
+HIST 138FM,HIST 2B,false,true
+HIST 141C,HIST 2C,false,true
+HIST 141C,HIST 4C,false,true
+HIST 168B,HIST 17A,false,true
+HIST 168B,HIST 17B,false,true
+HIST 168B,HIST 17C,false,true
+HIST 168B,CH ST 1A,false,false
+HIST 168B,CH ST 1B,false,false
+HIST 168B,CH ST 1C,false,false
+HIST 174R,HIST 174A,false,true
+HIST 174R,HIST 174B,false,true
+HIST 174R,HIST 165,false,true
+HIST 174R,HIST 166A,false,true
+HIST 174R,HIST 166B,false,true
+HIST 174R,HIST 166C,false,true
+HIST 174R,HIST 167C,false,true
+HIST 174R,HIST 178A,false,true
+HIST 174R,HIST 178B,false,true
+HIST 192R,HIST 17B,false,true
+HIST 192R,HIST 17C,false,true
+HIST 192R,HIST 192,false,true
+JAPAN 120A,JAPAN 6,false,true
+LATIN 135,LATIN 102,false,true
+LING W 3B,LING 3B,false,false
+LING W 3B,LING 3A,false,false
+LING 135,LING 20,false,true
+LING 160,LING 20,false,true
+MCDB 108AH,MCDB 108A,false,true
+MUS 106A,MUS 5C,false,true
+MUS 183,MUS 10A,false,true
+MUS 183,MUS 10B,false,true
+MUS 183,MUS 10C,false,true
+PHIL 173,PHIL 183,true,true
+POL S 189,POL S 1,false,true
+PSY 163IT,PSY 106,false,true
+PSY 163IT,PSY 111,false,true
+RG ST 157J,RG ST 57C,false,true
+RG ST 157J,RG ST 58B,false,true
+RUSS 101A,RUSS 6,false,true
+SPAN 102A,SPAN 6,false,true
+SPAN 102A,SPAN 25,false,true
+SPAN 102A,SPAN 16A,false,true
+SPAN 102A,SPAN 16B,false,true
+PSTATW 174,PSTAT 10,true,false
+PSTATW 174,PSTAT 120B,true,false
+THTR 23,THTR 19,false,true
+THTR 23D,THTR 19,false,true
+WRIT 105WC,WRIT 2,false,true
+WRIT 105WC,WRIT 2E,false,true
+WRIT 105WC,WRIT 2L,false,true
+WRIT 105WC,WRIT 36,false,true
+WRIT 105WC,WRIT 4,false,true
+WRIT 105WC,WRIT 37,false,true
+WRIT 105WC,WRIT 1,false,true
+WRIT 105WC,WRIT 6,false,true
+ANTH 100,ANTH 3,false,true
+ANTH 100,ANTH 3S,false,true
+ANTH 102,ANTH 2,false,true
+ART 102MM,ART 22,false,true
+ART 102MM,ART 7D,false,true
+ART 102MM,ART 1A,false,true
+ART 106W,ART 12,false,true
+ART 106W,ART 1A,false,true
+ART 106W,ART 7C,false,true
+CHEM 3B,CHEM 1A,false,true
+CHEM 3B,CHEM 2A,false,true
+CHEM 3B,CHEM 3A,false,true
+CHEM 130B,CHEM 130A,false,true
+CHEM 130B,CHEM 109A,false,true
+CH ST 127,CH ST 1A,false,true
+CH ST 127,CH ST 1B,false,true
+CH ST 127,CH ST 1C,false,true
+CH ST 127,CH ST 127L,false,true
+CH ST 168E,CH ST 1A,false,true
+CH ST 168E,CH ST 1B,false,true
+CH ST 168E,CH ST 1C,false,true
+DANCE 163,DANCE 51,false,true
+EARTH 158,ART 103,false,false
+EARTH 160W,ART 2,false,false
+ECON 150A,ECON 10A,false,true
+ECON 170,ECON 100B,true,true
+ECON 170,ECON 140A,true,true
+ECON 183,ECON 100B,false,true
+ECON 183,ECON 104B,false,true
+ECON 185,ECON 3B,false,true
+ECON 185,ECON 10A,false,true
+ECON 185,ECON 5,false,true
+ECON 185,PSTAT 120A,false,false
+ENGL 103LL,WRIT 2,false,false
+ENGL 103LL,WRIT 50,false,false
+ENGL 103LL,WRIT 109,false,false
+ENGL 103LL,ENGL 10,false,true
+ENGL 104LC,WRIT 2,false,false
+ENGL 104LC,WRIT 50,false,false
+ENGL 104LC,WRIT 109,false,false
+ENGL 104LC,ENGL 10,false,true
+ENGL 115,WRIT 2,false,false
+ENGL 115,WRIT 50,false,false
+ENGL 115,WRIT 109,false,false
+ENGL 115,ENGL 10,false,true
+ENGL 134BL,WRIT 2,false,false
+ENGL 136,WRIT 2,false,false
+ENGL 136,WRIT 50,false,false
+ENGL 136,WRIT 109,false,false
+ENGL 136,ENGL 10,false,true
+ENGL 146PB,WRIT 2,false,false
+ENGL 147VN,WRIT 2,false,false
+ENGL 176BC,WRIT 2,false,false
+ENGL 176BC,WRIT 50,false,false
+ENGL 176BC,WRIT 109,false,false
+ENGL 176BC,ENGL 10,false,true
+ENV S 114A,ENV S 15A,false,true
+ENV S 114A,ENV S 15B,false,true
+ENV S 114A,CHEM 1A,false,false
+ENV S 114A,CHEM 1B,false,false
+ENV S 114A,GEOG 3,false,false
+ENV S 114A,GEOG 4,false,false
+ENV S 114A,ART 2,false,false
+ENV S 114A,ART 4,false,false
+ENV S 114A,ART 20,false,false
+ENV S 163B,ENV S 163A,false,true
+FAMST 155CC,ES 46,false,false
+FAMST 166GG,ES 46,false,false
+FAMST 166QH,MS 46,false,false
+FAMST 187CN,ES 46,false,false
+FAMST 187PH,ES 46,false,false
+FAMST 190PC,ES 46,false,false
+FR 149E,FR 101A,true,true
+FR 149E,FR 101B,true,true
+FR 149E,FR 101C,true,true
+FR 149E,FR 104A,true,true
+FR 149E,FR 104B,true,true
+FR 149E,FR 104C,true,true
+FR 149E,FR 104D,true,true
+GEOG 114A,ENV S 15A,false,false
+GEOG 114A,ENV S 15B,false,false
+GEOG 114A,CHEM 1A,false,false
+GEOG 114A,CHEM 1B,false,false
+GEOG 114A,GEOG 3,false,true
+GEOG 114A,GEOG 4,false,true
+GEOG 114A,ART 2,false,false
+GEOG 114A,ART 4,false,false
+GEOG 114A,ART 20,false,false
+GER 113,GER 6,true,true
+GER 113,GER 101A,true,true
+GER 113,GER 101B,true,true
+GER 113,GER 101C,true,true
+GLOBL 196B,GLOBL 196A,true,true
+GLOBL 196B,PORT 3,true,false
+GREEK 151,GREEK 102,false,true
+HIST 111B,HIST 2A,false,true
+HIST 111B,HIST 4A,false,true
+HIST 125,HIST 2A,false,true
+HIST 125,HIST 2B,false,true
+HIST 125,HIST 4B,false,true
+HIST 133B,HIST 2C,false,true
+HIST 133B,HIST 4C,false,true
+HIST 141B,HIST 2C,false,true
+HIST 141B,HIST 4C,false,true
+HIST 141R,HIST 141A,false,true
+HIST 141R,HIST 141B,false,true
+HIST 146W,HIST 46,false,true
+INT 176JC,INT 176,false,true
+LAIS 194,SPAN 102L,false,false
+LAIS 194,SPAN 30,false,false
+PHIL 136,PHIL 1,false,true
+PHIL 136,PHIL 4,false,true
+PHIL 136,PHIL 100A,false,true
+PHIL 138,PHIL 100A,false,true
+PHIL 150B,PHIL 100A,false,true
+PHIL 150B,PHIL 100B,false,true
+PHIL 150B,PHIL 100C,false,true
+PHIL 150B,PHIL 100D,false,true
+PHIL 150B,PHIL 100E,false,true
+PHIL 150B,PHIL 100F,false,true
+PHYS 7A,MAT 2A,false,false
+PHYS 7A,MAT 3A,false,false
+PHYS 137,PHYS 5,false,true
+PHYS 137,PHYS 25,false,true
+PHYS 137,PHYS 115A,false,true
+POL S 117,POL S 6,false,true
+POL S 147,POL S 6,false,true
+RG ST 159J,RG ST 159D,false,true
+RG ST 159J,RG ST 159E,false,true
+RG ST 159J,RG ST 159F,false,true
+ECON 204B,ECON 204A,false,true
+ECON 210B,MAT 3A,false,false
+ECON 210B,MAT 3B,false,false
+ECON 210B,MAT 3C,false,false
+ECON 210B,ECON 104A,false,true
+ECON 210B,ECON 104B,false,true
+ECON 210B,ECON 205A,false,true
+ECON 210B,ECON 205B,false,true
+SPAN 155A,SPAN 30,false,true
+SPAN 155A,SPAN 102L,false,true
+SPAN 163,SPAN 102L,false,true
+SPAN 163,SPAN 30,false,true
+PSTAT 123,PSTAT 10,true,true
+PSTAT 123,PSTAT 120B,true,true

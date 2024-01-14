@@ -15,30 +15,24 @@
 		});
 	});
 
-    course = {{classes|tojson}};
-    console.log(course);
+    // course = ;
+    // console.log(course);
 </script>
 
 <div class="accordion accordion-flush" id="accordionFlushExample">
-	{% for c in classes %}
+	{% for class, pass, s in classes %}
 		<div class="accordion-item">
 			<h2 class="accordion-header">
-				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-					Accordion Item #1
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{loop.index}}" aria-expanded="false" aria-controls="flush-collapseOne">
+					{{ class + "," + pass }}
 				</button>
 			</h2>
-			<div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+			<div id="flush-collapse{{loop.index}}" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
 				<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
 			</div>
 		</div>
 	{% endfor %}
 
 </div>
-  
-
-{% for c in classes %}
-<p>{{c}}</p>
-{% endfor %}
-
 
 {% endblock %}
