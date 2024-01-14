@@ -14,9 +14,14 @@
 		list-style: none;
 		padding-left: 10px;
 	}
+
+	mark {
+		padding-right:0;
+	}
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/css/autoComplete.01.min.css">
 
 
 <script>
@@ -26,7 +31,7 @@
 		var li = document.createElement('li');
 		var a = document.createElement('a');
 		li.classList.add("userClass");
-		li.innerHTML = "<a class=\"removeButton\">❌</a><input type=\"hidden\" name=\"class" + count + "\" value=\"" + data + "\">" + data;
+		li.innerHTML = "<a class=\"removeButton\">-</a><input type=\"hidden\" name=\"class" + count + "\" value=\"" + data + "\">" + data;
 		$("ul#classesDisplay")[0].appendChild(li);
 		$('.removeButton').click(function () {
 			this.parentNode.remove();
@@ -120,21 +125,21 @@ $(document).ready(function () {
 
 <form id="fileUpload">
     <label for="formFile" class="form-label">Upload your transcript</label>
-    <input class="form-control" type="file" id="formFile" name="file" onchange="parseTranscript()">
+    <input class="form-control" type="file" id="formFile" name="file" onchange="parseTranscript()" required>
 </form>
 
 <br>
 
 <form method="POST" action="/result">
-	<label for="majorInput">Major</label>
+	<label for="majorInput">Your Major</label>
 	<div class="input-group mb-3">
-		<input class="form-control" type="text" id="majorInput" name="major">
+		<input class="form-control" type="text" id="majorInput" name="major" required>
 	</div>
 
 	<div class="input-group mb-3">
-		<input id="autoComplete" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+		<input id="autoComplete" type="text" class="form-control bg-body-tertiary">
 		<div class="input-group-append">
-			<button type="button" class="input-group-text" id="addClass">Add Class</button>
+			<button type="button" class="btn btn-warning" id="addClass">Add to your transcript</button>
 		</div>
 	</div>
 
@@ -142,7 +147,7 @@ $(document).ready(function () {
 
 	<br>
 
-	<input class="form-control" type="submit" id="submitClasses" value="Submit Classes">
+	<button type="submit" class="px-3 btn rounded-pill bg-navy">Recommend Classes <i class="bi bi-arrow-right"></i></button>
 </form>
 
 {% endblock %}
