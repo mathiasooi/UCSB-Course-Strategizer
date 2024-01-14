@@ -1,0 +1,91 @@
+{% macro enrollment_trends_cell(trends, c, passtimes_per_quarter) %}
+<div class="card border-0 rounded-4 shadow-sm">
+    <div class="card-body">
+        <div class="d-flex justify-content-between">
+            <small class="card-title text-secondary">
+                {{ c.quarter | title }} . {{ c.raw_instructor_names | title }}
+            </small>
+            <div>{{ location(c.location) }}</div>
+        </div>
+        {{ enrollment_chart(trends, session.is_dark, passtimes_per_quarter.get(c.quarter, {})) }}
+    </div>
+</div>
+{% endmacro %}
+
+{% macro location(text) %}
+<small>
+    <i class="bi bi-geo-alt-fill"></i> {{ text }}
+</small>
+{% endmacro %}
+
+
+{% macro enrollment_chart(trends, is_dark, passtimes) %}
+    {% set id = range(1_000_000) | random %}
+    {% set labels = [] %}
+    {% set enrolled = [] %}
+    {% set capacities = [] %}
+
+    {% for t in trends %}
+        {{ labels.append(t.timestamp | naturaldate) or '' }}
+        {{ enrolled.append(t.enrolled) or '' }}
+        {{ capacities.append(t.capacity) or '' }}
+    {% endfor %}
+
+    <canvas id="enrollment-chart-{{ id }}" style="min-height:100px;max-height:200px"></canvas>
+    <script>
+        var ctx = document.getElementById("enrollment-chart-{{ id }}").getContext("2d");
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: {{ labels | tojson }},
+                datasets: [
+                    {
+                        label: 'Enrolled',
+                        data: {{ enrolled | tojson }},
+                        fill: false,
+                        borderColor: {{('#0072c9' if is_dark else '#003660') | tojson}},
+                        tension: 0.1
+                    },
+                    {
+                        label: 'Capacity',
+                        data: {{ capacities | tojson }},
+                        fill: false,
+                        borderColor: '#FEBC11',
+                        tension: 0.1
+                    }
+                ]
+            },
+            options: {
+                plugins: {
+                    legend: {display:  true },
+                    annotation: {
+                        annotations: {
+                            {% for pass_name, date in passtimes.items() %}
+                                '{{ pass_name }}': {
+                                    type: 'line',
+                                    xMin: '{{ date | naturaldate }}',
+                                    xMax: '{{ date | naturaldate }}',
+                                    borderDash: [5, 15],
+                                    borderColor: 'black',
+                                    borderWidth: 2,
+                                    label: {
+                                        content: '{{ pass_name }}',
+                                        display: true,
+                                    }
+                                },
+                            {% endfor %}
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        grid: {display: false}
+                    },
+                    y: {
+                        grid: {display: false}
+                    }
+                }
+            }
+        });
+    </script>
+{% endmacro %}
