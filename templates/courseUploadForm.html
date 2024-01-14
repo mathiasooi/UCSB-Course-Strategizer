@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<style>
+	.removeButton {
+		text-decoration: None;
+		cursor: pointer;
+		padding-right: 8px;
+	}
+
+	#classesDisplay {
+		list-style: none;
+		padding-left: 10px;
+	}
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
+
+
+<script>
+$(document).ready(function () {
+
+	function addClassElement(data) {
+		count = $(".userClass").length + 1;
+
+		var li = document.createElement('li');
+		var a = document.createElement('a');
+		li.classList.add("userClass");
+		li.innerHTML = "<a class=\"removeButton\">❌</a><input type=\"hidden\" name=\"class" + count + "\" value=\"" + data + "\">" + data;
+		$("ul#classesDisplay")[0].appendChild(li);
+		$('.removeButton').click(function() {
+			this.parentNode.remove();
+		});
+	}
+
+	var xh = new XMLHttpRequest();
+	xh.open("GET", "static/all_classes", false);
+	xh.send();
+	classes = xh.responseText.split(',');
+
+	const autoCompleteJS = new autoComplete({
+		placeHolder: "Search for classes...",
+		data: {
+			src: classes,
+			cache: true,
+		},
+		resultItem: {
+			highlight: true
+		},
+		events: {
+			input: {
+				selection: (event) => {
+					const selection = event.detail.selection.value;
+					autoCompleteJS.input.value = selection;
+				}
+			}
+		}
+	});
+
+	$("#fileUpload").submit(function (event) {
+		event.preventDefault();
+		var formData = new FormData();
+		var file = $("#formFile")[0].files[0];
+		formData.append('file', file);
+
+		$.ajax({
+			type: "POST",
+			processData: false,
+			contentType: false,
+			cache: false,
+			url: "handleFileUpload",
+			data: formData
+		}).done(function (data) {
+			$("#majorInput").val(data['major'])
+			data['courses'].forEach(c => {
+				if (!c['passed']) {
+					return;
+				}
+				addClassElement(c['name']);
+			});
+		});
+	});
+
+	$("#addClass").click(function() {
+		data = $("#autoComplete	").val().trim().toUpperCase();
+		$("#autoComplete ").val("");
+		if (data == '') {
+			return;
+		}
+		if (!classes.includes(data)) {
+			alert("Not a class");
+			return;
+		}
+		addClassElement(data);
+	});
+
+	$("#submitClasses").click(function() {
+		userClasses = []
+		$(".userClass").each(function(i,e) {
+			userClasses.push(e.innerText.substring(1));
+		});
+
+		$.ajax({
+			type: "POST",
+			processData: false,
+			contentType: "json",
+			cache: false,
+			url: "result",
+			data: userClasses
+		}).done(function (data) {
+			document
+		});
+
+	});
+
+});
+</script>
+
+<form id="fileUpload">
+    <label for="formFile" class="form-label">Default file input example</label>
+    <input class="form-control" type="file" id="formFile" name="file">
+    <input class="form-control" type="submit" id="submitForm">
+</form>
+
+<br>
+
+<form method="POST" action="/result">
+	<label for="majorInput">Major</label>
+	<div class="input-group mb-3">
+		<input class="form-control" type="text" id="majorInput" name="major">
+	</div>
+
+	<div class="input-group mb-3">
+		<input id="autoComplete" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+		<div class="input-group-append">
+			<button type="button" class="input-group-text" id="addClass">Add Class</span>
+		</div>
+	</div>
+
+	<ul id="classesDisplay"></ul>
+
+	<br>
+
+	<input class="form-control" type="submit" id="submitClasses" value="Submit Classes">
+</form>
+
+{% endblock %}

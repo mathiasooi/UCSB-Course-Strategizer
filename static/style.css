@@ -1,0 +1,23 @@
+.bg-navy {
+    color: white;
+    background-color: #003660;
+}
+
+.pagination > .active > a {
+    color: white;
+    background-color: #003660 !important;
+    border: solid 1px #003660 !important;
+}
+
+.pagination > .active > a:hover {
+    background-color: #003660 !important;
+    border: solid 1px #003660;
+}
+
+.font-sm {
+    font-size: 10px;
+}
+
+.font-xs {
+    font-size: 8px;
+}

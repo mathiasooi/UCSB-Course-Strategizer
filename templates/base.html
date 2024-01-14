@@ -1,0 +1,130 @@
+{% from 'bootstrap5/utils.html' import render_static, render_messages, render_icon %}
+{% from 'bootstrap5/nav.html' import render_nav_item %}
+
+{% macro dark_mode_toggle() %}
+    {% set args = request.view_args %}
+    {% set _ = args.update(request.args) %}
+    {% if 'is_dark' in args %}
+        {% set _ = args.pop('is_dark') %}
+    {% endif %}
+    <div class="nav-item dropdown w-100 ms-lg-3">
+        <button class="btn rounded-pill bg-navy dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            <i class="bi bi-{{ 'moon-stars-fill' if session.is_dark else 'brightness-high-fill' }}"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end border-0 shadow rounded-2" style="z-index:2000">
+            <li>
+                <a class="dropdown-item" href="{{ url_for(request.endpoint, is_dark=False, **args) }}">
+                    <i class="bi bi-brightness-high-fill me-2"></i>
+                    Light
+                </a>
+            </li>
+            <li class="mt-2">
+                <a class="dropdown-item" href="{{ url_for(request.endpoint, is_dark=True, **args) }}">
+                    <i class="bi bi-moon-stars-fill me-2"></i>
+                    Dark
+                </a>
+            </li>
+        </ul>
+    </div>
+{% endmacro %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.png') }}">
+    <title>UCSB Courses Recommender</title>
+    {{ bootstrap.load_css() }}
+    <style>
+        .navy {
+            color: {{'#165cab' if session.is_dark else '#083c63'}};
+        }
+        .toastui-calendar-detail-container {
+            width: 301px;
+            min-width: 301px;
+            box-shadow: 0 2px 6px 0 rgb(0 0 0 / 10%);
+            background-color: {{ 'rgb(34, 37, 41)' if session.is_dark else 'white' }};
+            padding: 17px 17px 0;
+            border-radius: 2px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+    {{ render_static('css', 'style.css') }}
+</head>
+<body data-bs-theme="{{ 'dark' if session.is_dark else 'light' }}">
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+        <div class="my-0 rounded-0 border-0 py-2 alert alert-{{ category }} alert-dismissible fade show" role="alert">
+            {{ message | safe }}
+            <button type="button" class="font-sm btn-close pt-2" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    {% endfor %}
+{% endwith %}
+
+<nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold navy" href="{{ url_for('index') }}">
+        <img src="{{ url_for('static', filename='gaucho.png') }}" alt="Logo" height="28px"
+             class="d-inline-block align-text-top">
+        Platinum
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+          {{ render_nav_item('index', 'Home') }}
+          {{ render_nav_item('enrollment', 'Enrollments') }}
+          {{ render_nav_item('schedule', 'Schedule') }}
+          {{ dark_mode_toggle() }}
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-2 mt-lg-4">
+    {% block content %} {% endblock %}
+</div>
+
+<hr class="opacity-0">
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-lg-5 mb-0 text-body-secondary">© 2024 Jiaming, Mathias, Ben, Tyler</p>
+
+    <a href="/"
+       class="col-lg-2 d-flex align-items-center justify-content-center link-body-emphasis text-decoration-none">
+      <img src="{{ url_for('static', filename='gaucho.png') }}" alt="Logo" height="28px"
+           class="d-inline-block align-text-top">
+      <h5 class="navy fw-bold mb-0">Platinum</h5>
+    </a>
+
+    <ul class="nav col-lg-5 justify-content-end">
+      <li class="nav-item"><a href="{{ url_for('index') }}" class="nav-link px-2 text-body-secondary">Home</a>
+      </li>
+      <li class="nav-item"><a href="{{ url_for('enrollment') }}" class="nav-link px-2 text-body-secondary">Enrollments</a>
+      </li>
+      <li class="nav-item"><a href="{{ url_for('schedule') }}" class="nav-link px-2 text-body-secondary">Schedule</a>
+      </li>
+    </ul>
+  </footer>
+</div>
+
+{{ bootstrap.load_js() }}
+
+<script>
+    $("img.lazyload").lazyload();
+    {% if session.is_dark %}
+        $(".shadow-sm").addClass("bg-body-tertiary");
+    {% endif %}
+</script>
+
+</body>
+
+</html>

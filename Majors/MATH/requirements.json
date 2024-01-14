@@ -1,0 +1,24 @@
+{
+    "requirements":
+        [
+            {"names": ["MATH 2A", "MATH 2B", "MATH 3A", "MATH 3B"], "must_take": 2},
+            {"names": ["MATH 4A"], "must_take": 1},
+            {"names": ["MATH 4B"], "must_take": 1},
+            {"names": ["MATH 6A"], "must_take": 1},
+            {"names": ["MATH 6B"], "must_take": 1},
+            {"names": ["MATH 8"], "must_take": 1},
+            {"names": ["CMPSC 8", "CMPSC 9", "CMPSC 16", "ENGR 3"], "must_take": 1},
+            {"names": ["PHYS 1", "PHYS 6A", "PHYS 7A", "PHYS 21"], "must_take": 1},
+            {"names": ["MATH 108A"], "must_take": 1},
+            {"names": ["MATH 108B"], "must_take": 1},
+            {"names": ["MATH 111A"], "must_take": 1},
+            {"names": ["MATH 111B"], "must_take": 1},
+            {"names": ["MATH 117"], "must_take": 1},
+            {"names": ["MATH 122A"], "must_take": 1},
+            {"names": ["MATH 118A"], "must_take": 1},
+            {"names": ["MATH 118B"], "must_take": 1},
+            {"names": ["MATH 111C", "MATH 118C"], "must_take": 1},
+            {"names": ["MATH 145", "MATH 147A"], "must_take": 1}
+        ],
+    "UD_units": 12
+}

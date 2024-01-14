@@ -1,0 +1,27 @@
+{
+    "requirements":
+        [
+            {"names": ["CMPSC 16"], "must_take": 1},
+            {"names": ["CMPSC 24"], "must_take": 1},
+            {"names": ["CMPSC 32"], "must_take": 1},
+            {"names": ["CMPSC 40"], "must_take": 1},
+            {"names": ["CMPSC 64"], "must_take": 1},
+            {"names": ["MATH 3A"], "must_take": 1},
+            {"names": ["MATH 3B"], "must_take": 1},
+            {"names": ["MATH 4A"], "must_take": 1},
+            {"names": ["MATH 4B"], "must_take": 1},
+            {"names": ["MATH 6A"], "must_take": 1},
+            {"names": ["PSTAT 120A"], "must_take": 1},
+            {"names": ["CMPSC 111", "CMPSC 140"], "must_take": 1},
+            {"names": ["CMPSC 130A"], "must_take": 1},
+            {"names": ["CMPSC 130B"], "must_take": 1},
+            {"names": ["CMPSC 138"], "must_take": 1},
+            {"names": ["CMPSC 148", "CMPSC 156", "CMPSC 172"], "must_take": 1},
+            {"names": ["CMPSC 154"], "must_take": 1},
+            {"names": ["CMPSC 170"], "must_take": 1},
+            {"names": ["CMPSC 160", "CMPSC 162"], "must_take": 1},
+            {"names": ["ENGR 101"], "must_take": 1},
+            {"names": ["PSTAT 120B"], "must_take": 1}
+        ],
+    "UD_units": 32
+}
